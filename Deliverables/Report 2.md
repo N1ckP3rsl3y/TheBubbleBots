@@ -20,23 +20,23 @@ Nicholas Robishaw - This last week I interviewed two people and received some be
 Tyler Chapp - Both of the interviewees I interviewed expressed interest in the product and gave an idea of what features are important. Positive feedback was given on the educational approach, as well as the choice of board games. 
 
 ### Project Perspective
-Appreciations: highlights of contributions from team members.
+- Appreciations: highlights of contributions from team members.
 
-Successes: Communication and being prepared before the meeting.
+- Successes: Communication and being prepared before the meeting.
 
-Failures: Getting all members into the call at the same time.
+- Failures: Getting all members into the call at the same time.
 
-Barriers: Missing one team member and not being able to get their input.
+- Barriers: Missing one team member and not being able to get their input.
 
-What we should try next time - Notify the missing team member more and if nothing succeeds confront them.
+- What we should try next time: Notify the missing team member more and if nothing succeeds confront them.
 
 ### Next Steps
-Start looking into the technologies necessary to implement the project. And prepare to present to the group what was found and analyze the most difficult parts of the program and the easiest.
+- Start looking into the technologies necessary to implement the project. And prepare to present to the group what was found and analyze the most difficult parts of the program and the easiest.
 
-Figure out how to implement C into our project.
+- Figure out how to implement C into our project.
 
-Research backend C webserver creation to host the website
+- Research backend C webserver creation to host the website
 
-Look into sockets library for C
+- Look into sockets library for C
 
-Use HTML and typescript or Javascript for the frontend work
+- Use HTML and typescript or Javascript for the frontend work
