@@ -9,15 +9,15 @@
 ### Summary of Activities
 The Team Interviewed at least 2 people and asked them what their thoughts and opinions were for web based educational board games that they can play online against an AI for free. We got some really great feedback we can implement in our new website.
 
-Nicholas Persley - Interviewed two people for our deliverable this week. In general, it was positive feedback and people seem to have interest in learning about A.I. and having fun playing games.
+- Nicholas Persley - Interviewed two people for our deliverable this week. In general, it was positive feedback and people seem to have interest in learning about A.I. and having fun playing games.
 
-Elian Zamora - I found that the two people I interviewed were definitely interested on the website. They did mention they didn't want to get charged any money to use the website or have any ads that would interrupt gameplay. They were also interested in having a great variety of games that could be played.
+- Elian Zamora - I found that the two people I interviewed were definitely interested on the website. They did mention they didn't want to get charged any money to use the website or have any ads that would interrupt gameplay. They were also interested in having a great variety of games that could be played.
 
-Jeysen Angous - Interviewed two people for our deliverable this week. All in all I received positive feedback on the idea of creating a website where we have board games and the idea of playing against an AI was something of an interest to the interviewee’s. Some had different opinions and thoughts about thighs that they wanted to see on the website while the other just wanted to have a bunch of games to choose from when they visit the website.
+- Jeysen Angous - Interviewed two people for our deliverable this week. All in all I received positive feedback on the idea of creating a website where we have board games and the idea of playing against an AI was something of an interest to the interviewee’s. Some had different opinions and thoughts about thighs that they wanted to see on the website while the other just wanted to have a bunch of games to choose from when they visit the website.
 
-Nicholas Robishaw - This last week I interviewed two people and received some beneficial feedback from each interview. I could see implementing an RPG MMO game if this project continues after this class ends. Basic games with an easy to digest UI are at the top of the must haves for both interviews. I suspect creating a visually appealing website will attract many more users and retain them as well.
+- Nicholas Robishaw - This last week I interviewed two people and received some beneficial feedback from each interview. I could see implementing an RPG MMO game if this project continues after this class ends. Basic games with an easy to digest UI are at the top of the must haves for both interviews. I suspect creating a visually appealing website will attract many more users and retain them as well.
 
-Tyler Chapp - Both of the interviewees I interviewed expressed interest in the product and gave an idea of what features are important. Positive feedback was given on the educational approach, as well as the choice of board games. 
+- Tyler Chapp - Both of the interviewees I interviewed expressed interest in the product and gave an idea of what features are important. Positive feedback was given on the educational approach, as well as the choice of board games. 
 
 ### Project Perspective
 - Appreciations: highlights of contributions from team members.
