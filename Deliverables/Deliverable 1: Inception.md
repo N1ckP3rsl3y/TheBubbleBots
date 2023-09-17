@@ -1,4 +1,4 @@
-### Team Deliverable #1 - Inception
+# Team Deliverable #1 - Inception
 ## Project Name - BubbleBots
 ## Date: 9/15/23
 ## Location: Virtual (Discord)
