@@ -6,7 +6,14 @@
 ## Project repo: https://github.com/N1ckP3rsl3y/TheBubbleBots
 
 ### Summary of Activities
+Nick: My part - I researched about C servers, and learned the basics for what Nick P presented to us in our meeting. I looked into the HTML/ CSS examples on how to create functioning game boards. During the meeting we went over the web server, and went over team roles. I wrote down notes from the meeting and posted it in our google drive folder for later use.
 
 ### Project Perspective
+  1.Nick: I appreciate that Nick P took some time and created a web server for us all to access and use for our project. Since Nick P is taking networking he was easily able to create this webserver. I appreciate that every team member is easy to work with and communicates very clearly and concise during meetings.
+	2.Nick: Dividing our skills and branching out to gather more information and teach other group members about certain things that we were tasked to research.
+	3.Nick: None
+	4.Nick: None
+	5.Nick: Maybe getting a jump start on developing our first game.
+
 
 ### Next Steps
