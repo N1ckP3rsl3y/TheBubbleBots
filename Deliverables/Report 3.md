@@ -14,6 +14,8 @@ Jeysen Angous – After conducting the interviews, I began doing some research o
 
 Elian Zamora = Nick P. showed us the code to the server we are going to use and explained to us the process of making the server in C. We also talked about our the rolls each one of us are going to be taking on during the next few weeks. 
 
+Ibrahim Hmood - I researched networking regarding the tools we are going to use. During this meeting, we got to see a sample C server, and got to do some experiments on it. We also talked about our roles, too.
+
 ### Project Perspective
 
   1. Appreciations
