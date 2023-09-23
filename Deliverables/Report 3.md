@@ -19,7 +19,7 @@ Jeysen Angous – After conducting the interviews, I began doing some research o
 
   Tyler C: Nick P. put in some time this week to get a good starting point for us in this project. We now have a HTTP server written in C as a first building block to our product.
   
-     Jeysen A: Nick P. the group leader set up a HTTP server using C 
+  Jeysen A: Nick P. the group leader set up a HTTP server using C 
   
   2. Nick R: Dividing our skills and branching out to gather more information and teach other group members about certain things that we were tasked to research.
      
@@ -40,6 +40,7 @@ Jeysen Angous – After conducting the interviews, I began doing some research o
      Jeysen A: No barriers to report
   
   7. Nick R: Maybe getting a jump start on developing our first game.
+
      Tyler C: Begin creating the games for our site.
 
      Jeysen A: Begin working on the front and back end of web-development
