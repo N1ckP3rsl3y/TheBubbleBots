@@ -31,6 +31,8 @@ Nick P - Researched HTTP servers in C and started up a basic web server using th
      Elian Z: Everyone was very interactive. During the meeting and we all have a clear understanding of what's going to happen next.
 
      Nick P: Willingness to listen to other teammates present their findings during the week
+     
+     Ibrahim H: Nick took time off and made a server for us, and I appreciate that. I appreciate that the team was also willing to work together and do things like partition team members among roles.
   
   2. Successes
 
@@ -44,6 +46,8 @@ Nick P - Researched HTTP servers in C and started up a basic web server using th
 
      Nick P: Research, explanations, team listening, and team role assigning
 
+     Ibrahim H: Tyler and Nick P said it best: Research, we were all here, and made progress. I think those were our biggest successes.
+
   3. Failures
 
      Nick R: None
@@ -55,6 +59,8 @@ Nick P - Researched HTTP servers in C and started up a basic web server using th
      Elian Z: None;
 
      Nick P: None
+
+     Ibrahim H: None
   
   4. Barriers
 
@@ -68,6 +74,8 @@ Nick P - Researched HTTP servers in C and started up a basic web server using th
 
      Nick P: None
   
+     Ibrahim H: None
+
   5. What we should try next time
 
      Nick R: Maybe getting a jump start on developing our first game.
@@ -79,6 +87,8 @@ Nick P - Researched HTTP servers in C and started up a basic web server using th
      Elian: Getting started on a rough draft for the front end development
 
      Nick P: Do more research on front/back-end features/responsibilities to get the ball rolling faster
+
+     Ibrahim H: Research our first game, figure out its implementation, and develop it.
 
 ### Next Steps
 Now that we have a good starting point to build off of, moving forward we will have the front end and back end members of our team begin working on their respective parts more in depth on the product.
