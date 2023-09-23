@@ -1,5 +1,5 @@
 ## Report for Week 4 Meeting
-## Group 4: BubbleBots
+## Group 3: BubbleBots
 ## Date and location: September 22, 2023 (Virtual)
 ## Present participants: Nicholas Persley (Manager), Nicholas Robishaw (Presenter), Elian Zamora-Rivera (Minute Taker), Jeysen Angous (Minute Taker), Tyler Chapp (Quality Assurance), Ibrahim Hmood (Presenter)
 ## Missing participants: None
