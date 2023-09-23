@@ -16,15 +16,21 @@ Elian Zamora = Nick P. showed us the code to the server we are going to use and 
 
 ### Project Perspective
 
-  1. Nick R: I appreciate that Nick P took some time and created a web server for us all to access and use for our project. Since Nick P is taking networking he was easily able to create this webserver. I appreciate that every team member is easy to work with and communicates very clearly and concise during meetings.
+  1. Appreciations
+     
+     Nick R: I appreciate that Nick P took some time and created a web server for us all to access and use for our project. Since Nick P is taking networking he was easily able to create this webserver. I appreciate that every team member is easy to work with and communicates very clearly and concise during meetings.
 
-  Tyler C: Nick P. put in some time this week to get a good starting point for us in this project. We now have a HTTP server written in C as a first building block to our product.
+     Tyler C: Nick P. put in some time this week to get a good starting point for us in this project. We now have a HTTP server written in C as a first building block to our product.
   
-  Jeysen A: Nick P. the group leader set up a HTTP server using C 
+     Jeysen A: Nick P. the group leader set up a HTTP server using C 
 
-  Elian Z: Everyone was very interactive. During the meeting and we all have a clear understanding of what's going to happen next.
+     Elian Z: Everyone was very interactive. During the meeting and we all have a clear understanding of what's going to happen next.
+
+     Nick P: Willingness to listen to other teammates present their findings during the week
   
-  2. Nick R: Dividing our skills and branching out to gather more information and teach other group members about certain things that we were tasked to research.
+  2. Successes
+
+     Nick R: Dividing our skills and branching out to gather more information and teach other group members about certain things that we were tasked to research.
      
      Tyler C: We all were here for the meeting this week and have made a lot of progress such as deciding what games we will include in our website 
 
@@ -32,29 +38,43 @@ Elian Zamora = Nick P. showed us the code to the server we are going to use and 
 
      Elian Z:  got some insight on the server using C
 
-4. Nick R: None
+     Nick P: Research, explanations, team listening, and team role assigning
+
+  3. Failures
+
+     Nick R: None
      
      Tyler C:	No failures to report this week.
 
      Jeysen A: No failures to report
 
      Elian Z: None;
+
+     Nick P: None
   
-  6. Nick R: None
+  4. Barriers
+
+     Nick R: None
      
      Tyler C: No barriers to report this week.
 
      Jeysen A: No barriers to report
 
      Elian Z: No barriers
+
+     Nick P: None
   
-  8. Nick R: Maybe getting a jump start on developing our first game.
+  5. What we should try next time
+
+     Nick R: Maybe getting a jump start on developing our first game.
 
      Tyler C: Begin creating the games for our site.
 
      Jeysen A: Begin working on the front and back end of web-development
 
      Elian: Getting started on a rough draft for the front end development
+
+     Nick P: Do more research on front/back-end features/responsibilities to get the ball rolling faster
 
 ### Next Steps
 Now that we have a good starting point to build off of, moving forward we will have the front end and back end members of our team begin working on their respective parts more in depth on the product.
