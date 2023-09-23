@@ -16,6 +16,8 @@ Elian Zamora = Nick P. showed us the code to the server we are going to use and 
 
 Ibrahim Hmood - I researched networking regarding the tools we are going to use. During this meeting, we got to see a sample C server, and got to do some experiments on it. We also talked about our roles, too.
 
+Nick P - Researched HTTP servers in C and started up a basic web server using this knowledge. Explained to my teammates how it works, answering any questions that came about. Finally, roles were assigned for the project going forward.
+
 ### Project Perspective
 
   1. Appreciations
