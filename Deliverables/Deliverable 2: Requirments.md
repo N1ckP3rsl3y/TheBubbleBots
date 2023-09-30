@@ -27,7 +27,7 @@ _Value proposition and customer segment_
 
 - Measurement: Once we are able to interact with our site from Linux, Mac, and Windows systems.
 
-2 . Availability: our system needs to be available when users want to access it
+2. Availability: our system needs to be available when users want to access it
 
 - Measurement: Once our system is accessible 24/7.
 
