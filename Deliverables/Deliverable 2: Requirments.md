@@ -72,9 +72,9 @@ Player beats AI every time! |
 
 | Use Case  | Player visits BubbleBots.com |
 | --- | --- |
-| Actor         | Player  |
-| Flow          | The player sees all available games and makes a 
-                decision playing a board game player beats AI |
+| Actor     | Player  |
+| Flow      | The player sees all available games and makes a 
+              decision playing a board game player beats AI |
 | Alternative Flow 1 | Player changes the difficulty level 
                       of the game |
          
