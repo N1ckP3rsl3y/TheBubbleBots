@@ -92,3 +92,5 @@ Jeysen A:
 
 
 ### 8. Issue Tracker:
+![Issue Tracker](https://user-images.githubusercontent.com/93228715/271760942-07a0b34f-44b7-41a4-9941-fecbc97e5f96.png)
+
