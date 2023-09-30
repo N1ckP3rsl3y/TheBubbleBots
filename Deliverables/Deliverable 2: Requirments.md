@@ -71,9 +71,9 @@ Jeysen:
          
          
 Ibrahim H:
-| Actor | Gamer |
-| --- | --- |
 | Use case | Gamer plays against other gamers |
+| --- | --- |
+| Actor | Gamer |
 | Flow | 1. Gamer opens website <br /> 2. Gamer selects a game <br /> 3. Gamer clicks on button to play against other gamers <br /> 4. Gamer wins / loses against other gamer |
 | Alternate flow 1 | After a game, gamer clicks button to play again against gamers |
 | Alternate flow 2 | After a game, gamer clicks button to play against AI |
