@@ -90,4 +90,4 @@ Jeysen A:
 
 
 ### 8. Issue Tracker:
-![Issue Tracker](https://ibb.co/bdTRm9z)
+
