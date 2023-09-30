@@ -58,15 +58,12 @@ Elian:
 | flow | -The player opens up the website <br /> -Player then chooses a game to play<br /> -Player set’s difficulty <br /> -Player plays game on set difficulty. <br /> -Player can replay games<br />-Player beats AI every time!|
 | Alternative Flow | -The player opens up the website<br /> -Checks about tab to see how website works. <br /> -Players goes back to main screen<br /> -Player then chooses a game to play<br /> -Player set’s difficulty <br /> -Player plays game on set difficulty. <br /> -Player can replay games<br /> -Player beats AI every time! |
 
-
-
-| Use Case  | Player visits BubbleBots.com |
+Jeysen:
+| Use Case | Player visits BubbleBots.com |
 | --- | --- |
-| Actor     | Player  |
-| Flow      | The player sees all available games and makes a 
-              decision playing a board game player beats AI |
-| Alternative Flow 1 | Player changes the difficulty level 
-                      of the game |
+| Actor | Player |
+| flow | -The player opens up the website <br /> -Player then chooses a game to play<br /> -Player set’s difficulty <br /> -Player plays game on set difficulty. <br /> -Player can replay games<br />-Player beats AI every time!|
+| Alternative Flow | -The player opens up the website<br /> -Checks about tab to see how website works. <br /> -Players goes back to main screen<br /> -Player then chooses a game to play<br /> -Player set’s difficulty <br /> -Player plays game on set difficulty. <br /> -Player can replay games<br /> -Player beats AI every time! |
          
 ### 7. User stories:
 Elian: 
