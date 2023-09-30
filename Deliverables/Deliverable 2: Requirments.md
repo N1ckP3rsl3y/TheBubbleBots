@@ -52,7 +52,7 @@ _Value proposition and customer segment_
 - Measurement: High user numbers.
 
 ### 5. Minimum Viable Product:
-
+Our minimal viable product is a program that allows users to play against bots and shows to the user a list of decisions the bot is going through before making a move. Those are also the features we intend on validating. We intend on validating these features using early user feedback.
 
 ### 6. Use cases:
 Elian:
