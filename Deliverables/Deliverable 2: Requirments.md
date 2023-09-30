@@ -62,7 +62,7 @@ Jeysen:
 | Use Case | Player visits BubbleBots.com |
 | --- | --- |
 | Actor | Player |
-| flow | -The player sees all available games and makes a decision playing a board game player beats AI |
+| Flow | The player sees all available games and makes a decision playing a board game player beats AI |
 | Alternative Flow | Player changes the difficulty level of the game |
          
 ### 7. User stories:
