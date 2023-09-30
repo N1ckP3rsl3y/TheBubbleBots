@@ -69,6 +69,15 @@ Jeysen:
 | Flow | The player sees all available games and makes a decision playing a board game <br /> player beats AI<br /> |
 | Alternative Flow | Player changes the difficulty level of the game |
          
+         
+Ibrahim H:
+| Actor | Gamer |
+| --- | --- |
+| Use case | Gamer plays against other gamers |
+| Flow | 1. Gamer opens website <br /> 2. Gamer selects a game <br /> 3. Gamer clicks on button to play against other gamers <br /> 4. Gamer wins / loses against other gamer |
+| Alternate flow 1 | After a game, gamer clicks button to play again against gamers |
+| Alternate flow 2 | After a game, gamer clicks button to play against AI |
+
 ### 7. User stories:
 Elian: 
 1. As a gamer who loves board games I would like to challenge an AI to play games of my liking so that I can get the satisfaction of       beating AI 
