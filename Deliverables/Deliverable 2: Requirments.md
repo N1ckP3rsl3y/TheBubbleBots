@@ -82,7 +82,9 @@ Ibrahim H:
 | Alternate flow 2 | After a game, gamer clicks button to play against AI |
 
 ![Use case](https://github-production-user-asset-6210df.s3.amazonaws.com/26929477/271761627-600109ac-1f81-4b56-8c41-eec61ea85c5f.png)
+
 ![User interface](https://github-production-user-asset-6210df.s3.amazonaws.com/26929477/271761651-8284c449-6467-4ef7-b038-ef91d3d0a4cb.png)
+
 ### 7. User stories:
 Elian: 
 1. As a gamer who loves board games I would like to challenge an AI to play games of my liking so that I can get the satisfaction of       beating AI 
