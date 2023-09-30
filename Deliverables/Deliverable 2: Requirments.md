@@ -94,6 +94,9 @@ Jeysen A:
 1. As a game enthusiast who enjoys gaming during my free time, I want to be able to play board games online so that I can have an incredible gaming experience playing against an AI.
 2. As a student who is currently enrolled in an HTML course, I want to learn the fundamentals of how online games that use AI work, so that in the future I can try to create my own board game that plays against the AI.
 
+Ibrahim H:
+1. As a gamer with no friends, I would like to be able to play board games with an AI, so that I can play my favorite board games.
+2. As a software developer and a gamer, I would love to make an AI system for board games, so that I can learn how to make one for my favorite games.
 
 
 ### 8. Issue Tracker:
