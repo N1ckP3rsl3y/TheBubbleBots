@@ -25,27 +25,27 @@ _Value proposition and customer segment_
 ### 4. Non-functional requirements:
 1. Portability: our system needs to be able to run on different platforms with minimal adaptation
 
-      Measurement: Once we are able to interact with our site from Linux, Mac, and Windows systems.
+- Measurement: Once we are able to interact with our site from Linux, Mac, and Windows systems.
 
 2 . Availability: our system needs to be available when users want to access it
 
-      Measurement: Once our system is accessible 24/7.
+- Measurement: Once our system is accessible 24/7.
 
 3.  Usability: our system needs to be easy to use and understand
 
-      Measurement: Positive user feedback. 
+- Measurement: Positive user feedback. 
 
 4. Compatibility: Our system needs to be compatible with multiple systems.
 
-      Measurement:  Once we are able to interact with our site from Linux, Mac, and Windows systems.
+- Measurement:  Once we are able to interact with our site from Linux, Mac, and Windows systems.
 
 5. Scalability: Because we will start with a small number of games and increase games offered as well as potential users, our system will need to be scalable.
 
-      Measurement: User numbers and user feedback.
+- Measurement: User numbers and user feedback.
 
 6. Performance: our system needs to be able to handle all AI bot instances, as well as a varying number of users.
  
-       Measurement: High user numbers.
+- Measurement: High user numbers.
 
 ### 5. Minimum Viable Product:
 
