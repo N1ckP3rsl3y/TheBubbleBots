@@ -51,9 +51,29 @@ _Value proposition and customer segment_
 
 
 ### 6. Use cases:
-
+| Use Case | Player uses website |
+| --- | --- |
+| Actor | Player |
+| flow | The player opens up the website
+Player then chooses a game to play
+Player set’s difficulty
+Player plays game on set difficulty. 
+Player can replay games
+Player beats AI every time!|
+| Alternative Flow | The player opens up the website
+Checks about tab to see how website works. 
+Players goes back to main screen
+Player then chooses a game to play
+Player set’s difficulty
+Player plays game on set difficulty. 
+Player can replay games
+Player beats AI every time! |
 
 ### 7. User stories:
+Elian: 
+1. As a gamer who loves board games I would like to challenge an AI to play games of my liking so that I can get the satisfaction of       beating AI 
+2. As a person who likes a challenge I want to play against an AI and see if the level of thinking is the same as mine.
+
 
 
 ### 8. Issue Tracker:
