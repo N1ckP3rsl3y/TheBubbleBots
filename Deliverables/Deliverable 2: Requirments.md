@@ -70,10 +70,11 @@ Player can replay games
 Player beats AI every time! |
 
 Jeysen A.
-         | Use Case      | Player visits BubbleBots.com |
-         | Actor         | Player  |
-         | Flow          | The player sees all available games and makes a decision playing a board game player beats AI   |
-         | Alternative Flow 1 | Player changes difficulty level of the game |
+| Use Case      | Player visits BubbleBots.com |
+| --- | --- |
+| Actor         | Player  |
+| Flow          | The player sees all available games and makes a decision playing a board game player beats AI   |
+| Alternative Flow 1 | Player changes difficulty level of the game |
          
 ### 7. User stories:
 Elian: 
