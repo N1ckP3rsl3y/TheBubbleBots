@@ -71,7 +71,7 @@ Jeysen:
 | Flow | The player sees all available games and makes a decision playing a board game <br /> player beats AI<br /> |
 | Alternative Flow | Player changes the difficulty level of the game |
 
-![alt text](https://user-images.githubusercontent.com/93228715/271760998-3fe8153e-dc1b-4347-bac8-3d376c32a55f.png)
+![Use Case](https://user-images.githubusercontent.com/93228715/271760998-3fe8153e-dc1b-4347-bac8-3d376c32a55f.png)
          
 Ibrahim H:
 | Use case | Gamer plays against other gamers |
