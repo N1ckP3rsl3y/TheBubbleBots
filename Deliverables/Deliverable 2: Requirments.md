@@ -18,9 +18,9 @@ _Value proposition and customer segment_
 
 ### 2. Stakeholders:
 
-   1. Gamers - typical day-to-day gamers who love gaming, their responsibility is to play the game and engage with the gaming content.
-   2. Streaming Platforms - platforms like Twitch and YouTube will stream/broadcast the website using ads featuring all the games to the global audience. It will promote viewer engagement by encouraging the players to visit the website and take part in the online gaming experience.
-   3. AI enthusiasts - individuals who have a strong interest in AI and are interested in AI decision-making. Their responsibility is to see what decision(s) the AI makes in the game and to see the result of that game-making decision(s).
+   1. **Gamers** - typical day-to-day gamers who love gaming, their responsibility is to play the game and engage with the gaming content.
+   2. **Streaming Platforms** - platforms like Twitch and YouTube will stream/broadcast the website using ads featuring all the games to the global audience. It will promote viewer engagement by encouraging the players to visit the website and take part in the online gaming experience.
+   3. **AI enthusiasts** - individuals who have a strong interest in AI and are interested in AI decision-making. Their responsibility is to see what decision(s) the AI makes in the game and to see the result of that game-making decision(s).
 
 
 ### 3. Functional requirements (features):
