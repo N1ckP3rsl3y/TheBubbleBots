@@ -51,23 +51,13 @@ _Value proposition and customer segment_
 
 
 ### 6. Use cases:
+Elian:
 | Use Case | Player uses website |
 | --- | --- |
 | Actor | Player |
-| flow | The player opens up the website
-Player then chooses a game to play
-Player set’s difficulty
-Player plays game on set difficulty. 
-Player can replay games
-Player beats AI every time!|
-| Alternative Flow | The player opens up the website
-Checks about tab to see how website works. 
-Players goes back to main screen
-Player then chooses a game to play
-Player set’s difficulty
-Player plays game on set difficulty. 
-Player can replay games
-Player beats AI every time! |
+| flow | -The player opens up the website <br /> -Player then chooses a game to play<br /> -Player set’s difficulty <br /> -Player plays game on set difficulty. <br /> -Player can replay games<br />-Player beats AI every time!|
+| Alternative Flow | -The player opens up the website<br /> -Checks about tab to see how website works. <br /> -Players goes back to main screen<br /> -Player then chooses a game to play<br /> -Player set’s difficulty <br /> -Player plays game on set difficulty. <br /> -Player can replay games<br /> -Player beats AI every time! |
+
 
 
 | Use Case  | Player visits BubbleBots.com |
