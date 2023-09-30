@@ -76,7 +76,7 @@ Player beats AI every time! |
 | Flow          | The player sees all available games and makes a 
                 decision playing a board game player beats AI |
 | Alternative Flow 1 | Player changes the difficulty level 
-                           of the game |
+                      of the game |
          
 ### 7. User stories:
 Elian: 
