@@ -10,6 +10,7 @@ Team Members: Nicholas Persley, Nicholas Robishaw, Elian Zamora-Rivera, Jeysen A
 
 ### 1. Positioning:
 _Problem Statment_
+The problem of modern AI in games is that they can be boring and mundane, the players can't see what the AI is thinking. The impact of which is repetitive AI doing the same tasks and upcoming developers who study how to implement AI make the same mistake.
 
 _Product Position Statement_
 
@@ -64,6 +65,16 @@ Elian:
 
 ![alt text](https://user-images.githubusercontent.com/128747430/271760736-a0726287-569b-4397-bbbd-10d00b2ba639.png)
 ![alt text](https://user-images.githubusercontent.com/128747430/271761448-2f64c5df-ce4c-4528-8280-ed2ab19c86cb.png)
+
+Nick R:
+| Use Case | Player studying the bots |
+| --- | --- |
+| Actor | Student |
+| Flow | -When logging onto the Bubble Bots website, the student plays a selection of games and records the AI’s moves and thoughts. The student writes the notes depending on the game style. The student plays the game. Then look at the text display next to the game window. Then I can try playing again to look for different outcomes. The student then eliminates all duplicate outcomes. |
+| Alternative Flow | If the student doesn't get any different outcomes when trying different strategies against the bot then an issue can be reported to the game forms. |
+
+
+
 Jeysen:
 | Use Case | Player visits BubbleBots.com |
 | --- | --- |
@@ -89,6 +100,11 @@ Ibrahim H:
 Elian: 
 1. As a gamer who loves board games I would like to challenge an AI to play games of my liking so that I can get the satisfaction of       beating AI 
 2. As a person who likes a challenge I want to play against an AI and see if the level of thinking is the same as mine.
+
+Nick R:
+1. As a game designer, I would like to learn how an AI thinks so I can implement it in my own games.
+2. As a senior AI designer, I would like a way to test new AI algorithms connected to game based decisions so that I can see how strong the algorithms are.
+
 
 Jeysen A:
 1. As a game enthusiast who enjoys gaming during my free time, I want to be able to play board games online so that I can have an incredible gaming experience playing against an AI.
