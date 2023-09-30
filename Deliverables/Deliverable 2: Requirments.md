@@ -69,10 +69,20 @@ Player plays game on set difficulty.
 Player can replay games
 Player beats AI every time! |
 
+Jeysen A.
+         | Use Case      | Player visits BubbleBots.com |
+         | Actor         | Player  |
+         | Flow          | The player sees all available games and makes a decision playing a board game player beats AI   |
+         | Alternative Flow 1 | Player changes difficulty level of the game |
+         
 ### 7. User stories:
 Elian: 
 1. As a gamer who loves board games I would like to challenge an AI to play games of my liking so that I can get the satisfaction of       beating AI 
 2. As a person who likes a challenge I want to play against an AI and see if the level of thinking is the same as mine.
+
+Jeysen A:
+1. As a game enthusiast who enjoys gaming during my free time, I want to be able to play board games online so that I can have an incredible gaming experience playing against an AI.
+2. As a student who is currently enrolled in an HTML course, I want to learn the fundamentals of how online games that use AI work, so that in the future I can try to create my own board game that plays against the AI.
 
 
 
