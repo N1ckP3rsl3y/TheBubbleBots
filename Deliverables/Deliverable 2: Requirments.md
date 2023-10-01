@@ -85,6 +85,7 @@ Jeysen:
 | Alternative Flow | Player changes the difficulty level of the game |
 
 ![Use Case](https://user-images.githubusercontent.com/93228715/271760998-3fe8153e-dc1b-4347-bac8-3d376c32a55f.png)
+![UI](https://user-images.githubusercontent.com/93228715/271843796-f1124a2f-a5c4-4e9a-92a7-9d0dd9a7b71a.png)
 
 Ibrahim H:
 | Use case | Gamer plays against other gamers |
