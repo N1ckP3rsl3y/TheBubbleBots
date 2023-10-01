@@ -17,28 +17,37 @@ Nick R: Learned about game trees and how game AI works thanks to Nicholas P's pr
    Nicholas P: The willingness of the team to put in work and listen to design specifications.
    
    Nick R: I appreciate that everyone was on time and was able to work through the late hours during our last meeting.
+
+   Jeysen A: Each team member was involved in completing their portion of the user cases and user stories.
    
-2. Successes
+3. Successes
    
    Nicholas P: Getting the team together and successfully showing design specifications of the future website.
    
    Nick R: Team was able to successfully research and create users cases and user stories.
+
+   Jeysen A: All team members contributed to completing the required deliverable and completing it on time
    
-3. Failures
+5. Failures
    
    Nicholas P: None
    
    Nick R: None
+
+   Jeysen A: None
    
-4. Barriers
+7. Barriers
    Nicholas P: None
    
    Nick R: None
+
+   Jeysen A: None
    
-5. What we should try next time
+9. What we should try next time
    
    Nicholas P: Nothing is seen that should be improved.
    
    Nick R: Start looking at more indepth AI architecture.
 
+   Jeysen A: Start creating the wesbite design that Nick (group leader) showed the team members.
 ### Next Steps
