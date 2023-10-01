@@ -106,9 +106,9 @@ Ibrahim H:
 | Alternate flow 1 | After a game, gamer clicks button to play again against gamers |
 | Alternate flow 2 | After a game, gamer clicks button to play against AI |
 
-![Use case](https://github-production-user-asset-6210df.s3.amazonaws.com/26929477/271761627-600109ac-1f81-4b56-8c41-eec61ea85c5f.png)
+![Use case](https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/26929477/4856da3f-dfe9-4c46-9f46-7d65689dcb42)
 
-![User interface](https://github-production-user-asset-6210df.s3.amazonaws.com/26929477/271761651-8284c449-6467-4ef7-b038-ef91d3d0a4cb.png)
+![User interface](https://user-images.githubusercontent.com/26929477/271854803-d9fd3561-f836-4afc-b3c1-31b3bbcb8302.png)
 
 Nicholas P:
 | Use Case | Plays a game |
