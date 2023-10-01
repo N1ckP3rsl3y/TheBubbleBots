@@ -74,6 +74,7 @@ Nick R:
 | Alternative Flow | If the student doesn't get any different outcomes when trying different strategies against the bot then an issue can be reported to the game forms. |
 
 ![alt-text](https://user-images.githubusercontent.com/93451175/271799126-8e5c1ba9-6d1a-444d-b4e1-64207206b167.png)
+![alt-text](https://user-images.githubusercontent.com/93451175/271814159-89103baf-cd1f-446b-a02d-5677e6529f51.png)
 
 
 Jeysen:
