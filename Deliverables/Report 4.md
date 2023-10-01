@@ -13,6 +13,8 @@ Nick R: Learned about game trees and how game AI works thanks to Nicholas P's pr
 
 Tyler C: Started to get deeper into specifying what exact features our product will include. Drew up many UI designs and identified our systems requirements. 
 
+Ibrahim H: We went over how our system will work, discussed basic use cases, and made UI designs.
+
 ### Project Perspective
 1. Appreciations
    
@@ -23,6 +25,8 @@ Tyler C: Started to get deeper into specifying what exact features our product w
    Jeysen A: Each team member was involved in completing their portion of the user cases and user stories.
 
    Tyler C: The level of teamwork this group has been able to utilize, even when meeting at later hours. Special thanks to Nick P for facilitating our team's cohesion, and for brainstorming ideas                  about our project.
+
+   Ibrahim H: I appreciate how questions regarding this project are always answered, regardless if the answer is obvious or not (I find that helpful and beneficial myself).
    
 3. Successes
    
@@ -34,6 +38,8 @@ Tyler C: Started to get deeper into specifying what exact features our product w
 
    Tyler C: Getting all members together and each member substainstally contributing to conversation as well as the deliverables.
    
+   Ibrahim H: Getting everyone together and everyone being engaged and contributing to our meeting.
+   
 5. Failures
    
    Nicholas P: None
@@ -43,6 +49,8 @@ Tyler C: Started to get deeper into specifying what exact features our product w
    Jeysen A: None
 
    Tyler C: None
+
+   Ibrahim H: None
    
 7. Barriers
    Nicholas P: None
@@ -52,6 +60,8 @@ Tyler C: Started to get deeper into specifying what exact features our product w
    Jeysen A: None
 
    Tyler C: None
+
+   Ibrahim H: None
    
 9. What we should try next time
    
@@ -62,7 +72,10 @@ Tyler C: Started to get deeper into specifying what exact features our product w
    Jeysen A: Start creating the wesbite design that Nick (group leader) showed the team members.
 
    Tyler C: Nothing to suggest for improvement at this time.
-   
+
+   Ibrahim H: There is no room for improvement, everything was perfect.
 ### Next Steps
 
 Tyler C: Start researching and deciding on a game framework or library to use with our games. Brush up on programming languages going to be used in our project.
+
+Ibrahim H: Research libraries to use and the programming languages to be used
