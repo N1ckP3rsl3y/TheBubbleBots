@@ -38,7 +38,7 @@ _Value proposition and customer segment_
 
 3.  Usability: our system needs to be easy to use and understand
 
-- Measurement: Positive user feedback. 
+- Measurement: Positive user feedback.
 
 4. Compatibility: Our system needs to be compatible with multiple systems.
 
@@ -49,7 +49,7 @@ _Value proposition and customer segment_
 - Measurement: User numbers and user feedback.
 
 6. Performance: our system needs to be able to handle all AI bot instances, as well as a varying number of users.
- 
+
 - Measurement: High user numbers.
 
 ### 5. Minimum Viable Product:
@@ -84,7 +84,7 @@ Jeysen:
 | Alternative Flow | Player changes the difficulty level of the game |
 
 ![Use Case](https://user-images.githubusercontent.com/93228715/271760998-3fe8153e-dc1b-4347-bac8-3d376c32a55f.png)
-         
+
 Ibrahim H:
 | Use case | Gamer plays against other gamers |
 | --- | --- |
@@ -97,9 +97,18 @@ Ibrahim H:
 
 ![User interface](https://github-production-user-asset-6210df.s3.amazonaws.com/26929477/271761651-8284c449-6467-4ef7-b038-ef91d3d0a4cb.png)
 
+Nicholas P:
+| Use Case | Plays a game |
+| --- | --- |
+| Actor | Website User |
+| The user will click on a provided game and start making moves against the Artificial Intelligence Agent |  |
+| Alternative Flow 1 | Before the user plays the game, they change the difficulty, explanation depth/speed |
+<img width="600" alt="Use Case" src="https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/72055903/c4504a5e-bafb-4994-a8d6-268fcff22d2f">
+<img width="566" alt="Interface" src="https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/72055903/f79a035f-3db9-47de-8269-8f2428d7e31f">
+
 ### 7. User stories:
-Elian: 
-1. As a gamer who loves board games I would like to challenge an AI to play games of my liking so that I can get the satisfaction of       beating AI 
+Elian:
+1. As a gamer who loves board games I would like to challenge an AI to play games of my liking so that I can get the satisfaction of       beating AI
 2. As a person who likes a challenge I want to play against an AI and see if the level of thinking is the same as mine.
 
 Nick R:
@@ -117,5 +126,6 @@ Ibrahim H:
 
 
 ### 8. Issue Tracker:
+Link: https://github.com/N1ckP3rsl3y/TheBubbleBots/issues
 ![Issue Tracker](https://user-images.githubusercontent.com/93228715/271760942-07a0b34f-44b7-41a4-9941-fecbc97e5f96.png)
 
