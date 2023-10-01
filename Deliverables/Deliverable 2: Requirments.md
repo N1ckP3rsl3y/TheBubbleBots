@@ -150,7 +150,12 @@ Ibrahim H:
 
 Tyler C:
 1. As a casual gamer, I want to easily play a game without a lengthy setup, so that I can have a quick gaming session whenever I have time.
-2. As an AI enthusiast, I want to play a variety of games with AI bots, so that I can analyze move by move how AI makes decisions. 
+2. As an AI enthusiast, I want to play a variety of games with AI bots, so that I can analyze move by move how AI makes decisions.
+
+Nick P:
+1. As a student in an Artificial Intelligence class, I want to get ahead of the class and learn intelligent decision making in a game setting.
+2. As a person who plays board games, I want to be able to easily load-up a wide variety of games.
+
 
 ### 8. Issue Tracker:
 Link: https://github.com/N1ckP3rsl3y/TheBubbleBots/issues
