@@ -119,6 +119,18 @@ Nicholas P:
 <img width="600" alt="Use Case" src="https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/72055903/c4504a5e-bafb-4994-a8d6-268fcff22d2f">
 <img width="566" alt="Interface" src="https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/72055903/f79a035f-3db9-47de-8269-8f2428d7e31f">
 
+Tyler C:
+| Use Case | User submits feedback |
+| --- | --- |
+| Actor | Website User |
+| Flow | User clicks on feedback button, the user fills out the feedback form and submits it, then the system acknowledges receiving feedback form. |
+| Alternative Flow | User tries to submit feedback form without completing all mandatory fields |
+
+![use_case_feedback](https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/95588532/9eee3675-f8d7-4df7-a612-aa76afda4ad5)
+
+![ui_feedback](https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/95588532/f5e6b10b-c4fe-4909-a460-04d56f9b8208)
+
+
 ### 7. User stories:
 Elian:
 1. As a gamer who loves board games I would like to challenge an AI to play games of my liking so that I can get the satisfaction of       beating AI
@@ -137,6 +149,9 @@ Ibrahim H:
 1. As a gamer with no friends, I would like to be able to play board games with an AI, so that I can play my favorite board games.
 2. As a software developer and a gamer, I would love to make an AI system for board games, so that I can learn how to make one for my favorite games.
 
+Tyler C:
+1. As a casual gamer, I want to easily play a game without a lengthy setup, so that I can have a quick gaming session whenever I have time.
+2. As an AI enthusiast, I want to play a variety of games with AI bots, so that I can analyze move by move how AI makes decisions. 
 
 ### 8. Issue Tracker:
 Link: https://github.com/N1ckP3rsl3y/TheBubbleBots/issues
