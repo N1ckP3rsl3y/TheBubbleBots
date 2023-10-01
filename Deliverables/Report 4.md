@@ -9,7 +9,9 @@
 
 Nicholas P: Drew up desired UI design of the website and a small lesson on intelligent decision making by a computer.
 
-Nick R: Learned about game trees and how game AI works thanks to Nicholas P's presentation of how we will immplement AI in out project. 
+Nick R: Learned about game trees and how game AI works thanks to Nicholas P's presentation of how we will immplement AI in out project.
+
+Tyler C: Started to get deeper into specifying what exact features our product will include. Drew up many UI designs and identified our systems requirements. 
 
 ### Project Perspective
 1. Appreciations
@@ -19,6 +21,8 @@ Nick R: Learned about game trees and how game AI works thanks to Nicholas P's pr
    Nick R: I appreciate that everyone was on time and was able to work through the late hours during our last meeting.
 
    Jeysen A: Each team member was involved in completing their portion of the user cases and user stories.
+
+   Tyler C: The level of teamwork this group has been able to utilize, even when meeting at later hours. Special thanks to Nick P for facilitating our team's cohesion, and for brainstorming ideas                  about our project.
    
 3. Successes
    
@@ -27,6 +31,8 @@ Nick R: Learned about game trees and how game AI works thanks to Nicholas P's pr
    Nick R: Team was able to successfully research and create users cases and user stories.
 
    Jeysen A: All team members contributed to completing the required deliverable and completing it on time
+
+   Tyler C: Getting all members together and each member substainstally contributing to conversation as well as the deliverables.
    
 5. Failures
    
@@ -35,6 +41,8 @@ Nick R: Learned about game trees and how game AI works thanks to Nicholas P's pr
    Nick R: None
 
    Jeysen A: None
+
+   Tyler C: None
    
 7. Barriers
    Nicholas P: None
@@ -42,6 +50,8 @@ Nick R: Learned about game trees and how game AI works thanks to Nicholas P's pr
    Nick R: None
 
    Jeysen A: None
+
+   Tyler C: None
    
 9. What we should try next time
    
@@ -50,4 +60,9 @@ Nick R: Learned about game trees and how game AI works thanks to Nicholas P's pr
    Nick R: Start looking at more indepth AI architecture.
 
    Jeysen A: Start creating the wesbite design that Nick (group leader) showed the team members.
+
+   Tyler C: Nothing to suggest for improvement at this time.
+   
 ### Next Steps
+
+Tyler C: Start researching and deciding on a game framework or library to use with our games. Brush up on programming languages going to be used in our project.
