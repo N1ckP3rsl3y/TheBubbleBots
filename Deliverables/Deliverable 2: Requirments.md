@@ -99,12 +99,11 @@ Jeysen:
 ![UI](https://user-images.githubusercontent.com/93228715/271843796-f1124a2f-a5c4-4e9a-92a7-9d0dd9a7b71a.png)
 
 Ibrahim H:
-| Use case | Gamer plays against other gamers |
+| Use case | Player visits BubbleBots |
 | --- | --- |
 | Actor | Gamer |
-| Flow | 1. Gamer opens website <br /> 2. Gamer selects a game <br /> 3. Gamer clicks on button to play against other gamers <br /> 4. Gamer wins / loses against other gamer |
-| Alternate flow 1 | After a game, gamer clicks button to play again against gamers |
-| Alternate flow 2 | After a game, gamer clicks button to play against AI |
+| Flow | 1. Player opens BubbleBots home page<br />2. Player finds game to play<br />3. Player selects game to play |
+| Alternative flow | 1. Player opens BubbleBots home page <br />2. Player visits BubbleBots about page |
 
 ![Use case](https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/26929477/4856da3f-dfe9-4c46-9f46-7d65689dcb42)
 
