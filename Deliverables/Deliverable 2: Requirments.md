@@ -25,6 +25,17 @@ _Value proposition and customer segment_
 
 
 ### 3. Functional requirements (features):
+1. Web server
+2. Statistics on how many people join the site and how many times a game is played
+3. Various games for users to play
+4. A homepage that provides easy access to all games
+5. A homepage (may be separate from the one mentioned in (4)) that is an “about” page explaining to the user how/what the website works
+6. AI agents for each game that calculates a position against the player, ultimately resulting in a somewhat intelligent move being played
+7. AI agent explanation sections on the front-end when playing a game
+8. Difficulty, depth of AI agent explanation, and explanation speed sliders/configuration for the user to change
+9. “Play again” button, score counter (wins, losses, draws), and position calculation for each player, if applicable (e.g., Player1: 1, Player2: 2 for Tic-Tac-Toe)
+10. Ability to get user feedback directly through the website
+
 
 
 ### 4. Non-functional requirements:
