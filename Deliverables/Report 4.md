@@ -28,6 +28,8 @@ Ibrahim H: We went over how our system will work, discussed basic use cases, and
 
    Ibrahim H: I appreciate how questions regarding this project are always answered, regardless if the answer is obvious or not (I find that helpful and beneficial myself).
 
+   Elian Z: The team has been very interactive. Group always gets work done and we have a great time while doing it. 
+
 3. Successes
 
    Nicholas P: Getting the team together and successfully showing design specifications of the future website.
@@ -39,6 +41,8 @@ Ibrahim H: We went over how our system will work, discussed basic use cases, and
    Tyler C: Getting all members together and each member substainstally contributing to conversation as well as the deliverables.
 
    Ibrahim H: Getting everyone together and everyone being engaged and contributing to our meeting.
+
+   Elian Z: Everyone was there during the meeting and we all got everything done.  
 
 5. Failures
 
@@ -52,6 +56,8 @@ Ibrahim H: We went over how our system will work, discussed basic use cases, and
 
    Ibrahim H: None
 
+   Elian Z: None
+
 7. Barriers
    Nicholas P: None
 
@@ -62,6 +68,8 @@ Ibrahim H: We went over how our system will work, discussed basic use cases, and
    Tyler C: None
 
    Ibrahim H: None
+
+   Elian: None
 
 9. What we should try next time
 
@@ -74,6 +82,8 @@ Ibrahim H: We went over how our system will work, discussed basic use cases, and
    Tyler C: Nothing to suggest for improvement at this time.
 
    Ibrahim H: There is no room for improvement, everything was perfect.
+
+   Elian: There is nothing I think we should improve on everything went very well. 
 ### Next Steps
 
 Tyler C: Start researching and deciding on a game framework or library to use with our games. Brush up on programming languages going to be used in our project.
@@ -81,3 +91,5 @@ Tyler C: Start researching and deciding on a game framework or library to use wi
 Ibrahim H: Research libraries to use and the programming languages to be used
 
 Nicholas P: Look into browser languages along with the back-end side of things when it comes to bots making a game interactive.
+
+Elian Z: Start working on some front end design.
