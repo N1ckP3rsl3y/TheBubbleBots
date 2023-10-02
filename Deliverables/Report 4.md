@@ -86,10 +86,4 @@ Ibrahim H: We went over how our system will work, discussed basic use cases, and
    Elian: There is nothing I think we should improve on everything went very well. 
 ### Next Steps
 
-Tyler C: Start researching and deciding on a game framework or library to use with our games. Brush up on programming languages going to be used in our project.
-
-Ibrahim H: Research libraries to use and the programming languages to be used
-
-Nicholas P: Look into browser languages along with the back-end side of things when it comes to bots making a game interactive.
-
-Elian Z: Start working on some front end design.
+   Dive a little deeper into the front-end and back-end side of things to prepare us for when we actually start making the project.
