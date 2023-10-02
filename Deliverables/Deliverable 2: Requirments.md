@@ -9,12 +9,17 @@ Location: Virtual (Discord)
 Team Members: Nicholas Persley, Nicholas Robishaw, Elian Zamora-Rivera, Jeysen Angous, Tyler Chapp, Ibrahim Hmood
 
 ### 1. Positioning:
-_Problem Statment_
+_Problem Statment_\
 The problem of modern AI in games is that they can be boring and mundane, the players can't see what the AI is thinking. The impact of which is repetitive AI doing the same tasks and upcoming developers who study how to implement AI make the same mistake.
 
-_Product Position Statement_
+_Product Position Statement_\
+For fellow gamers who want an exquisite challenge Bubble Bots is a website that allows players that love board games to play against an AI. unlike playing against a normal person. Our product allows the user to always play against a skilled AI and allows the difficulty to be changed depending on what the user’s skill level is. As well as allowing the player to actually see what the AI is thinking and doing in real time. The display output will change depending on the AI difficulty level.
 
-_Value proposition and customer segment_
+_Value proposition and customer segment_\
+Value proposition: Bubble Bots is a web based application that allows students, gamers, and developers to challenge AI and see what its thinking in real time, analyze what pattern the computer is taking and what it thinks is the best win option.\
+\
+Customer segment: AI game developers who are looking for better ways to make challenging AI algorithms. Regular gamers who are interested in the thinking path of a computer bot, and students who are brand new to the game development industry.
+
 
 
 ### 2. Stakeholders:
