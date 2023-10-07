@@ -7,7 +7,8 @@
 
 ### Summary of Activities
 
-Nick R: I worked on ways we should alter our prodcuts to fit inside the deliverable comments.
+Nick R: I worked on ways we should alter our prodcuts to fit inside the deliverable comments.\
+Nick P: Attempted to think of changes to the project to make it more educationally focused.
 
 ### Project Perspective
 1. Appreciations
