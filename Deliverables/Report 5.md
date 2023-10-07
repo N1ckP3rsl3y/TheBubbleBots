@@ -8,32 +8,39 @@
 ### Summary of Activities
 
 Nick R: I worked on ways we should alter our prodcuts to fit inside the deliverable comments.\
-Nick P: Attempted to think of changes to the project to make it more educationally focused.
+Nick P: Attempted to think of changes to the project to make it more educationally focused.\
+Tyler C: Talked about future scheduling and how to adapt our project after the feedback we received on deliverable 1.\
+
 
 ### Project Perspective
 1. Appreciations
 
-  Nick R: I appreciate all the groups members coming together and rethinking our project about half way through the semester.\
-  Nick P: I appreciate that the team members being committed to learning what is needed from us within the class.
+  Nick R: I appreciate all the groups members coming together and rethinking our project about halfway through the semester.\
+  Nick P: I appreciate that the team members being committed to learning what is needed from us within the class.\
+  Tyler C: I appreciate the teamwork and level of communication our team exerts, as well as the feedback we received.
 
 2. Successes
 
   Nick R: I found success in communicating with the rest of the team and getting ideas for the next deliverables.\
-  Nick P: Working with the team to work on the deliverable a bit to get a head start.
+  Nick P: Working with the team to work on the deliverable a bit to get a head stat.\
+  Tyler C: Getting everyone to meet and work together in a productive fashion.\
 
 3. Failures
 
   Nick R: None\
-  Nick P: None
+  Nick P: None\
+  Tyler C: None
 
 4. Barriers
 
   Nick R: None\
-  Nick P: None
+  Nick P: None\
+  Tyler C: None
 
 5. What we should try next time
    
-   Nick P: Thinking about reworking the project a little bit to fit expectations.
+   Nick P: Thinking about reworking the project a little bit to fit expectations\
+   Tyler C: Start looking at what we'll need to do for our presentation in a few weeks.
 
 ### Next Steps
 
