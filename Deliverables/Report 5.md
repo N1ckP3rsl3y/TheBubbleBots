@@ -64,5 +64,4 @@ Ibrahim H: We talked about what we plan on doing to satisfy the deliverable comm
 
 ### Next Steps
 
-  Nick R: Rework the project to fit a better audience, create better user stories, and work on the next set of deliverables.
-  Ibrahim H: Try to make the project fit a marketable audience and focus on developing one game for this project.
+  The team will ensure the our project specifications are up to expectations going forward. Then, we will work on our next deliverable and work on the midterm presentation.
