@@ -15,6 +15,8 @@ Tyler C: Started to get deeper into specifying what exact features our product w
 
 Ibrahim H: We went over how our system will work, discussed basic use cases, and made UI designs.
 
+Jeysen A: learned about the backend of the game design that we are going to create.
+
 ### Project Perspective
 1. Appreciations
 
