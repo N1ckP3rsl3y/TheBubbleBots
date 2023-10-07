@@ -18,7 +18,7 @@ Jeysen A: I started working on the front end of the webpage design and implement
 
   Nick R: I appreciate all the groups members coming together and rethinking our project about halfway through the semester.\
   Nick P: I appreciate that the team members being committed to learning what is needed from us within the class.\
-  Tyler C: I appreciate the teamwork and level of communication our team exerts, as well as the feedback we received.
+  Tyler C: I appreciate the teamwork and level of communication our team exerts, as well as the feedback we received.\
   Jeysen A: I appreciate that evey team member made the commitment to show up on time and get started on the report.\
 
 
@@ -34,20 +34,20 @@ Jeysen A: I started working on the front end of the webpage design and implement
 
   Nick R: None\
   Nick P: None\
-  Tyler C: None
+  Tyler C: None\
   Jeysen A: None\
 
 4. Barriers
 
   Nick R: None\
   Nick P: None\
-  Tyler C: None
+  Tyler C: None\
   Jeysen A: None\
 
 5. What we should try next time
    
    Nick P: Thinking about reworking the project a little bit to fit expectations\
-   Tyler C: Start looking at what we'll need to do for our presentation in a few weeks.
+   Tyler C: Start looking at what we'll need to do for our presentation in a few weeks.\
    Jeysen A: go more in-depth with the front end of the webpage and adjust the project to meet the professor’s expectations.\
 
 
