@@ -7,13 +7,25 @@
 
 ### Summary of Activities
 
+Nick R: I worked on ways we should alter our prodcuts to fit inside the deliverable comments.
+
 ### Project Perspective
 1. Appreciations
 
-2. Successes 
+  Nick R: I appreciate all the groups members coming together and rethinking our project about half way through the semester.
 
-3. Failures
+2. Successes
 
-4. Barriers
+  Nick R: I found success in communicating with the rest of the team and getting ideas for the next deliverables.
+
+5. Failures
+
+  Nick R: None
+
+6. Barriers
+
+  Nick R: None
 
 ### Next Steps
+
+  Nick R: Rework the project to fit a better audience, create better user stories, and work on the next set of deliverables.
