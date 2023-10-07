@@ -20,7 +20,7 @@ Jeysen A: I started working on the front end of the webpage design and implement
   Nick P: I appreciate that the team members being committed to learning what is needed from us within the class.\
   Tyler C: I appreciate the teamwork and level of communication our team exerts, as well as the feedback we received.\
   Jeysen A: I appreciate that evey team member made the commitment to show up on time and get started on the report.\
-
+  Elian Z: I appreciate how well the meetings are going and how we get to know each other more each meeting.\
 
 2. Successes
 
@@ -29,6 +29,7 @@ Jeysen A: I started working on the front end of the webpage design and implement
   Tyler C: Getting everyone to meet and work together in a productive fashion.\
   Jeysen A: the whole team contributed to doing their portion on the report and began talking about the deliverable that will be due next   
   week.\
+  Elian Z: Everyone gets together on time and gets work done in a timely manner.\
 
 3. Failures
 
@@ -36,6 +37,7 @@ Jeysen A: I started working on the front end of the webpage design and implement
   Nick P: None\
   Tyler C: None\
   Jeysen A: None\
+  Elian Z: None\
 
 4. Barriers
 
@@ -43,12 +45,14 @@ Jeysen A: I started working on the front end of the webpage design and implement
   Nick P: None\
   Tyler C: None\
   Jeysen A: None\
+  Elian Z: None\
 
 5. What we should try next time
    
    Nick P: Thinking about reworking the project a little bit to fit expectations\
    Tyler C: Start looking at what we'll need to do for our presentation in a few weeks.\
    Jeysen A: go more in-depth with the front end of the webpage and adjust the project to meet the professor’s expectations.\
+   Elian Z: review and figure out what else needs to be done with the front end part of the project.\
 
 
 ### Next Steps
