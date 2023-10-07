@@ -11,7 +11,7 @@ Nick R: I worked on ways we should alter our prodcuts to fit inside the delivera
 Nick P: Attempted to think of changes to the project to make it more educationally focused.\
 Tyler C: Talked about future scheduling and how to adapt our project after the feedback we received on deliverable 1.\
 Jeysen A: I started working on the front end of the webpage design and implementing all the necessary items that should be included in the front end of the webpage.
-Ibrahim H: We talked about what we plan on doing to satisfy the deliverable comments.\
+Ibrahim H: We talked about what we plan on doing to satisfy the deliverable comments.
 
 
 ### Project Perspective
@@ -22,7 +22,7 @@ Ibrahim H: We talked about what we plan on doing to satisfy the deliverable comm
   Tyler C: I appreciate the teamwork and level of communication our team exerts, as well as the feedback we received.\
   Jeysen A: I appreciate that evey team member made the commitment to show up on time and get started on the report.\
   Elian Z: I appreciate how well the meetings are going and how we get to know each other more each meeting.\
-  Ibrahim H: I appreciate how everyone is present for the meeting, and how well our team gets along (makes working together easier).\
+  Ibrahim H: I appreciate how everyone is present for the meeting, and how well our team gets along (makes working together easier).
 
 2. Successes
 
@@ -32,7 +32,7 @@ Ibrahim H: We talked about what we plan on doing to satisfy the deliverable comm
   Jeysen A: the whole team contributed to doing their portion on the report and began talking about the deliverable that will be due next   
   week.\
   Elian Z: Everyone gets together on time and gets work done in a timely manner.\
-  Ibrahim H: We were all present and got everything done with 0 merge errors.\
+  Ibrahim H: We were all present and got everything done with 0 merge errors.
 
 3. Failures
 
@@ -41,7 +41,7 @@ Ibrahim H: We talked about what we plan on doing to satisfy the deliverable comm
   Tyler C: None\
   Jeysen A: None\
   Elian Z: None\
-  Ibrahim H: None\
+  Ibrahim H: None
 
 4. Barriers
 
@@ -50,7 +50,7 @@ Ibrahim H: We talked about what we plan on doing to satisfy the deliverable comm
   Tyler C: None\
   Jeysen A: None\
   Elian Z: None\
-  Ibrahim H: None\
+  Ibrahim H: None
 
 5. What we should try next time
 
@@ -59,7 +59,7 @@ Ibrahim H: We talked about what we plan on doing to satisfy the deliverable comm
    Tyler C: Start looking at what we'll need to do for our presentation in a few weeks.\
    Jeysen A: go more in-depth with the front end of the webpage and adjust the project to meet the professor’s expectations.\
    Elian Z: review and figure out what else needs to be done with the front end part of the project.\
-   Ibrahim H: Review our project and try to make it fit the comments.\
+   Ibrahim H: Review our project and try to make it fit the comments.
 
 
 ### Next Steps
