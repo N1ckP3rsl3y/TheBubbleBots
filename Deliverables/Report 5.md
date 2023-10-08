@@ -53,13 +53,13 @@ Ibrahim H: We talked about what we plan on doing to satisfy the deliverable comm
   Ibrahim H: None
 
 5. What we should try next time
-
-   Nick R: Rethink our project and get back on the right track\
-   Nick P: Thinking about reworking the project a little bit to fit expectations\
-   Tyler C: Start looking at what we'll need to do for our presentation in a few weeks.\
-   Jeysen A: go more in-depth with the front end of the webpage and adjust the project to meet the professor’s expectations.\
-   Elian Z: review and figure out what else needs to be done with the front end part of the project.\
-   Ibrahim H: Review our project and try to make it fit the comments.
+   
+Nick R: Rethink our project and get back on the right track\
+Nick P: Thinking about reworking the project a little bit to fit expectations\
+Tyler C: Start looking at what we'll need to do for our presentation in a few weeks.\
+Jeysen A: go more in-depth with the front end of the webpage and adjust the project to meet the professor’s expectations.\
+Elian Z: review and figure out what else needs to be done with the front end part of the project.\
+Ibrahim H: Review our project and try to make it fit the comments.
 
 
 ### Next Steps
