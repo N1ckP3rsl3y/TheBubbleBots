@@ -120,7 +120,7 @@ Nicholas P:
 | Actor | Website User |
 | The user will click on a provided game and start making moves against the Artificial Intelligence Agent |  |
 | Alternative Flow 1 | Before the user plays the game, they change the difficulty, explanation depth/speed |
-<img width="600" alt="Use Case" src="https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/72055903/c4504a5e-bafb-4994-a8d6-268fcff22d2f">
+<img width="545" alt="General Use Case" src="https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/72055903/42775662-dbce-489c-89bf-7b66dbc4fb0f">
 <img width="566" alt="Interface" src="https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/72055903/f79a035f-3db9-47de-8269-8f2428d7e31f">
 
 Tyler C:
