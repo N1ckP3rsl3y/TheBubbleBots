@@ -101,8 +101,8 @@ Jeysen:
 | Flow | The player sees all available games and makes a decision playing a board game <br /> player beats AI<br /> |
 | Alternative Flow | Player changes the difficulty level of the game |
 
-![Use Case](https://user-images.githubusercontent.com/93228715/271760998-3fe8153e-dc1b-4347-bac8-3d376c32a55f.png)
-![UI](https://user-images.githubusercontent.com/93228715/271843796-f1124a2f-a5c4-4e9a-92a7-9d0dd9a7b71a.png)
+![Screenshot 2023-10-09 at 7 00 55 PM](https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/93228715/a1f926c2-b83d-4b5c-9bb2-4788f8f38cb1)
+![Screenshot 2023-10-09 at 7 01 04 PM](https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/93228715/bce9b40a-4b2e-4bcb-bda2-ca023dbe82ab)
 
 Ibrahim H:
 | Use case | Player visits BubbleBots |
