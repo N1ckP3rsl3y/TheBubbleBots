@@ -131,7 +131,7 @@ Tyler C:
 | Flow | User clicks on feedback button, the user fills out the feedback form and submits it, then the system acknowledges receiving feedback form. |
 | Alternative Flow | User tries to submit feedback form without completing all mandatory fields |
 
-![use_case_feedback](https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/95588532/9eee3675-f8d7-4df7-a612-aa76afda4ad5)
+![Capture](https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/95588532/f693afab-48ab-4046-ad87-972bb1d27b62)
 
 ![ui_feedback](https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/95588532/f5e6b10b-c4fe-4909-a460-04d56f9b8208)
 
