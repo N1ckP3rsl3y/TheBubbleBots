@@ -90,8 +90,8 @@ Nick R:
 | Flow | -When logging onto the Bubble Bots website, the student plays a selection of games and records the AI’s moves and thoughts. The student writes the notes depending on the game style. The student plays the game. Then look at the text display next to the game window. Then I can try playing again to look for different outcomes. The student then eliminates all duplicate outcomes. |
 | Alternative Flow | If the student doesn't get any different outcomes when trying different strategies against the bot then an issue can be reported to the game forms. |
 
-![alt-text](https://user-images.githubusercontent.com/93451175/271799126-8e5c1ba9-6d1a-444d-b4e1-64207206b167.png)
-![alt-text](https://user-images.githubusercontent.com/93451175/271814159-89103baf-cd1f-446b-a02d-5677e6529f51.png)
+![alt-text](https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/93451175/8b99ecec-b7e1-45c4-9f51-d280dad36df6)
+![alt-text](https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/93451175/93271ee5-1dfb-4567-b534-80b055938003)
 
 
 Jeysen:
