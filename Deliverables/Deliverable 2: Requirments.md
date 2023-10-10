@@ -81,7 +81,8 @@ Elian:
 
 <img width="268" alt="Elian Diagram" src="https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/128747430/2f734e84-b42a-4fee-9116-8480c0811a8a">
 
-![alt text](https://user-images.githubusercontent.com/128747430/271761448-2f64c5df-ce4c-4528-8280-ed2ab19c86cb.png)
+<img width="399" alt="Interface Diagram" src="https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/128747430/172c8c8d-1cca-4cf9-a786-a8001da1fc87">
+
 
 Nick R:
 | Use Case | Player studying the bots |
