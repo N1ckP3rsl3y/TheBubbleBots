@@ -79,7 +79,8 @@ Elian:
 | flow | -The player opens up the website <br /> -Player then chooses a game to play<br /> -Player set’s difficulty <br /> -Player plays game on set difficulty. <br /> -Player can replay games<br />-Player beats AI every time!|
 | Alternative Flow | -The player opens up the website<br /> -Checks about tab to see how website works. <br /> -Players goes back to main screen<br /> -Player then chooses a game to play<br /> -Player set’s difficulty <br /> -Player plays game on set difficulty. <br /> -Player can replay games<br /> -Player beats AI every time! |
 
-![alt text](https://user-images.githubusercontent.com/128747430/271760736-a0726287-569b-4397-bbbd-10d00b2ba639.png)
+<img width="268" alt="Elian Diagram" src="https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/128747430/2f734e84-b42a-4fee-9116-8480c0811a8a">
+
 ![alt text](https://user-images.githubusercontent.com/128747430/271761448-2f64c5df-ce4c-4528-8280-ed2ab19c86cb.png)
 
 Nick R:
