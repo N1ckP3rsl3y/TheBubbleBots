@@ -17,3 +17,4 @@ BubbleBots will have a variety of stakeholders including game developers, AI ent
 
 
 # Model
+<img width="741" alt="Screenshot 2023-10-12 at 8 45 47 PM" src="https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/93228715/7cbd4946-0e74-4efc-99ce-8a2f23f35ac4">
