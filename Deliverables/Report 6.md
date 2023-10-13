@@ -10,7 +10,7 @@
 Nick R: \
 Nick P: \
 Tyler C: \
-Jeysen A: \
+Jeysen A: Continued working on the front end of the webpage design and began brainstorming for the presentation.\
 Ibrahim H: 
 
 
@@ -20,7 +20,8 @@ Ibrahim H:
   Nick R: \
   Nick P: \
   Tyler C: \
-  Jeysen A: I appreciate everyone being able to change the meeting time so that we all meet an extra day in the week to work on the presentation. \
+  Jeysen A: I appreciate everyone being able to change the meeting time so that we all meet an extra day in the week to work on the 
+            presentation. \
   Elian Z: \
   Ibrahim H: 
 
