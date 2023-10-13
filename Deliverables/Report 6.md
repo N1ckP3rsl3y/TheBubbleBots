@@ -7,17 +7,17 @@
 
 ### Summary of Activities
 
-Nick R: \
+Nick R: Ironed out the issues with the past two deliverables. Brought the group together to talk more about our future deliverables and how we are going to apprach them. \
 Nick P: \
 Tyler C: \
-Jeysen A: Continued working on the front end of the webpage design and began brainstorming for the presentation.\
+Jeysen A: Continued working on the front end of the webpage design and began brainstorming for the presentation. \
 Ibrahim H: 
 
 
 ### Project Perspective
 1. Appreciations
 
-  Nick R: \
+  Nick R: I appreciate everyone being ok with changing the group meeting to earlier in the week at an earlier time. \
   Nick P: \
   Tyler C: \
   Jeysen A: I appreciate everyone being able to change the meeting time so that we all meet an extra day in the week to work on the 
@@ -27,7 +27,7 @@ Ibrahim H:
 
 2. Successes
 
-  Nick R: \
+  Nick R: Fixing our past mistakes and getting in class feedback from the professor. \
   Nick P: \
   Tyler C: \
   Jeysen A: The whole team got together to work on the deliverable, report and as well the presentation. \
@@ -55,7 +55,7 @@ Ibrahim H:
 
 5. What we should try next time
    
-Nick R: \
+Nick R: Work on practicing for the midterm presentation and start working on the next deliverable. \
 Nick P: \
 Tyler C: \
 Jeysen A: Continue with the webpage front-end development and prepare for the midterm presentation. \
