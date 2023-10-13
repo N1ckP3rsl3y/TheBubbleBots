@@ -11,7 +11,7 @@ Nick R: \
 Nick P: \
 Tyler C: \
 Jeysen A: \
-Ibrahim H: \
+Ibrahim H: 
 
 
 ### Project Perspective
@@ -22,7 +22,7 @@ Ibrahim H: \
   Tyler C: \
   Jeysen A: \
   Elian Z: \
-  Ibrahim H: \
+  Ibrahim H: 
 
 2. Successes
 
@@ -31,7 +31,7 @@ Ibrahim H: \
   Tyler C: \
   Jeysen A: \
   Elian Z: \
-  Ibrahim H: \
+  Ibrahim H: 
 
   
 3. Failures
@@ -59,7 +59,7 @@ Nick P: \
 Tyler C: \
 Jeysen A: Continue with the front-end coding. \
 Elian Z: \
-Ibrahim H: \
+Ibrahim H: 
 
 
 ### Next Steps
