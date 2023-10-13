@@ -20,7 +20,7 @@ Ibrahim H:
   Nick R: \
   Nick P: \
   Tyler C: \
-  Jeysen A: \
+  Jeysen A: I appreciate everyone being able to change the meeting time so that we all meet an extra day in the week to work on the presentation. \
   Elian Z: \
   Ibrahim H: 
 
@@ -29,7 +29,7 @@ Ibrahim H:
   Nick R: \
   Nick P: \
   Tyler C: \
-  Jeysen A: \
+  Jeysen A: The whole team got together to work on the deliverable, report and as well the presentation. \
   Elian Z: \
   Ibrahim H: 
 
@@ -57,7 +57,7 @@ Ibrahim H:
 Nick R: \
 Nick P: \
 Tyler C: \
-Jeysen A: Continue with the front-end coding. \
+Jeysen A: Continue with the webpage front-end development and prepare for the midterm presentation. \
 Elian Z: \
 Ibrahim H: 
 
