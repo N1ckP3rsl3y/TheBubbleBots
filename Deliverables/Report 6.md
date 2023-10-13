@@ -65,5 +65,5 @@ Ibrahim H:
 
 ### Next Steps
 
-  The team will ensure the our project specifications are up to expectations going forward. Then, we will work on our next deliverable and work on the midterm presentation.
+  
 
