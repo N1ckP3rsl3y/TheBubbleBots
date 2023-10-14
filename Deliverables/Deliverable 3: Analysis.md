@@ -22,9 +22,12 @@ BubbleBots will have a variety of stakeholders including game developers, AI ent
 # Use Cases
 ![right AI diagram](https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/128747430/32ff63c0-34bc-45cd-a780-554688417694)
 
+<img width="501" alt="Use Case Two" src="https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/72055903/f567326f-4498-4dff-bcb9-dbaaf3258072">
+
 # User Stories
 1. As an AI enthusiast I want to be able to have a visual representation of the AI decision making it easier to understand the thought process an AI has and be able to distribute that knowledge to other enthusiasts.
    
 2. As an AI teacher I would like to use BubbleBots to have a deeper understanding of AI thought process and to help my students have a better understanding on how AI could be applied to real world problems or situations.
 
+3. As an avid visual learner, I want to be able to learn more than what is presented to me on a typical board game website by visually understanding what the intelligent agent is doing when making a move.
 
