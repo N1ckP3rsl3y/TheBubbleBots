@@ -22,7 +22,7 @@ BubbleBots will have a variety of stakeholders including game developers, AI ent
 # Use Cases
 ![right AI diagram](https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/128747430/32ff63c0-34bc-45cd-a780-554688417694)
 
-<img width="501" alt="Use Case Two" src="https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/72055903/f567326f-4498-4dff-bcb9-dbaaf3258072">
+<img width="488" alt="Screenshot 2023-10-14 at 3 57 40 PM" src="https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/72055903/21e22129-de06-4ea6-a276-8c9596b039f9">
 
 # User Stories
 1. As an AI enthusiast I want to be able to have a visual representation of the AI decision making it easier to understand the thought process an AI has and be able to distribute that knowledge to other enthusiasts.
