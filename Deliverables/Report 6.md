@@ -11,7 +11,7 @@ Nick R: Ironed out the issues with the past two deliverables. Brought the group 
 Nick P: Worked on corrections of the past two deliverables to proceed with the next deliverable.\
 Tyler C: Worked with group to fix our issues learned from feedback from deliverable 2. After fixing these issues, we consolidated our information into our deliverable 3, polishing off some of our statements. Lastly, begin working on slides for the midterm presentation.\
 Jeysen A: Continued working on the front end of the webpage design and began brainstorming for the presentation. \
-Ibrahim H: 
+Ibrahim H: . \
 Elian: The group all worked together to fix the issues with the previus deliverables and to have a better understanding on how to do better in future deliverables including this weeks. We also started a mock up for our website app and will start coding this week\
 
 
