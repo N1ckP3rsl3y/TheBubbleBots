@@ -20,15 +20,3 @@ BubbleBots has a multitude of requirements. One of these is that BubbleBots must
 # Model
 <img width="741" alt="Screenshot 2023-10-12 at 8 45 47 PM" src="https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/93228715/7cbd4946-0e74-4efc-99ce-8a2f23f35ac4">
 
-# Use Cases
-![right AI diagram](https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/128747430/32ff63c0-34bc-45cd-a780-554688417694)
-
-<img width="488" alt="Screenshot 2023-10-14 at 3 57 40 PM" src="https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/72055903/21e22129-de06-4ea6-a276-8c9596b039f9">
-
-# User Stories
-1. As an AI enthusiast I want to be able to have a visual representation of the AI decision making it easier to understand the thought process an AI has and be able to distribute that knowledge to other enthusiasts.
-   
-2. As an AI teacher I would like to use BubbleBots to have a deeper understanding of AI thought process and to help my students have a better understanding on how AI could be applied to real world problems or situations.
-
-3. As an avid visual learner, I want to be able to learn more than what is presented to me on a typical board game website by visually understanding what the intelligent agent is doing when making a move.
-
