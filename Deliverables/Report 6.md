@@ -11,7 +11,7 @@ Nick R: Ironed out the issues with the past two deliverables. Brought the group 
 Nick P: Worked on corrections of the past two deliverables to proceed with the next deliverable.\
 Tyler C: Worked with group to fix our issues learned from feedback from deliverable 2. After fixing these issues, we consolidated our information into our deliverable 3, polishing off some of our statements. Lastly, begin working on slides for the midterm presentation.\
 Jeysen A: Continued working on the front end of the webpage design and began brainstorming for the presentation. \
-Ibrahim H: . \
+Ibrahim H: . We discussed issues with our previous deliverable and how we plan on resolving them\
 Elian: The group all worked together to fix the issues with the previus deliverables and to have a better understanding on how to do better in future deliverables including this weeks. We also started a mock up for our website app and will start coding this week\
 
 
@@ -24,7 +24,7 @@ Elian: The group all worked together to fix the issues with the previus delivera
   Jeysen A: I appreciate everyone being able to change the meeting time so that we all meet an extra day in the week to work on the 
             presentation. \
   Elian Z: I appreciate that the group came together and now has a better understanding on how we want the project to go. \
-  Ibrahim H: 
+  Ibrahim H: I appreciate that everyone was present and engaging in discussions regarding our project
 
 2. Successes
 
@@ -33,7 +33,7 @@ Elian: The group all worked together to fix the issues with the previus delivera
   Tyler C: That we have been collaborating very well, and that we are all able to meet and have productive meetings. \
   Jeysen A: The whole team got together to work on the deliverable, report and as well the presentation. \
   Elian Z: The group was able to work together to fix the mistakes on the previous delierables \
-  Ibrahim H: 
+  Ibrahim H: Everyone was present, everyone worked together too
 
   
 3. Failures
@@ -61,7 +61,7 @@ Nick P: Practice/work on the midterm presentation to make up for the mistakes on
 Tyler C: Practice for midterm presentation, start getting ready to begin coding for our project: setup scrum and github to prepare for development. \
 Jeysen A: Continue with the webpage front-end development and prepare for the midterm presentation. \
 Elian Z: We will practice for the presentation as well as start the development for the website. \
-Ibrahim H: 
+Ibrahim H: Ask professor about issues with deliverables and our project so we can resolve them early
 
 
 ### Next Steps
