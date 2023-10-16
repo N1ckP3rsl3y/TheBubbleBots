@@ -66,5 +66,5 @@ Ibrahim H:
 
 ### Next Steps
 
-  
+Start implementing the project on the front and back end
 
