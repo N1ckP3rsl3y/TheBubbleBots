@@ -7,11 +7,62 @@
 
 ### Summary of Activities
 
+Nick R: \
+Nick P: \
+Tyler C: \
+Jeysen A:  \
+Ibrahim H: \
+Elian: 
+
+
 ### Project Perspective
 1. Appreciations
+
+  Nick R: \
+  Nick P: \
+  Tyler C:  \
+  Jeysen A:  \
+  Elian Z:  \
+  Ibrahim H: 
+
 2. Successes
+
+  Nick R: \
+  Nick P: \
+  Tyler C:  \
+  Jeysen A:  \
+  Elian Z:  \
+  Ibrahim H:
+
+  
 3. Failures
+
+  Nick R: None\
+  Nick P: None\
+  Tyler C: None\
+  Jeysen A: None\
+  Elian Z: None\
+  Ibrahim H: None
+
 4. Barriers
+
+  Nick R: None\
+  Nick P: None\
+  Tyler C: None\
+  Jeysen A: None\
+  Elian Z: None\
+  Ibrahim H: None
+
 5. What we should try next time
+   
+Nick R: \
+Nick P:  \
+Tyler C:  \
+Jeysen A:  \
+Elian Z:  \
+Ibrahim H: 
+
 
 ### Next Steps
+
+
