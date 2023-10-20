@@ -9,7 +9,7 @@
 
 Nick R: \
 Nick P: \
-Tyler C: \
+Tyler C: Had several meetings this week, the first to continue practicing for our midterm presentation, the second meeting to go over game plan with implementation \
 Jeysen A:  \
 Ibrahim H: \
 Elian: 
@@ -20,7 +20,7 @@ Elian:
 
   Nick R: \
   Nick P: \
-  Tyler C:  \
+  Tyler C: The willingness of everyone to meet multiple times to get our work done. \
   Jeysen A:  \
   Elian Z:  \
   Ibrahim H: 
@@ -29,7 +29,7 @@ Elian:
 
   Nick R: \
   Nick P: \
-  Tyler C:  \
+  Tyler C: The flexibility and teamwork our group demonstrates. Great job on the midterm presentation! \
   Jeysen A:  \
   Elian Z:  \
   Ibrahim H:
@@ -57,7 +57,7 @@ Elian:
    
 Nick R: \
 Nick P:  \
-Tyler C:  \
+Tyler C: Begin discussing the finer details of implementation and how we plan on using workflow tools and software testing. \
 Jeysen A:  \
 Elian Z:  \
 Ibrahim H: 
