@@ -12,11 +12,13 @@
 ## Built With
 * [Hostwinds](https://www.hostwinds.com/) - The web server
 ## Contributing
-Please read [CONTRIBUTING.md] (
+Please read [CONTRIBUTING.md](https://github.com/N1ckP3rsl3y/TheBubbleBots/blob/main/CONTRIBUTING.md) - details on our code of conduct, and the process for submitting pull requests.
 ## Versioning
 ## Authors
 ## License
+This project is licesned under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 ## Acknowledgments
+Used Nick P server code
 
 
 ## About
