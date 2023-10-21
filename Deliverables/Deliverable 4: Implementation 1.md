@@ -9,7 +9,7 @@ Team Members: Nicholas Persley, Nicholas Robishaw, Elian Zamora-Rivera, Jeysen A
 
 
 ### Introduction
-### Implemented Requirements 
+### Implemented Requirements ###
 ### Tests
 ### Adopted Technologies
 ### Learning/Training
