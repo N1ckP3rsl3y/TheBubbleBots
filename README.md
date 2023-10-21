@@ -1,5 +1,6 @@
 
 # Project Title
+Our product, _BubbleBots_, is a web service that allows an educational aspect to learning AI gametrees when playing Checkers. A student may load the web service and play against a provided AI. While also seeing the AI's thinking process when playing the game. While the user is able to view the AI's thinking process, the web service provides a textual explanation.
 
 ## Getting Started
 ### Prerequisites
@@ -8,11 +9,21 @@
 ### Break down into end to end tests
 ### And coding style tests
 ## Deployment
+
+Due to the fact that the class requires something to be written in C, the web server will be written in C
+
 ## Built With
+
 * [Hostwinds](https://www.hostwinds.com/) - The web server
+
 ## Contributing
+
 Please read [CONTRIBUTING.md](https://github.com/N1ckP3rsl3y/TheBubbleBots/blob/main/CONTRIBUTING.md) - details on our code of conduct, and the process for submitting pull requests.
+
 ## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/N1ckP3rsl3y/TheBubbleBots/tags). 
+
 ## Authors
 
 * **Nicholas Persley** - *Manager/Back-End* - [BubbleBots](https://github.com/N1ckP3rsl3y/TheBubbleBots)
@@ -23,13 +34,13 @@ Please read [CONTRIBUTING.md](https://github.com/N1ckP3rsl3y/TheBubbleBots/blob/
 * **Ibrahim Hmood** - *Presenter/Back-End*
 
 ## License
-This project is licesned under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
 ## Acknowledgments
+
 Used Nick P server code
 
-
-## About
-Our product, _BubbleBots_, is a web service that allows an educational aspect to learning AI gametrees when playing Checkers. A student may load the web service and play against a provided AI. While also seeing the AI's thinking process when playing the game. While the user is able to view the AI's thinking process, the web service provides a textual explanation.
 
 ## Goal
 Our goal is to provide an easy learning experience for students, beginner AI enthusiast, and into game developers.
