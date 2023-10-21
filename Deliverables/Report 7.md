@@ -12,7 +12,7 @@ Nick P: Had a few meetings over this week to discuss the midterm presentation an
 Tyler C: Had several meetings this week, the first to continue practicing for our midterm presentation, the second meeting to go over game plan with implementation \
 Jeysen A: Had a few meetings this week where the team spent time implementing the midterm presentation, and began working on the next tasks\
 Ibrahim H: We had meetings to make sure we are on track\
-Elian: 
+Elian: The group was able to get together and work on our presentation an as well as come together to get stareted on our website landing page. \
 
 
 ### Project Perspective
