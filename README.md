@@ -40,12 +40,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 Used Nick P server code
-
-
-## Goal
-Our goal is to provide an easy learning experience for students, beginner AI enthusiast, and into game developers.
-
-## Planned Technology
-1. A custom-built HTTP server in C
-2. Web pages to provide a homepage which lists out a tutorial and game page
-3. More technologies may be added in the future
