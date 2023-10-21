@@ -8,8 +8,8 @@ Location: Virtual (Discord)
 Team Members: Nicholas Persley, Nicholas Robishaw, Elian Zamora-Rivera, Jeysen Angous, Tyler Chapp, Ibrahim Hmood
 
 
-### Introduction ###
-### Implemented Requirements ###
+### Introduction
+### Implemented Requirements 
 ### Tests
 ### Adopted Technologies
 ### Learning/Training
