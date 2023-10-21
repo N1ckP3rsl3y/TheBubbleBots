@@ -9,13 +9,13 @@ Team Members: Nicholas Persley, Nicholas Robishaw, Elian Zamora-Rivera, Jeysen A
 
 
 ### Introduction
-# Implemented Requirements 
-# Tests
-# Adopted Technologies
-# Learning/Training
-# Deployment
-# Licensing
-# Readme File
-# Look & Feel
-# Lessons Learned
-# Demo
+### Implemented Requirements 
+### Tests
+### Adopted Technologies
+### Learning/Training
+### Deployment
+### Licensing
+### Readme File
+### Look & Feel
+### Lessons Learned
+### Demo
