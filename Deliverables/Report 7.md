@@ -22,7 +22,7 @@ Elian:
   Nick P: I apprecate the team being able to meet for more than our designated time to go over urgent/upcoming topics.\
   Tyler C: The willingness of everyone to meet multiple times to get our work done. \
   Jeysen A: I appreciate everyone for making our meetings on time and doing their part of the presentation \
-  Elian Z:  \
+  Elian Z: I appreciate that everyone was able to get together and get our work done \
   Ibrahim H: I appreciate everyone for showing up to the meetings and contributing
 
 2. Successes
@@ -31,7 +31,7 @@ Elian:
   Nick P: Working with the team to finalize the midterm presentation as well as successfully started the next deliverable\
   Tyler C: The flexibility and teamwork our group demonstrates. Great job on the midterm presentation! \
   Jeysen A: Everyone doing their part of the presentation, and doing a great job at it\
-  Elian Z:  \
+  Elian Z: We were able to get a great presentation for our midterm. \
   Ibrahim H: Everyone did their part, and we were all good at doing our parts
 
   
@@ -59,7 +59,7 @@ Nick R: Divide up the work for the next deliverable and plan out the next projec
 Nick P: Start to finalize the next deliverable and discuss the rest of how we will implement the desired features of the program\
 Tyler C: Begin discussing the finer details of implementation and how we plan on using workflow tools and software testing. \
 Jeysen A: Begin working on the next deliverable and continue with the next steps for the website \
-Elian Z:  \
+Elian Z: Keep working on the landing and the game page for our website. \
 Ibrahim H: Work on the next deliverable, and continue working on our project
 
 
