@@ -12,6 +12,7 @@
 ## Built With
 * [Hostwinds](https://www.hostwinds.com/) - The web server
 ## Contributing
+Please read [CONTRIBUTING.md] (
 ## Versioning
 ## Authors
 ## License
