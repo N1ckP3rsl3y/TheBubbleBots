@@ -10,7 +10,7 @@
 Nick R: The group spent the week really diving deep to get our project back on track, and we practiced for the midterm presentation\
 Nick P: \
 Tyler C: Had several meetings this week, the first to continue practicing for our midterm presentation, the second meeting to go over game plan with implementation \
-Jeysen A:  \
+Jeysen A: Had a few meetings this week where the team spent time implementing the midterm presentation, and began working on the next tasks\
 Ibrahim H: \
 Elian: 
 
@@ -21,7 +21,7 @@ Elian:
   Nick R: I appreciate everyone willing to schedule several meetings this last week to fix diagrams.\
   Nick P: \
   Tyler C: The willingness of everyone to meet multiple times to get our work done. \
-  Jeysen A:  \
+  Jeysen A: I appreciate everyone for making our meetings on time and doing their part of the presentation \
   Elian Z:  \
   Ibrahim H: 
 
@@ -30,7 +30,7 @@ Elian:
   Nick R: Speaking to the professor and getting our diagrams and presentation slides perfect.\
   Nick P: \
   Tyler C: The flexibility and teamwork our group demonstrates. Great job on the midterm presentation! \
-  Jeysen A:  \
+  Jeysen A: Everyone doing their part of the presentation, and doing a great job at it\
   Elian Z:  \
   Ibrahim H:
 
@@ -58,7 +58,7 @@ Elian:
 Nick R: Divide up the work for the next deliverable and plan out the next project.\
 Nick P:  \
 Tyler C: Begin discussing the finer details of implementation and how we plan on using workflow tools and software testing. \
-Jeysen A:  \
+Jeysen A: Begin working on the next deliverable and continue with the next steps for the website \
 Elian Z:  \
 Ibrahim H: 
 
