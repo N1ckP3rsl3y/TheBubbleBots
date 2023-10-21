@@ -1,4 +1,3 @@
-# BubbleBots
 
 # Project Title
 
@@ -15,6 +14,14 @@
 Please read [CONTRIBUTING.md](https://github.com/N1ckP3rsl3y/TheBubbleBots/blob/main/CONTRIBUTING.md) - details on our code of conduct, and the process for submitting pull requests.
 ## Versioning
 ## Authors
+
+* **Nicholas Persley** - *Manager/Back-End* - [BubbleBots](https://github.com/N1ckP3rsl3y/TheBubbleBots)
+* **Nicholas Robishaw** - *Presenter/Front & Back-End*
+* **Elian Zamora-Rivera** - *Minute-Taker/Front-End*
+* **Jeysen Angous** - *Minute-Taker/Front-End*
+* **Tyler Chapp** - *Quality-Assurance/Back-End*
+* **Ibrahim Hmood** - *Presenter/Back-End*
+
 ## License
 This project is licesned under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 ## Acknowledgments
