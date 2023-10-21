@@ -8,7 +8,7 @@ Location: Virtual (Discord)
 Team Members: Nicholas Persley, Nicholas Robishaw, Elian Zamora-Rivera, Jeysen Angous, Tyler Chapp, Ibrahim Hmood
 
 
-# System Description
+# Introduction
 # Implemented Requirements 
 # Tests
 # Adopted Technologies
