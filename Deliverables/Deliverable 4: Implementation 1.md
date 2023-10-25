@@ -17,16 +17,16 @@ Issue: https://github.com/N1ckP3rsl3y/TheBubbleBots/issues \
 Pull request: https://github.com/N1ckP3rsl3y/TheBubbleBots/pulls \
 Implemented by: Nick R\
 Approved by: Nick P\
-Print screen: A print screen that depicts the implemented feature (if applicable)\
+Print screen: A print screen that depicts the implemented feature (if applicable)
 
 ### Tests
 
-We will mainly be using pytest for back end and some front end. \
+We will mainly be using pytest for back end and some front end. 
 
 ### Adopted Technologies
 
 C & HostWinds for the web server - Due to the fact that the class requires something to be written in C, the web server will be written in C. This will not be written in C++ due to the fact of prior experience with writing a server in C. And HostWinds will be a server that runs the web server in the background for users to connect to for testing purposes up until the deployment.\
-	JavaScript - Our project will have to collect input from user.\
+JavaScript - Our project will have to collect input from user.
 
 
 ### Learning/Training
@@ -34,16 +34,20 @@ C & HostWinds for the web server - Due to the fact that the class requires somet
 Code wars\
 Youtube\
 Hacker Rank\
-Nicholas Persley\
+Nicholas Persley
 
 
 ### Deployment
 
-Oracle Cloud\
+Oracle Cloud
 
 ### Licensing
 
+https://github.com/N1ckP3rsl3y/TheBubbleBots/blob/main/LICENSE.md
+
 ### Readme File
+
+https://github.com/N1ckP3rsl3y/TheBubbleBots/blob/main/README.md
 
 ### Look & Feel
 
@@ -53,6 +57,6 @@ Oracle Cloud\
 ### Demo
 
 Live web server/site – allow users to connect through the browser.\
-LANDING HOME PAGE – Provides the user with a board view, with a settings box, textural and visualization box, and feedback – no actual functionality needs to be added at this time.\
+LANDING HOME PAGE – Provides the user with a board view, with a settings box, textural and visualization box, and feedback – no actual functionality needs to be added at this time.
 
 ![Landing_Page_UI](https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/93451175/0ccde126-ca60-4f52-a975-59965d06c2aa)
