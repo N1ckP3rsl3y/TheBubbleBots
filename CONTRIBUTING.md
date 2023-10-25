@@ -117,7 +117,8 @@ Enhancement suggestions are tracked as [GitHub issues](https://github.com/N1ckP3
 - Use a **clear and descriptive title** for the issue to identify the suggestion.
 - Provide a **step-by-step description of the suggested enhancement** in as many details as possible.
 - **Describe the current behavior** and **explain which behavior you expected to see instead** and why. At this point you can also tell which alternatives do not work for you.
-- You may want to **include screenshots and animated GIFs** which help you demonstrate the steps or point out the part which the suggestion is related to. You can use [this tool](https://www.cockos.com/licecap/) to record GIFs on macOS and Windows, and [this tool](https://github.com/colinkeenan/silentcast) or [this tool](https://github.com/GNOME/byzanz) on Linux. <!-- this should only be included if the project has a GUI -->
+- You may want to **include screenshots and animated GIFs** which help you demonstrate the steps or point out the part which the suggestion is related to. You can use [this tool](https://www.cockos.com/licecap/) to record GIFs on macOS and Windows, and [this tool](https://github.com/colinkeenan/silentcast) on Linux. <!-- this should only be included if the project has a GUI -->
+  
 - **Explain why this enhancement would be useful** to most BubbleBots users. You may also want to point out the other projects that solved it better and which could serve as inspiration.
 
 <!-- You might want to create an issue template for enhancement suggestions that can be used as a guide and that defines the structure of the information to be included. If you do so, reference it here in the description. -->
@@ -125,23 +126,25 @@ Enhancement suggestions are tracked as [GitHub issues](https://github.com/N1ckP3
 ### Your First Code Contribution
 <!-- TODO
 include Setup of env, IDE and typical getting started instructions?
-
 -->
+
+- Create the web back-end server using the C programming language
 
 ### Improving The Documentation
 <!-- TODO
-Updating, improving and correcting the documentation
-
+Updating, improving, and correcting the documentation
 -->
 
 ## Styleguides
 ### Commit Messages
-<!-- TODO
-
--->
+<!-- TODO-->
+If you would like to see the commit messages, you may do so by visiting the [Commit](https://github.com/N1ckP3rsl3y/TheBubbleBots/commits/main).
 
 ## Join The Project Team
 <!-- TODO -->
+If you would like to join the project team, we recommend doing the following:
+- Open an issue inside the contact tag [Issue](https://github.com/N1ckP3rsl3y/TheBubbleBots/labels/contact).
+- Provide as many details about yourself and your experiences as you can
 
 <!-- omit in toc -->
 ## Attribution
