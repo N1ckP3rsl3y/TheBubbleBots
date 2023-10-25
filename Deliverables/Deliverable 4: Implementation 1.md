@@ -42,7 +42,7 @@ Nicholas Persley
 
 ### Deployment
 
-Oracle Cloud
+The BubbleBots will be utilizing the Oracle cloud system to deploy our stable version. Oracle is a free-to-use cloud software architecture manager that utilizes tools to help manage, migrate, and build a sound application.
 
 ### Licensing
 
