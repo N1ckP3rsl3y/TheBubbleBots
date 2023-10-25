@@ -138,7 +138,7 @@ Updating, improving, and correcting the documentation
 ## Styleguides
 ### Commit Messages
 <!-- TODO-->
-If you would like to see the commit messages, you may do so by visiting the [Commit](https://github.com/N1ckP3rsl3y/TheBubbleBots/commits/main).
+If you would like to see the commit messages, you may do so by visiting the [Commits](https://github.com/N1ckP3rsl3y/TheBubbleBots/commits/main).
 
 ## Join The Project Team
 <!-- TODO -->
