@@ -9,7 +9,7 @@
 
 Nick R: \
 Nick P: \
-Tyler C: \
+Tyler C: Began implementation of our project. Focused on getting the web server up and running and setting up our TDD environment. \
 Jeysen A: \
 Ibrahim H: \
 Elian: 
@@ -20,7 +20,7 @@ Elian:
 
   Nick R: \
   Nick P: \
-  Tyler C: \
+  Tyler C: I appreciate how familiar our group has become working with each other and for Nick P. putting in extra time on this project. \
   Jeysen A: \
   Elian Z: \
   Ibrahim H: 
@@ -29,7 +29,7 @@ Elian:
 
   Nick R: \
   Nick P: \
-  Tyler C: \
+  Tyler C: We got everyone together on time, and mostly contributed. \
   Jeysen A: \
   Elian Z: \
   Ibrahim H: 
@@ -57,7 +57,7 @@ Elian:
    
 Nick R: \
 Nick P: \
-Tyler C: \
+Tyler C: Iron out what workflow system we will use, such as scrum and adopting a push/pull structure for source code. \
 Jeysen A: \
 Elian Z: \
 Ibrahim H:
