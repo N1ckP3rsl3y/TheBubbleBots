@@ -16,7 +16,7 @@ Due to the fact that the class requires something to be written in C, the web se
 
 * [Hostwinds](https://www.hostwinds.com/) - running web server
 * [Pytest](https://docs.pytest.org/en/7.4.x/contents.html#) - Used for testing
-* [C] (https://www.cprogramming.com/) - creating web server
+* [C](https://www.cprogramming.com/) - creating web server
 
 ## Contributing
 
