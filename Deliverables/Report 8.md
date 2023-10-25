@@ -7,7 +7,7 @@
 
 ### Summary of Activities
 
-Nick R: \
+Nick R: At our meeting, we went over the deliverable for the week and procticed pytest.\
 Nick P: \
 Tyler C: Began implementation of our project. Focused on getting the web server up and running and setting up our TDD environment. \
 Jeysen A: \
@@ -18,7 +18,7 @@ Elian:
 ### Project Perspective
 1. Appreciations
 
-  Nick R: \
+  Nick R: I appreciate Nick P making a quick demo for how pytest works and how it handled testing the website.\
   Nick P: \
   Tyler C: I appreciate how familiar our group has become working with each other and for Nick P. putting in extra time on this project. \
   Jeysen A: \
@@ -27,7 +27,7 @@ Elian:
 
 2. Successes
 
-  Nick R: \
+  Nick R: The group sucessfully set up the githup for further immplementation and versions.\
   Nick P: \
   Tyler C: We got everyone together on time, and mostly contributed. \
   Jeysen A: \
@@ -55,7 +55,7 @@ Elian:
 
 5. What we should try next time
    
-Nick R: \
+Nick R: Attempt to get a good portion of the next deliverable done.\
 Nick P: \
 Tyler C: Iron out what workflow system we will use, such as scrum and adopting a push/pull structure for source code. \
 Jeysen A: \
