@@ -30,8 +30,7 @@ All types of contributions are encouraged and valued. See the [Table of Contents
 
 This project and everyone participating in it is governed by the
 [BubbleBots Code of Conduct](https://github.com/N1ckP3rsl3y/TheBubbleBotsblob/master/CODE_OF_CONDUCT.md).
-By participating, you are expected to uphold this code. Please report unacceptable behavior
-to <>.
+By participating, you are expected to uphold this code.
 
 
 ## I Have a Question
