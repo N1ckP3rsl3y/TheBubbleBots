@@ -12,7 +12,7 @@ Team Members: Nicholas Persley, Nicholas Robishaw, Elian Zamora-Rivera, Jeysen A
 Bubble Bots is a web-based application that allows students, gamers, and developers to challenge AI in checkers. While doing so, you can see what it’s thinking, in real time, and analyze what pattern the computer is taking and what it thinks is the best option to win. An educational gaming experience into the world of AI that stands apart by not only allowing you to play but truly understand the underlying mechanics of AI.
 
 
-### Implemented Requirements 
+### Implemented Requirements
 
 
 Requirement: As a programmer, I want to add some modifications to my code so that it can meet the requirements.\
@@ -24,7 +24,7 @@ Print screen: A print screen that depicts the implemented feature (if applicable
 
 ### Tests
 
-We will mainly be using pytest for back end and some front end. 
+We will mainly be using pytest for back end and some front end.
 
 ### Adopted Technologies
 
@@ -34,10 +34,7 @@ JavaScript - Our project will have to collect input from user.
 
 ### Learning/Training
 
-Code wars\
-Youtube\
-Hacker Rank\
-Nicholas Persley
+The team will work from their current knowledge base. And when something is encountered that one may not know, the go-to is the documentation of the language feature at hand. Upon no progress being made, the team member can ask the other members for their input/help. If the problem at hand is not specifically a language feature but something built with the languages (e.g., web server), the person may look to online resources for assistance (e.g., YouTube or articles) or, again, ask their other team members if they can assist, and learn from them. It is worth mentioning that the learning of something one has never dealt with before, shall not wait until the day before submission to look into. Meaning that learning from another person or from online, will not be done last minute.
 
 
 ### Deployment
