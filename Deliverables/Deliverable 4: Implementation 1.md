@@ -22,6 +22,13 @@ Implemented by: Nick R\
 Approved by: Nick P\
 Print screen: A print screen that depicts the implemented feature (if applicable)
 
+Requirement: Automated testing of server\
+Issue: [https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/49](https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/49) \
+Pull request: https://github.com/N1ckP3rsl3y/TheBubbleBots/pulls \
+Implemented by: Tyler C\
+Approved by: Nick P\
+
+
 ### Tests
 
 We will mainly be using pytest for back end and some front end.
