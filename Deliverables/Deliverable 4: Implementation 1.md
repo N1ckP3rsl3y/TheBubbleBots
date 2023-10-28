@@ -24,7 +24,7 @@ Print screen: A print screen that depicts the implemented feature (if applicable
 
 Requirement: Automated testing of server\
 Issue: [https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/49](https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/49) \
-Pull request: https://github.com/N1ckP3rsl3y/TheBubbleBots/pulls \
+Pull request: [https://github.com/N1ckP3rsl3y/TheBubbleBots/pulls](https://github.com/N1ckP3rsl3y/TheBubbleBots/pull/48) \
 Implemented by: Tyler C\
 Approved by: Nick P\
 
