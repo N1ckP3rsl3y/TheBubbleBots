@@ -22,4 +22,4 @@ jobs:
 
     - name: Run tests in requests.py with pytest
       run: |
-        pytest test_server.py
+        pytest testing/test_server.py
