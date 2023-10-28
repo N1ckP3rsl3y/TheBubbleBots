@@ -11,7 +11,7 @@ Nick R: At our meeting, we went over the deliverable for the week and practiced 
 Nick P: \
 Tyler C: Began implementation of our project. Focused on getting the web server up and running and setting up our TDD environment. \
 Jeysen A: Continued working on the deliverable and the report that is due this week, continued implementing the front end of the landing page. \
-Ibrahim H: \
+Ibrahim H: Worked on this week's deliverable, created a landing page. \
 Elian: Created a working landing page for our website as well as completerd deliverables and report. 
 
 
@@ -23,7 +23,7 @@ Elian: Created a working landing page for our website as well as completerd deli
   Tyler C: I appreciate how familiar our group has become working with each other and for Nick P. putting in extra time on this project. \
   Jeysen A: I appreciate everyone for making our meetings on time and contributing to the report and deliverable. \
   Elian Z: I appreciate me and Jeysen were able to come together and create the landing page efficiently.\
-  Ibrahim H: 
+  Ibrahim H: I appreciate that everyone was present and working on an aspect of this project.
 
 2. Successes
 
@@ -32,7 +32,7 @@ Elian: Created a working landing page for our website as well as completerd deli
   Tyler C: We got everyone together on time, and mostly contributed. \
   Jeysen A: everyone being on time and contributing to their part.\
   Elian Z: Again everyone was able to show to the meeting and get their work done\
-  Ibrahim H: 
+  Ibrahim H: Everyone showed up and got work done
 
   
 3. Failures
@@ -60,7 +60,7 @@ Nick P: \
 Tyler C: Iron out what workflow system we will use, such as scrum and adopting a push/pull structure for source code. \
 Jeysen A: Continue implementing the page for the website.\
 Elian Z: Next time we will continue working on the game page and the about page for our website.\
-Ibrahim H:
+Ibrahim H: Continue working on the project (i.e. game page)
 
 
 ### Next Steps
