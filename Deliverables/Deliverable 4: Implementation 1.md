@@ -34,6 +34,11 @@ Pull request: https://[github.com/N1ckP3rsl3y/TheBubbleBots/pulls](https://gith
 Implemented by: Elian \
 Approved by: Nick P\
 
+Requirement: Create new webpage with a game view
+Issue: [https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/29](https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/29)\
+Pull request: https://[github.com/N1ckP3rsl3y/TheBubbleBots/pulls](https://github.com/N1ckP3rsl3y/TheBubbleBots/pull/29)\
+Implemented by: Jeysen \
+Approved by: Nick P\
 
 ### Tests
 
