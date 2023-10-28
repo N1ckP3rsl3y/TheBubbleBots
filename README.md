@@ -11,23 +11,23 @@ Make sure to have the following Prerequisites installed on your local machine
 - Web browser (e.g. Google Chrome, Firefox, Safari)
 - Code editor (e.g. Visual Studio Code, Xcode)
   
-### Installing
+### Installation
 If you would like to install the development on your local machine, we recommend doing the following:
 - Clone the repository to your local machine using:
     git clone https://github.com/N1ckP3rsl3y/TheBubbleBots.git
 - cd into the directory
     cd TheBubbleBots
   
-## Running the tests
+## Running the Tests
 The following will show you how to run automated tests for the webpage game
 
-### Break down into end-to-end tests
+### End-to-End Tests
 The following tests will ensure that the game works correctly with all components.
 - To run end-to-end tests, we recommend doing the following:
     Use js as the web testing framework (e.g. Pytest)
     Use GitHub auctions to automatically run tests every time a pull or push request occurs.
     
-### And coding style tests
+### Coding Style Tests
 The following tests ensure that the code meets the coding standards.
 * [cpplint](https://github.com/cpplint/cpplint) - used for C testing
 * [ESLint](https://eslint.org/) - used for JavaScript testing 
