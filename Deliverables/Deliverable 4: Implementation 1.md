@@ -65,7 +65,7 @@ https://github.com/N1ckP3rsl3y/TheBubbleBots/blob/main/README.md
 ### Look & Feel
 
 The approach we used to design our landing page was HTML and CSS. 
-We started off by creating a page that has a navigation bar that allows you to switch between the main page and an about page to describe how to play the game. There is a welcome message right In the middle of the page welcoming the user to the Bubblebots site and asking the user if he/she is ready to play. Under this message there is a play button that will allow the user to go to the game page and from there the user can start playing the game. This layout makes our landing page easy to use and takes the user straight to the game with just one click.
+We started off by creating a page that has a navigation bar that allows you to switch between the main page and an about page to describe how to play the game. There is a welcome message right In the middle of the page welcoming the user to the Bubblebots site and asking the user if he/she is ready to play. Under this message there is a play button that will allow the user to go to the game page and from there the user can start playing the game. This layout makes our landing page easy to use and takes the user straight to the game with just one click. Our game page implements a gameboard as well as boxes for the settings, visual representation and text explination.
 
 
 ### Lessons Learned
