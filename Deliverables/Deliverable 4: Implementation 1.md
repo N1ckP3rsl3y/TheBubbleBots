@@ -28,6 +28,12 @@ Pull request: [https://github.com/N1ckP3rsl3y/TheBubbleBots/pulls](https://githu
 Implemented by: Tyler C\
 Approved by: Nick P\
 
+Requirement: creating a landing page with navigation  
+Issue: [https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/41](https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/41)\
+Pull request: https://[github.com/N1ckP3rsl3y/TheBubbleBots/pulls](https://github.com/N1ckP3rsl3y/TheBubbleBots/pull/48)\
+Implemented by: Elian \
+Approved by: Nick P\
+
 
 ### Tests
 
