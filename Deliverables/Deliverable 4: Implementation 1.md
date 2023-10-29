@@ -85,8 +85,4 @@ We started off by creating a page that has a navigation bar that allows you to s
 
 
 ### Demo
-
-Live web server/site – allow users to connect through the browser.\
-LANDING HOME PAGE – Provides the user with a board view, with a settings box, textural and visualization box, and feedback – no actual functionality needs to be added at this time.
-
-![Landing_Page_UI](https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/93451175/0ccde126-ca60-4f52-a975-59965d06c2aa)
+https://youtu.be/tao8dUdjP1s?si=bebbpeLnJBGHpPY7
