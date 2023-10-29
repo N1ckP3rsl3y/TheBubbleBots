@@ -1,5 +1,9 @@
 #include "server.h"
 
+int readFile(const char *filename, unsigned char **fileContent);
+void sendFile(const char *fileName, int client_socket);
+void getFileName(char *requestMsg, char *fileDest);
+
 int main()
 {
 	int server_socket;
@@ -38,4 +42,111 @@ int main()
 	printf("Server started...\n");
 
 	return 0;
+}
+
+int readFile(const char* filename, unsigned char **fileContent)
+{
+	int length;
+	char openMethod[MAX_METHOD_SIZE] = "r";
+
+	// Check if the server is sending binary information (picture)
+	if(strstr(filename, ".jpeg"))
+	{
+		// Set open method of the file to read binary
+		strcpy(openMethod, "rb");
+	}
+	FILE *filePtr = fopen(filename, openMethod);
+
+	fseek(filePtr, 0, SEEK_END);
+	length = ftell(filePtr);
+
+	fseek(filePtr, 0, SEEK_SET);
+
+	*fileContent = malloc(length + 1);
+	fread(*fileContent, sizeof(unsigned char), length, filePtr);
+	(*fileContent)[length] = 0;
+	fclose(filePtr);
+
+	return length;
+}
+
+void sendFile(const char *fileName, int client_socket)
+{
+	char resp[STD_RESPONSE] = "HTTP/1.0 200 OK\r\n"
+              	  			  "Server: webserver-c\r\n"
+              	  			  "Content-Type: ";
+
+    int fileLength, client, sent = 0;
+    unsigned char *fileContent;
+    char contentSize[NUM_CONTENT_SIZE];
+
+    // Get file content
+    fileLength = readFile(fileName, &fileContent);
+
+    // Set content type of the response value
+    if(strstr(fileName, ".html"))
+    {
+    	strcat(resp, "text/html");
+    }
+    else if(strstr(fileName, ".css"))
+    {
+    	strcat(resp, "text/css");
+    }
+    else if(strstr(fileName, ".jpeg"))
+    {
+    	strcat(resp, "image/jpeg");
+    }
+    strcat(resp, "\r\n");
+
+    sprintf(contentSize, "%d", fileLength);
+    strcat(resp, "Content-Length: ");
+    strncat(resp, contentSize, strlen(contentSize));
+
+    strcat(resp, "\r\n\r\n");
+
+	while(sent < strlen(resp))
+	{
+		sent += write(client_socket, resp+sent, strlen(resp)-sent);
+	}
+	sent = 0;
+
+	while(sent < fileLength)
+	{
+		sent += write(client_socket, fileContent+sent, fileLength);
+	}
+}
+
+void getFileName(char *requestMsg, char *fileDest)
+{
+    int reqIndex = 0, fileIndex = 0;
+
+	if(strncmp(requestMsg, "GET / ", 6) == STR_EQ ||
+	   strncmp(requestMsg, "GET /index.html", 15) == STR_EQ)
+    {
+        strcat(fileDest, "index.html");
+    }
+    else if(strncmp("GET /game.html", requestMsg, 14) == STR_EQ)
+    {
+        strcat(fileDest, "game.html");
+    }
+    else if(strncmp("GET /test.css", requestMsg, 13) == STR_EQ)
+    {
+        strcat(fileDest, "test.css");
+    }
+    else if(strncmp("GET /styles.css.css", requestMsg, 19) == STR_EQ)
+    {
+    	strcat(fileDest, "styles.css.css");
+    }
+    else if(strncmp("GET /logo.jpeg", requestMsg, 14) == STR_EQ)
+    {
+    	strcat(fileDest, "logo.jpeg");
+    }
+    else if(strncmp("GET /background.jpeg", requestMsg, 20) == STR_EQ)
+    {
+    	strcat(fileDest, "background.jpeg");
+    }
+    else if(strncmp("GET /checkers.css", requestMsg, 17) == STR_EQ)
+    {
+    	strcat(fileDest, "checkers.css");
+    }
 }
