@@ -16,8 +16,9 @@ Bubble Bots is a web-based application that allows students, gamers, and develop
 
 
 Requirement: As a programmer, I want to add some modifications to my code so that it can meet the requirements.\
-Issue: https://github.com/N1ckP3rsl3y/TheBubbleBots/issues \
-Pull request: https://github.com/N1ckP3rsl3y/TheBubbleBots/pulls \
+             Requirement helper: [https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/29](https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/29) \
+Issue: [https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/22](https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/22)  \
+Pull request: [https://github.com/N1ckP3rsl3y/TheBubbleBots/pulls](https://github.com/N1ckP3rsl3y/TheBubbleBots/pull/48) \
 Implemented by: Nick R\
 Approved by: Nick P\
 Print screen: A print screen that depicts the implemented feature (if applicable)
