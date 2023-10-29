@@ -3,6 +3,10 @@
 int readFile(const char *filename, unsigned char **fileContent);
 void sendFile(const char *fileName, int client_socket);
 void getFileName(char *requestMsg, char *fileDest);
+void *handle_client(void *args);
+void getExtension(char delim, const char *inputChar, char *extention);
+
+pthread_mutex_t mutex;
 
 int main()
 {
@@ -40,6 +44,16 @@ int main()
 	}
 
 	printf("Server started...\n");
+
+	while(true)
+	{
+    	pthread_t threadID; // Not used
+		int client_socket = accept(server_socket, NULL, NULL);
+
+        pthread_mutex_lock(&mutex);
+
+        pthread_create(&threadID, NULL, handle_client, (void *)&client_socket);
+	}
 
 	return 0;
 }
@@ -149,4 +163,24 @@ void getFileName(char *requestMsg, char *fileDest)
     {
     	strcat(fileDest, "checkers.css");
     }
+}
+
+void *handle_client(void *args)
+{
+    int client_socket = *((int *) args);
+    pthread_mutex_unlock(&mutex);
+    char requestMsg[STD_RECIEVE], fileName[MAX_FILE_NAME];
+
+    recv(client_socket, requestMsg, STD_RECIEVE, 0);
+
+    getFileName(requestMsg, fileName);
+
+    if(fileName[0] != '\0')
+    {
+        sendFile(fileName, client_socket);
+    }
+
+    close(client_socket);
+
+    return NULL;
 }
