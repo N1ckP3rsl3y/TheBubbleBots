@@ -3,17 +3,14 @@
 int readFile(const char *filename, unsigned char **fileContent);
 void sendFile(const char *fileName, int client_socket);
 void getFileName(char *requestMsg, char *fileDest);
-void *handle_client(void *args);
+void handle_client(int args);
 void getExtension(char delim, const char *inputChar, char *extention);
-
-pthread_mutex_t mutex;
 
 int main()
 {
 	int server_socket;
 	struct sockaddr_in server_address;
 	int bind_res, listen_res;
-    struct sockaddr_in client_addr;
     socklen_t client_size;
 
 	signal(SIGPIPE, SIG_IGN);
@@ -50,9 +47,7 @@ int main()
     	pthread_t threadID; // Not used
 		int client_socket = accept(server_socket, NULL, NULL);
 
-        pthread_mutex_lock(&mutex);
-
-        pthread_create(&threadID, NULL, handle_client, (void *)&client_socket);
+        handle_client(client_socket);
 	}
 
 	return 0;
@@ -61,21 +56,25 @@ int main()
 int readFile(const char* filename, unsigned char **fileContent)
 {
 	int length;
-	char openMethod[MAX_METHOD_SIZE] = "r";
+
+	char openMethod[MAX_METHOD_SIZE];
+	openMethod[0] = 'r';
+	openMethod[1] = '\0';
 
 	// Check if the server is sending binary information (picture)
 	if(strstr(filename, ".jpeg"))
 	{
 		// Set open method of the file to read binary
-		strcpy(openMethod, "rb");
+		openMethod[0] = 'r';
+		openMethod[1] = 'b';
+		openMethod[2] = '\0';
 	}
+
 	FILE *filePtr = fopen(filename, openMethod);
 
 	fseek(filePtr, 0, SEEK_END);
 	length = ftell(filePtr);
-
 	fseek(filePtr, 0, SEEK_SET);
-
 	*fileContent = malloc(length + 1);
 	fread(*fileContent, sizeof(unsigned char), length, filePtr);
 	(*fileContent)[length] = 0;
@@ -88,10 +87,11 @@ void sendFile(const char *fileName, int client_socket)
 {
 	char resp[STD_RESPONSE] = "HTTP/1.0 200 OK\r\n"
               	  			  "Server: webserver-c\r\n"
+              	  			  "Keep-Alive: timeout=5, max=999\r\n"
               	  			  "Content-Type: ";
 
-    int fileLength, client, sent = 0;
-    unsigned char *fileContent;
+    int fileLength;
+    unsigned char *fileContent = (unsigned char*)malloc(sizeof(unsigned char) * STD_RECIEVE);
     char contentSize[NUM_CONTENT_SIZE];
 
     // Get file content
@@ -110,68 +110,62 @@ void sendFile(const char *fileName, int client_socket)
     {
     	strcat(resp, "image/jpeg");
     }
+
     strcat(resp, "\r\n");
 
+    // Set content length
     sprintf(contentSize, "%d", fileLength);
     strcat(resp, "Content-Length: ");
     strncat(resp, contentSize, strlen(contentSize));
 
+    // Finish headers
     strcat(resp, "\r\n\r\n");
 
-	while(sent < strlen(resp))
-	{
-		sent += write(client_socket, resp+sent, strlen(resp)-sent);
-	}
-	sent = 0;
+	write(client_socket, resp, strlen(resp));
+    write(client_socket, fileContent, fileLength);
 
-	while(sent < fileLength)
-	{
-		sent += write(client_socket, fileContent+sent, fileLength);
-	}
+	free(fileContent);
 }
 
 void getFileName(char *requestMsg, char *fileDest)
 {
-    int reqIndex = 0, fileIndex = 0;
-
 	if(strncmp(requestMsg, "GET / ", 6) == STR_EQ ||
 	   strncmp(requestMsg, "GET /index.html", 15) == STR_EQ)
     {
-        strcat(fileDest, "index.html");
+        strcpy(fileDest, "index.html");
     }
     else if(strncmp("GET /game.html", requestMsg, 14) == STR_EQ)
     {
-        strcat(fileDest, "game.html");
+        strcpy(fileDest, "game.html");
     }
     else if(strncmp("GET /test.css", requestMsg, 13) == STR_EQ)
     {
-        strcat(fileDest, "test.css");
+        strcpy(fileDest, "test.css");
     }
     else if(strncmp("GET /styles.css.css", requestMsg, 19) == STR_EQ)
     {
-    	strcat(fileDest, "styles.css.css");
+    	strcpy(fileDest, "styles.css.css");
     }
     else if(strncmp("GET /logo.jpeg", requestMsg, 14) == STR_EQ)
     {
-    	strcat(fileDest, "logo.jpeg");
+    	strcpy(fileDest, "logo.jpeg");
     }
     else if(strncmp("GET /background.jpeg", requestMsg, 20) == STR_EQ)
     {
-    	strcat(fileDest, "background.jpeg");
+    	strcpy(fileDest, "background.jpeg");
     }
     else if(strncmp("GET /checkers.css", requestMsg, 17) == STR_EQ)
     {
-    	strcat(fileDest, "checkers.css");
+    	strcpy(fileDest, "checkers.css");
     }
 }
 
-void *handle_client(void *args)
+void handle_client(int client_socket)
 {
-    int client_socket = *((int *) args);
-    pthread_mutex_unlock(&mutex);
-    char requestMsg[STD_RECIEVE], fileName[MAX_FILE_NAME];
 
-    recv(client_socket, requestMsg, STD_RECIEVE, 0);
+    char requestMsg[STD_RECIEVE], fileName[MAX_FILE_NAME] = "\0";
+
+    read(client_socket, (void *)requestMsg, (size_t)STD_RECIEVE);
 
     getFileName(requestMsg, fileName);
 
@@ -179,8 +173,5 @@ void *handle_client(void *args)
     {
         sendFile(fileName, client_socket);
     }
-
     close(client_socket);
-
-    return NULL;
 }
