@@ -1,28 +1,40 @@
-import pytest
 import requests
-import subprocess
-import time
 
-SERVER_URL = "http://127.0.0.1:PORT_NUMBER"  # replace with our server addr info
+BASE_URL = "http://www.bubblebots.xyz:1034/"
 
-# before running tests, start server, end when tests are done
-@pytest.fixture(scope="module")
-def server_process():
-    # start the server
-    process = subprocess.Popen(["./server"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-    time.sleep(10)  # give server some time to start
-    yield process
-    process.terminate()
+def get_response_for_file(file_name):
+    url = BASE_URL
+    if file_name:
+        url += file_name
+    return requests.get(url)
 
-def test_index(server_process):
-    response = requests.get(f"{SERVER_URL}/")
+def test_index_html():
+    response = get_response_for_file("index.html")
     assert response.status_code == 200
-    assert "Expected content in index.html" in response.text
+    assert b"<html" in response.content
 
-def test_test_html(server_process):
-    response = requests.get(f"{SERVER_URL}/test.html")
+def test_game_html():
+    response = get_response_for_file("game.html")
     assert response.status_code == 200
-    assert "Expected content in test.html" in response.text
 
-# ... add additional tests for other files
+def test_test_css():
+    response = get_response_for_file("test.css")
+    assert response.status_code == 200
 
+def test_styles_css_css():
+    response = get_response_for_file("styles.css.css")
+    assert response.status_code == 200
+
+def test_logo_jpeg():
+    response = get_response_for_file("logo.jpeg")
+    assert response.status_code == 200
+    assert response.headers['Content-Type'] == "image/jpeg"
+
+def test_background_jpeg():
+    response = get_response_for_file("background.jpeg")
+    assert response.status_code == 200
+    assert response.headers['Content-Type'] == "image/jpeg"
+
+def test_checkers_css():
+    response = get_response_for_file("checkers.css")
+    assert response.status_code == 200
