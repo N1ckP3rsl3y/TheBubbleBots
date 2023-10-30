@@ -28,18 +28,20 @@ Issue: [https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/49](https://github.c
 Pull request: [https://github.com/N1ckP3rsl3y/TheBubbleBots/pulls](https://github.com/N1ckP3rsl3y/TheBubbleBots/pull/48) \
 Implemented by: Tyler C\
 Approved by: Nick P\
+![github_actions](https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/95588532/033ec8fc-d7b1-48ef-9baf-16c21c7b95b5) 
+
 
 Requirement: creating a landing page with navigation  
 Issue: [https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/41](https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/41)\
 Pull request: https://[github.com/N1ckP3rsl3y/TheBubbleBots/pulls](https://github.com/N1ckP3rsl3y/TheBubbleBots/pull/48)\
 Implemented by: Elian \
-Approved by: Nick P\
+Approved by: Nick P
 
 Requirement: Create new webpage with a game view    
 Issue: [https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/29](https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/29)\
 Pull request: https://[github.com/N1ckP3rsl3y/TheBubbleBots/pulls](https://github.com/N1ckP3rsl3y/TheBubbleBots/pull/29)\
 Implemented by: Jeysen \
-Approved by: Nick P\
+Approved by: Nick P
 
 Requirement: As a game enthusiast, I want to have a dedicated page when playing Checkers on a website.
              (Requirement helper: https://github.com\N1ckP3rsl3y\TheBubbleBots\issues\50) \
