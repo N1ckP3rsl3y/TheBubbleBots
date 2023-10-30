@@ -65,7 +65,7 @@ The team will work from their current knowledge base. And when something is enco
 
 ### Deployment
 
-The BubbleBots will be utilizing the Oracle cloud system to deploy our stable version. Oracle is a free-to-use cloud software architecture manager that utilizes tools to help manage, migrate, and build a sound application.
+The BubbleBots will be utilizing hostwinds to house and deploy our website for public use.
 
 ### Licensing
 
@@ -82,6 +82,8 @@ We started off by creating a page that has a navigation bar that allows you to s
 
 
 ### Lessons Learned
+
+The team learned how to work in subteams, come together, and create a working website. The front-end team learned how to correctly format and organize a web page. This includes making a cut-out game board along with settings, text output, and visualization boxes to take up different sections of the display. The front-end team divided up these objects so later implementation of game pieces and AI responses will be easy to implement when the team is ready. The back-end team learned how to create a whole web server in C using sockets and threads. Pytest is still something the team is learning, but it will be a tool that both the front and back ends will utilize. Overall, the team expanded their skills in something out of their usual comfort zone to put together a working website ready for the next implementation.
 
 
 ### Demo
