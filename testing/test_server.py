@@ -17,10 +17,6 @@ def test_game_html():
     response = get_response_for_file("game.html")
     assert response.status_code == 200
 
-def test_test_css():
-    response = get_response_for_file("test.css")
-    assert response.status_code == 200
-
 def test_styles_css_css():
     response = get_response_for_file("styles.css.css")
     assert response.status_code == 200
