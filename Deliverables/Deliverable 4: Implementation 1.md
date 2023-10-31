@@ -48,16 +48,16 @@ Implemented by: Jeysen \
 Approved by: Nick P, Jeysen A, Ibrahim H, Tyler C, Elian Z, Nick R \
 
 Requirement: As a game enthusiast, I want to have a dedicated page when playing Checkers on a website.
-Issue: https://[github.com\N1ckP3rsl3y\TheBubbleBots\issues\22](https://github.com\N1ckP3rsl3y\TheBubbleBots\issues\22) \
-       (Issue helper: https://[github.com\N1ckP3rsl3y\TheBubbleBots\issues\50](https://github.com\N1ckP3rsl3y\TheBubbleBots\issues\50)) \
+Issue: https://[github.com/N1ckP3rsl3y/TheBubbleBots/issues/22](https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/22) \
+       (Issue helper: https://[github.com/N1ckP3rsl3y/TheBubbleBots/issues/50](https://github.com/N1ckP3rsl3y/TheBubbleBots/issues\50)) \
 Pull request: https://[github.com/N1ckP3rsl3y/TheBubbleBots/pulls/48](https://github.com/N1ckP3rsl3y/TheBubbleBots/pulls/48) \
 Implemented by: Nick P \
 Approved by: Nick P, Jeysen A, Ibrahim H, Tyler C, Elian Z, Nick R \
 
 Requirement: As a game enthusiast, I want to have a dedicated page when playing Checkers on a website. \
 Issue: [https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/30](https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/22) \
-       (Issue helper: https://[github.com\N1ckP3rsl3y\TheBubbleBots\issues\31](https://github.com\N1ckP3rsl3y\TheBubbleBots\issues\31) \
-                      https://[github.com\N1ckP3rsl3y\TheBubbleBots\issues\30](https://github.com\N1ckP3rsl3y\TheBubbleBots\issues\30)) \
+       (Issue helper: https://[github.com/N1ckP3rsl3y/TheBubbleBots/issues/31](https://github.com/N1ckP3rsl3y/TheBubbleBots/issues\31) \
+                      https://[github.com/N1ckP3rsl3y/TheBubbleBots/issues/30](https://github.com/N1ckP3rsl3y/TheBubbleBots/issues\30)) \
 Pull request: https://[github.com/N1ckP3rsl3y/TheBubbleBots/pulls/48](https://github.com/N1ckP3rsl3y/TheBubbleBots/pulls/48) \
 Implemented by: Ibrahim H \
 Approved by: Nick P, Jeysen A, Ibrahim H, Tyler C, Elian Z, Nick R
