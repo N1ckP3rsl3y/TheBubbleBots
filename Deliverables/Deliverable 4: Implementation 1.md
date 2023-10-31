@@ -50,6 +50,12 @@ Pull request: https://github.com\N1ckP3rsl3y\TheBubbleBots\pull\48 \
 Implemented by: Nick P \
 Approved by: Nick P, Jeysen A, Nick R, Ibrahim H, Tyler C
 
+Requirement: As a game enthusiast, I want to have a dedicated page when playing Checkers on a website.
+Issue: [https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/30](https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/30)
+Pull request: [https://github.com/N1ckP3rsl3y/TheBubbleBots/pulls/48](https://github.com/N1ckP3rsl3y/TheBubbleBots/pulls/48)
+Implemented by: Everyone
+Approved by: Nick P, Jeysen A, Nick R, Ibrahim H, Tyler C, Elian Z
+
 ### Tests
 
 We will mainly be using pytest for back end and some front end.
