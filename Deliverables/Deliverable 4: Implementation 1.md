@@ -16,11 +16,39 @@ Bubble Bots is a web-based application that allows students, gamers, and develop
 
 
 Requirement: As a programmer, I want to add some modifications to my code so that it can meet the requirements.\
-Issue: https://github.com/N1ckP3rsl3y/TheBubbleBots/issues \
-Pull request: https://github.com/N1ckP3rsl3y/TheBubbleBots/pulls \
+             Requirement helper: [https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/29](https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/29) \
+Issue: [https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/22](https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/22)  \
+Pull request: [https://github.com/N1ckP3rsl3y/TheBubbleBots/pulls](https://github.com/N1ckP3rsl3y/TheBubbleBots/pull/48) \
 Implemented by: Nick R\
 Approved by: Nick P\
 Print screen: A print screen that depicts the implemented feature (if applicable)
+
+Requirement: Automated testing of server\
+Issue: [https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/49](https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/49) \
+Pull request: [https://github.com/N1ckP3rsl3y/TheBubbleBots/pulls](https://github.com/N1ckP3rsl3y/TheBubbleBots/pull/48) \
+Implemented by: Tyler C\
+Approved by: Nick P\
+![github_actions](https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/95588532/033ec8fc-d7b1-48ef-9baf-16c21c7b95b5) 
+
+
+Requirement: creating a landing page with navigation  
+Issue: [https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/41](https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/41)\
+Pull request: https://[github.com/N1ckP3rsl3y/TheBubbleBots/pulls](https://github.com/N1ckP3rsl3y/TheBubbleBots/pull/48)\
+Implemented by: Elian \
+Approved by: Nick P
+
+Requirement: Create new webpage with a game view    
+Issue: [https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/29](https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/29)\
+Pull request: https://[github.com/N1ckP3rsl3y/TheBubbleBots/pulls](https://github.com/N1ckP3rsl3y/TheBubbleBots/pull/29)\
+Implemented by: Jeysen \
+Approved by: Nick P
+
+Requirement: As a game enthusiast, I want to have a dedicated page when playing Checkers on a website.
+             (Requirement helper: https://github.com\N1ckP3rsl3y\TheBubbleBots\issues\50) \
+Issue: https://github.com\N1ckP3rsl3y\TheBubbleBots\issues\22 \
+Pull request: https://github.com\N1ckP3rsl3y\TheBubbleBots\pull\48 \
+Implemented by: Nick P \
+Approved by: Nick P, Jeysen A, Nick R, Ibrahim H, Tyler C
 
 ### Tests
 
@@ -39,7 +67,7 @@ The team will work from their current knowledge base. And when something is enco
 
 ### Deployment
 
-The BubbleBots will be utilizing the Oracle cloud system to deploy our stable version. Oracle is a free-to-use cloud software architecture manager that utilizes tools to help manage, migrate, and build a sound application.
+The BubbleBots will be utilizing hostwinds to house and deploy our website for public use.
 
 ### Licensing
 
@@ -52,15 +80,13 @@ https://github.com/N1ckP3rsl3y/TheBubbleBots/blob/main/README.md
 ### Look & Feel
 
 The approach we used to design our landing page was HTML and CSS. 
-We started off by creating a page that has a navigation bar that allows you to switch between the main page and an about page to describe how to play the game. There is a welcome message right In the middle of the page welcoming the user to the Bubblebots site and asking the user if he/she is ready to play. Under this message there is a play button that will allow the user to go to the game page and from there the user can start playing the game. This layout makes our landing page easy to use and takes the user straight to the game with just one click.
+We started off by creating a page that has a navigation bar that allows you to switch between the main page and an about page to describe how to play the game. There is a welcome message right In the middle of the page welcoming the user to the Bubblebots site and asking the user if he/she is ready to play. Under this message there is a play button that will allow the user to go to the game page and from there the user can start playing the game. This layout makes our landing page easy to use and takes the user straight to the game with just one click. Our game page implements a gameboard as well as boxes for the settings, visual representation and text explination.
 
 
 ### Lessons Learned
 
+The team learned how to work in subteams, come together, and create a working website. The front-end team learned how to correctly format and organize a web page. This includes making a cut-out game board along with settings, text output, and visualization boxes to take up different sections of the display. The front-end team divided up these objects so later implementation of game pieces and AI responses will be easy to implement when the team is ready. The back-end team learned how to create a whole web server in C using sockets and threads. Pytest is still something the team is learning, but it will be a tool that both the front and back ends will utilize. Overall, the team expanded their skills in something out of their usual comfort zone to put together a working website ready for the next implementation.
+
 
 ### Demo
-
-Live web server/site – allow users to connect through the browser.\
-LANDING HOME PAGE – Provides the user with a board view, with a settings box, textural and visualization box, and feedback – no actual functionality needs to be added at this time.
-
-![Landing_Page_UI](https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/93451175/0ccde126-ca60-4f52-a975-59965d06c2aa)
+https://youtu.be/tao8dUdjP1s?si=bebbpeLnJBGHpPY7
