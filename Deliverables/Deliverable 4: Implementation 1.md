@@ -79,7 +79,7 @@ The team will work from their current knowledge base. And when something is enco
 
 ### Deployment
 
-The BubbleBots will be utilizing hostwinds to house and deploy our website for public use.
+Because the created web server is written in C, we will be using HostWinds for people to connect to. We will then use a Linux-provided ability to run a program in the background without the user being active (logged in) on the server. Furthermore, we will make use of paying for a domain for the website. This is to not provide someone with an IP which is easy to forget. So, the link to this web site is http://www.bubblebots.xyz:1034/.
 
 ### Licensing
 
