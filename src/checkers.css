@@ -4,33 +4,30 @@ html {
 body {
   overflow-y: hidden;
   height: 100%;
-  display: flex;
 }
 .box {
-  display: inline-block;
-  width: 12%;
-  height: 11.95%;
-  justify-content: auto;
+  display: inline;
+  padding-left: 12%;
+  padding-top: 10%;
 }
 
 .container {
-  background-color: rgba(139, 69, 19, 1);
-  border-radius: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
-  padding-top: 0px;
-  align-content: left;
+  display: inline-grid;
+  grid-template-columns: repeat(auto-fit, 12.5%);
+  grid-template-rows: repeat(auto-fit, 12.5%);
   position: fixed;
   top: 15%;
   left: .25%;
-  height: 70%;
-  width: 40%;
+  min-height: 70%;
+  min-width: 40%;
 }
+
 .first-color {
-  background-color: black;
-}
-.second-color {
   background-color: red;
+}
+
+.second-color {
+  background-color: black;
 }
 
 .settings {
@@ -73,4 +70,12 @@ body {
   position: fixed;
   top: 90%;
   padding-left: 90px;
+}
+
+header {
+    max-height: 8%;
+}
+
+header > li > a {
+    font-size: 20px;
 }
