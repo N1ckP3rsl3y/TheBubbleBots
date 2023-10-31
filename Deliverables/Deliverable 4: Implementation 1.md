@@ -64,7 +64,9 @@ Approved by: Nick P, Jeysen A, Ibrahim H, Tyler C, Elian Z, Nick R
 
 ### Tests
 
-We will mainly be using pytest for back end and some front end.
+The main testing frameworks that will utilize PyTest and Jest. As of the writing of this deliverable, the only framework in use is PyTest to make sure the server (https://github.com/N1ckP3rsl3y/TheBubbleBots/blob/main/src/server.c and note: the test links can be found later in this section) properly sends the HTML/CSS files along with the required pictures. These tests through PyTest can be found on GitHub Actions (https://github.com/N1ckP3rsl3y/TheBubbleBots/blob/main/.github/workflows/python-tests.yml) or in the "testing" section of the code (https://github.com/N1ckP3rsl3y/TheBubbleBots/tree/main/testing) to be run on GitHub Actions and locally. As proof of the tests being run on GitHub Actions, we can resort to the smae photo as shown in the "Implemented Requirements" section: \
+![github_actions](https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/95588532/033ec8fc-d7b1-48ef-9baf-16c21c7b95b5) \
+Jest will later be implemented to test JavaScript functions that will add functionality to the game page.
 
 ### Adopted Technologies
 
