@@ -1,0 +1,81 @@
+html {
+  height: 100%;
+}
+body {
+  overflow-y: hidden;
+  height: 100%;
+}
+.box {
+  display: inline;
+  padding-left: 12%;
+  padding-top: 10%;
+}
+
+.container {
+  display: inline-grid;
+  grid-template-columns: repeat(auto-fit, 12.5%);
+  grid-template-rows: repeat(auto-fit, 12.5%);
+  position: fixed;
+  top: 15%;
+  left: .25%;
+  min-height: 70%;
+  min-width: 40%;
+}
+
+.first-color {
+  background-color: red;
+}
+
+.second-color {
+  background-color: black;
+}
+
+.settings {
+  text-align: center;
+  width: 25%;
+  top: 52.5%;
+  border: 2px solid black;
+  min-height: 32.5%;
+  min-width: 44.75%;
+  margin: 0 auto;
+  border-radius: 0px;
+  float: left;
+  align-content: left;
+  position: fixed;
+  right: .25%;
+}
+
+.textExplanation {
+  text-align: center;
+  top: 15%;
+  border: 2px solid black;
+  min-height: 32.5%;
+  min-width: 44.75%;
+  margin: 0 auto;
+  border-radius: 0px;
+  align-content: left;
+  position: fixed;
+  right: .25%;
+}
+
+.visualization {
+  text-align: center;
+  width: 100%;
+  min-height: 25%;
+  min-width: 50%;
+  border: 2px solid black;
+  margin: 0 auto;
+  border-radius: 0px;
+  align-content: center;
+  position: fixed;
+  top: 90%;
+  padding-left: 90px;
+}
+
+header {
+    max-height: 8%;
+}
+
+header > li > a {
+    font-size: 20px;
+}
