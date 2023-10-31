@@ -16,45 +16,51 @@ Bubble Bots is a web-based application that allows students, gamers, and develop
 
 
 Requirement: As a programmer, I want to add some modifications to my code so that it can meet the requirements.\
-             Requirement helper: [https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/29](https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/29) \
-Issue: [https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/22](https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/22)  \
-Pull request: [https://github.com/N1ckP3rsl3y/TheBubbleBots/pulls](https://github.com/N1ckP3rsl3y/TheBubbleBots/pull/48) \
+Issue: https://[github.com/N1ckP3rsl3y/TheBubbleBots/issues/22](https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/22) \
+       (Issue helper: https://[github.com/N1ckP3rsl3y/TheBubbleBots/issues/29](https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/29)) \
+Pull request: https://[github.com/N1ckP3rsl3y/TheBubbleBots/pulls/48](https://github.com/N1ckP3rsl3y/TheBubbleBots/pull/48) \
 Implemented by: Nick R\
-Approved by: Nick P\
-Print screen: A print screen that depicts the implemented feature (if applicable)
+Approved by: Nick P, Jeysen A, Ibrahim H, Tyler C, Elian Z, Nick R\
 
-Requirement: Automated testing of server\
-Issue: [https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/49](https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/49) \
-Pull request: [https://github.com/N1ckP3rsl3y/TheBubbleBots/pulls](https://github.com/N1ckP3rsl3y/TheBubbleBots/pull/48) \
+Requirement: As a programmer, I want to add some modifications to my code so that it can meet the requirements.\
+Issue: https://[github.com/N1ckP3rsl3y/TheBubbleBots/issues/49](https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/22) \
+       (Issue helper: https://[github.com/N1ckP3rsl3y/TheBubbleBots/issues/51](https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/51)) \
+Pull request: https://[github.com/N1ckP3rsl3y/TheBubbleBots/pulls/48](https://github.com/N1ckP3rsl3y/TheBubbleBots/pull/48) \
 Implemented by: Tyler C\
-Approved by: Nick P\
+Approved by: Nick P, Jeysen A, Ibrahim H, Tyler C, Elian Z, Nick R\
 ![github_actions](https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/95588532/033ec8fc-d7b1-48ef-9baf-16c21c7b95b5) 
 
 
-Requirement: creating a landing page with navigation  
-Issue: [https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/41](https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/41)\
-Pull request: https://[github.com/N1ckP3rsl3y/TheBubbleBots/pulls](https://github.com/N1ckP3rsl3y/TheBubbleBots/pull/48)\
+Requirement: As a programmer, I want to add some modifications to my code so that it can meet the requirements.\
+Issue: https://[github.com/N1ckP3rsl3y/TheBubbleBots/issues/41](https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/22)\
+       (Issue helper: https://[github.com/N1ckP3rsl3y/TheBubbleBots/issues/52](https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/52)) \
+Pull request: [https://github.com/N1ckP3rsl3y/TheBubbleBots/pulls/48](https://github.com/N1ckP3rsl3y/TheBubbleBots/pull/48)\
 Implemented by: Elian \
-Approved by: Nick P
+Approved by: Nick P, Jeysen A, Ibrahim H, Tyler C, Elian Z, Nick R \
 
-Requirement: Create new webpage with a game view    
-Issue: [https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/29](https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/29)\
-Pull request: https://[github.com/N1ckP3rsl3y/TheBubbleBots/pulls](https://github.com/N1ckP3rsl3y/TheBubbleBots/pull/29)\
+Requirement: As a programmer, I want to add some modifications to my code so that it can meet the requirements. \  
+Issue: https://[github.com/N1ckP3rsl3y/TheBubbleBots/issues/29](https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/22) \
+       (Issue helpers: https://[github.com/N1ckP3rsl3y/TheBubbleBots/issues/29](https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/29) \
+                       https://[github.com/N1ckP3rsl3y/TheBubbleBots/issues/30](https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/30) \
+                       https://[github.com/N1ckP3rsl3y/TheBubbleBots/issues/31](https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/31)) \
+Pull request: https://[github.com/N1ckP3rsl3y/TheBubbleBots/pulls/48](https://github.com/N1ckP3rsl3y/TheBubbleBots/pull/48)\
 Implemented by: Jeysen \
-Approved by: Nick P
+Approved by: Nick P, Jeysen A, Ibrahim H, Tyler C, Elian Z, Nick R \
 
 Requirement: As a game enthusiast, I want to have a dedicated page when playing Checkers on a website.
-             (Requirement helper: https://github.com\N1ckP3rsl3y\TheBubbleBots\issues\50) \
-Issue: https://github.com\N1ckP3rsl3y\TheBubbleBots\issues\22 \
-Pull request: https://github.com\N1ckP3rsl3y\TheBubbleBots\pull\48 \
+Issue: https://[github.com\N1ckP3rsl3y\TheBubbleBots\issues\22](https://github.com\N1ckP3rsl3y\TheBubbleBots\issues\22) \
+       (Issue helper: https://[github.com\N1ckP3rsl3y\TheBubbleBots\issues\50](https://github.com\N1ckP3rsl3y\TheBubbleBots\issues\50)) \
+Pull request: https://[github.com/N1ckP3rsl3y/TheBubbleBots/pulls/48](https://github.com/N1ckP3rsl3y/TheBubbleBots/pulls/48) \
 Implemented by: Nick P \
-Approved by: Nick P, Jeysen A, Nick R, Ibrahim H, Tyler C
+Approved by: Nick P, Jeysen A, Ibrahim H, Tyler C, Elian Z, Nick R \
 
-Requirement: As a game enthusiast, I want to have a dedicated page when playing Checkers on a website.
-Issue: [https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/30](https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/30)
-Pull request: [https://github.com/N1ckP3rsl3y/TheBubbleBots/pulls/48](https://github.com/N1ckP3rsl3y/TheBubbleBots/pulls/48)
-Implemented by: Everyone
-Approved by: Nick P, Jeysen A, Nick R, Ibrahim H, Tyler C, Elian Z
+Requirement: As a game enthusiast, I want to have a dedicated page when playing Checkers on a website. \
+Issue: [https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/30](https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/22) \
+       (Issue helper: https://[github.com\N1ckP3rsl3y\TheBubbleBots\issues\31](https://github.com\N1ckP3rsl3y\TheBubbleBots\issues\31) \
+                      https://[github.com\N1ckP3rsl3y\TheBubbleBots\issues\30](https://github.com\N1ckP3rsl3y\TheBubbleBots\issues\30)) \
+Pull request: https://[github.com/N1ckP3rsl3y/TheBubbleBots/pulls/48](https://github.com/N1ckP3rsl3y/TheBubbleBots/pulls/48) \
+Implemented by: Ibrahim H \
+Approved by: Nick P, Jeysen A, Ibrahim H, Tyler C, Elian Z, Nick R
 
 ### Tests
 
