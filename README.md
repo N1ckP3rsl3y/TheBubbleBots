@@ -23,9 +23,9 @@ The following will show you how to run automated tests for the webpage game
 
 ### End-to-End Tests
 The following tests will ensure that the game works correctly with all components.
-- To run end-to-end tests, we recommend doing the following:
-    Use js as the web testing framework (e.g. Pytest)
-    Use GitHub auctions to automatically run tests every time a pull or push request occurs.
+* To run end-to-end tests, we recommend doing the following:
+  - Use js as the web testing framework (e.g. Pytest)
+  - Use GitHub actions to automatically run tests every time a pull or push request occurs.
     
 ### Coding Style Tests
 The following tests ensure that the code meets the coding standards.
