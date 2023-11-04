@@ -8,18 +8,18 @@
 ### Summary of Activities
 
 Nick R: \
-Nick P: \
+Nick P: Finished the report due for this week. Then started looking at deliverable 5 to get a head start. \
 Tyler C: \
 Jeysen A: Finished up the report due this weekend, and started implementing the deliverable 5 that is due next Sunday and assigned tasks for deliverable 5. \
 Ibrahim H: \
-Elian:  
+Elian:
 
 
 ### Project Perspective
 1. Appreciations
 
 Nick R: \
-Nick P: \
+Nick P: I appreciate that everyone was willing to shift the meeting time to Saturday due to Halloween. And they are still putting in a lot of work to get everything done. \
 Tyler C: \
 Jeysen A: I appreciate everyone for making our meetings on time and contributing to the report as well start starting to implement the deliverable that is due next week. \
 Elian Z: \
@@ -28,13 +28,13 @@ Ibrahim H:
 2. Successes
 
 Nick R: \
-Nick P: \
+Nick P: Everyone contributing to their part(s) of the project. \
 Tyler C: \
 Jeysen A: Everyone being on time and contributing to their part of the report\
 Elian Z: \
-Ibrahim H: 
+Ibrahim H:
 
-  
+
 3. Failures
 
 Nick R: None\
@@ -54,13 +54,13 @@ Elian Z: None\
 Ibrahim H: None
 
 5. What we should try next time
-   
+
 Nick R: \
-Nick P: \
+Nick P: Continue working on the deliverable and if we have time polish up some of our project. \
 Tyler C: \
 Jeysen A: Continue implementing the page for the website as well as the deliverable for next week. \
 Elian Z: \
-Ibrahim H: 
+Ibrahim H:
 
 
 ### Next Steps
