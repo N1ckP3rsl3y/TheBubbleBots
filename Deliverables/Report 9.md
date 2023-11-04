@@ -52,11 +52,11 @@ Elian Z: None
 
 Nick R: Finished up the deliverable and ask the professor for any help before the due date. \
 Nick P: Continue working on the deliverable and if we have time polish up some of our project. \
-Tyler C: Work on the next deliverable and study JavaScript to get more familiar for future logical implementations. \
+Tyler C: Work on the next deliverable and study JavaScript to get more familiar with future logical implementations. \
 Jeysen A: Continue implementing the page for the website as well as the deliverable for next week. \
 Elian Z: Continue to work on the website and getting the game started.
 
 
 ### Next Steps
 
-
+Begin implementation of deliverable 5 which will include updating and polishing our class diagram, creating an architecture diagram, and design patterns.
