@@ -12,7 +12,7 @@ Nick P: Finished the report due for this week. Then started looking at deliverab
 Tyler C: \
 Jeysen A: Finished up the report due this weekend, and started implementing the deliverable 5 that is due next Sunday and assigned tasks for deliverable 5. \
 Ibrahim H: \
-Elian:
+Elian: Team got the report done this week and is working towards having a perfect design. 
 
 
 ### Project Perspective
@@ -22,7 +22,7 @@ Nick R: I appreciate everyone for pushing the meeting back from Halloween to Sat
 Nick P: I appreciate that everyone was willing to shift the meeting time to Saturday due to Halloween. And they are still putting in a lot of work to get everything done. \
 Tyler C: \
 Jeysen A: I appreciate everyone for making our meetings on time and contributing to the report as well start starting to implement the deliverable that is due next week. \
-Elian Z: \
+Elian Z: I appreciate that most of us were able to make the meeting and work towards getting stuff done\
 Ibrahim H:
 
 2. Successes
@@ -31,7 +31,7 @@ Nick R: We helped each other understand both back and front end of the project. 
 Nick P: Everyone contributing to their part(s) of the project. \
 Tyler C: \
 Jeysen A: Everyone being on time and contributing to their part of the report\
-Elian Z: \
+Elian Z: We were able to get a working website and worked together to get the disign deliverable done.\
 Ibrahim H:
 
 
@@ -59,7 +59,7 @@ Nick R: Finished up the deliverable and ask the professor for any help before th
 Nick P: Continue working on the deliverable and if we have time polish up some of our project. \
 Tyler C: \
 Jeysen A: Continue implementing the page for the website as well as the deliverable for next week. \
-Elian Z: \
+Elian Z: Continue to work on the website and getting the game started.\
 Ibrahim H:
 
 
