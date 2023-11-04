@@ -10,7 +10,7 @@
 Nick R: \
 Nick P: \
 Tyler C: \
-Jeysen A: \
+Jeysen A: Finished up the report due this weekend, and started implementing the deliverable 5 that is due next Sunday and assigned tasks for deliverable 5. \
 Ibrahim H: \
 Elian:  
 
@@ -21,7 +21,7 @@ Elian:
 Nick R: \
 Nick P: \
 Tyler C: \
-Jeysen A: \
+Jeysen A: I appreciate everyone for making our meetings on time and contributing to the report as well start starting to implement the deliverable that is due next week. \
 Elian Z: \
 Ibrahim H:
 
@@ -30,7 +30,7 @@ Ibrahim H:
 Nick R: \
 Nick P: \
 Tyler C: \
-Jeysen A: \
+Jeysen A: Everyone being on time and contributing to their part of the report\
 Elian Z: \
 Ibrahim H: 
 
@@ -58,7 +58,7 @@ Ibrahim H: None
 Nick R: \
 Nick P: \
 Tyler C: \
-Jeysen A: \
+Jeysen A: Continue implementing the page for the website as well as the deliverable for next week. \
 Elian Z: \
 Ibrahim H: 
 
