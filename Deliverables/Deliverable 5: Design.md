@@ -17,5 +17,15 @@ Bubble Bots is a web-based application that allows students, gamers, and develop
 
 
 ### Sequence Diagram
+![Sequence Diagram](https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/72055903/4ed0816c-2317-4ae5-97c6-28262191365b)
+
+
+Use Cases: \
+1) Move Request - Allows the user to make a move that will then be displayed on screen. Then, the back-end will calculate a response by updating the position for the AI bot's decision and update the textual and visualization descriptions. \
+
+2) Update settings - This allows the user to update how they would like the AI bot to act during the next move. This will be checked for and updated after every player move, and before the bot's move.
+
+3) Give Feedback - Users can give feedback on the website when they feel that they would like to the programmers to know what's going on.
+ 
 ### Design Patterns
 ### Design Principles
