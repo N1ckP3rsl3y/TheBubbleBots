@@ -1,8 +1,8 @@
 ## Report for Week 11 Meeting
 ## Group 3: BubbleBots
 ## Date and location: November 07, 2023 (Virtual)
-## Present participants: Nicholas Persley (Manager), Nicholas Robishaw (Presenter), Elian Zamora-Rivera (Minute Taker), Jeysen Angous (Minute Taker), Tyler Chapp (Quality Assurance), Ibrahim Hmood (Presenter)
-## Missing participants: None
+## Present participants: Nicholas Persley (Manager), Nicholas Robishaw (Presenter), Elian Zamora-Rivera (Minute Taker), Jeysen Angous (Minute Taker), Tyler Chapp (Quality Assurance)
+## Missing participants: Ibrahim Hmood (Presenter)
 ## Project repo: https://github.com/N1ckP3rsl3y/TheBubbleBots
 
 ### Summary of Activities
