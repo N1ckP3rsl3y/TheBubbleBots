@@ -34,4 +34,9 @@ Use Cases:
 
 Bubble Bots is a web-based application that allows students, gamers, and developers to challenge AI in checkers. While doing so, you can see what it’s thinking, in real time, and analyze what pattern the computer is taking and what it thinks is the best option to win. An educational gaming experience into the world of AI that stands apart by not only allowing you to play but truly understanding the underlying mechanics of AI.
 
+### Behavioral Patterns(State)
+![Behavioral Patterns(State)](https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/93228715/40c9e81f-e5b0-4bcc-903f-6eb7c7c9b565)
+
+For the second design model, we chose the state design pattern, the game context class handles the game states and changes. The board game state has 3 implementations which are the user move state, AI bot move state, and game over state. The user first makes a move, then the state moves on to the AI bot state after the AI bot makes a move it moves on to the game over state once the board game has been updated and there are no pieces left.
+
 ### Design Principles
