@@ -13,7 +13,8 @@ Bubble Bots is a web-based application that allows students, gamers, and develop
 
 ### Architecture
 ![arch_diagram](https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/95588532/720045b3-17d4-409d-b30d-76338bfd442e)
-The BubbleBots system adopts a Model-View-Controller (MVC) architecture to provide a clear separation of concerns and improve modularity. The educational aspect of BubbleBots is focused on the implementation of an AI Model that visualizes the AI’s decision-making process. By referencing the model package, the controller package updates the game being visualized by the presentation package. By separating the system into three main components, development can be conducted independently on each component. This architecture provides a flexible foundation for game and AI development.
+BubbleBots uses a Model-View-Controller (MVC) architecture to divide the system into three distinct, independent parts that separate the concerns and allow modularity. By referencing the model package, the controller package updates the game being visualized by the presentation package. Because this system is split into three separate sub-systems, this architecture allows
+development to be conducted on each part of the system independently.
 
 
 ### Class Diagram
