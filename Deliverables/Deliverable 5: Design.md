@@ -36,7 +36,7 @@ Use Cases:
 #### Structural Design Pattern(Adapter)
 ![Structural Design Pattern(Adapter)](https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/128747430/16600e84-835e-4ece-b89f-502de38843e0)
 
-Bubble Bots is a web-based application that allows students, gamers, and developers to challenge AI in checkers. While doing so, you can see what it’s thinking, in real time, and analyze what pattern the computer is taking and what it thinks is the best option to win. An educational gaming experience into the world of AI that stands apart by not only allowing you to play but truly understanding the underlying mechanics of AI.
+For this Design pattern we chose to go with the adapter design pattern which allows and existing class to be wrapped by an interface. In this case we have the moving class where the player makes a move against the AI. We also have the AI Bot class that inspects the user move to come up with it’s own move against the user. Both of these classes are used by the board game class which needs the player to make a move in the game and also requires for the AI to make one as well. Lastly we have the Display class on which the website displays the thought 
 
 ### Behavioral Patterns(State)
 ![Behavioral Patterns(State)](https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/93228715/40c9e81f-e5b0-4bcc-903f-6eb7c7c9b565)
