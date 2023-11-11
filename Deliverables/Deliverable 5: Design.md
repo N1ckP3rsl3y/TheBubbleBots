@@ -13,6 +13,9 @@ Bubble Bots is a web-based application that allows students, gamers, and develop
 
 ### Architecture
 ### Class Diagram
+![Class_Diagram_D5](https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/93451175/6b32d1fe-fe32-4766-93a9-57fabcca8549)
+
+
 ### Sequence Diagram
 ### Design Patterns
 ### Design Principles
