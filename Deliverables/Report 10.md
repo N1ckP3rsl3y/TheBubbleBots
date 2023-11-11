@@ -9,18 +9,17 @@
 
 Nick R: Updated the class diagram to fit into deliverable 4 and what the team plans on implementing later for deliverable 6.\
 Nick P: Created the sequence diagram for deliverable 5 and brought it together with everyone else's changes. \
-Tyler C: \
+Tyler C: Created packet diagram for deliverable 5, wrote a short text description and collaborated as a group to finish the document.\
 Jeysen A: \
 Elian: Created One of the Structural Design Pattern(Adapter) diagrams for deliverable 5.
-
 
 
 ### Project Perspective
 1. Appreciations
 
 Nick R: I appreciate everyone picking their parts to work on for deliverable 5.\
-Nick P: I apprecate that everyone no arguing on their parts and asked for assistance if needed. \
-Tyler C: \
+Nick P: I appreciate that everyone no arguing on their parts and asked for assistance if needed. \
+Tyler C: I appreciate everyone for putting in so much time for this project. \
 Jeysen A: \
 Elian Z: I appreciate getting everything done in a timely manner and everyone helping each other as we worked on all of the parts for this project
 
@@ -28,7 +27,7 @@ Elian Z: I appreciate getting everything done in a timely manner and everyone he
 
 Nick R: Creating multiple diagrams that fit with what the team has immplemented so far.\
 Nick P: Making diagrams that fit together and are consistent. \
-Tyler C:  \
+Tyler C: Collaborating on diagrams that look professional and we can be proud of. \
 Jeysen A: \
 Elian Z: Everyone was able to create their diagrams and crate the deliverable. 
 
@@ -53,7 +52,7 @@ Elian Z: None
 
 Nick R: Start implementing the next deliverable and look head to deliverable 7.\
 Nick P: Start working on the next implementation deliverable and discuss exactly what will be added so everyone is on the same page, front-end and back-end. \
-Tyler C: \
+Tyler C: Begin implementing the next set of features for this project, work on deliverable 6.\
 Jeysen A: \
 Elian Z: Keep working on the front end part of the site and look into deliverable 7. 
 
