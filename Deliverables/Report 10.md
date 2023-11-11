@@ -7,7 +7,7 @@
 
 ### Summary of Activities
 
-Nick R: \
+Nick R: Updated the class diagram to fit into deliverable 4 and what the team plans on implementing later for deliverable 6.\
 Nick P: \
 Tyler C: \
 Jeysen A: \
@@ -17,7 +17,7 @@ Elian:
 ### Project Perspective
 1. Appreciations
 
-Nick R: \
+Nick R: I appreciate everyone picking their parts to work on for deliverable 5.\
 Nick P: \
 Tyler C: \
 Jeysen A: \
@@ -25,7 +25,7 @@ Elian Z:
 
 2. Successes
 
-Nick R: \
+Nick R: Creating multiple diagrams that fit with what the team has immplemented so far.\
 Nick P: \
 Tyler C:  \
 Jeysen A: \
@@ -50,7 +50,7 @@ Elian Z: None
 
 5. What we should try next time
 
-Nick R: \
+Nick R: Start implementing the next deliverable and look head to deliverable 7.\
 Nick P: \
 Tyler C: \
 Jeysen A: \
