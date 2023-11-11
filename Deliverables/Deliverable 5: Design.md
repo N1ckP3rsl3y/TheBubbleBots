@@ -28,4 +28,10 @@ Use Cases:
 3) Give Feedback - Users can give feedback on the website when they feel that they would like to the programmers to know what's going on.
  
 ### Design Patterns
+
+#### Structural Design Pattern(Adapter)
+![Structural Design Pattern(Adapter)](https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/128747430/16600e84-835e-4ece-b89f-502de38843e0)
+
+Bubble Bots is a web-based application that allows students, gamers, and developers to challenge AI in checkers. While doing so, you can see what it’s thinking, in real time, and analyze what pattern the computer is taking and what it thinks is the best option to win. An educational gaming experience into the world of AI that stands apart by not only allowing you to play but truly understanding the underlying mechanics of AI.
+
 ### Design Principles
