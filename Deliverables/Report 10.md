@@ -59,5 +59,5 @@ Elian Z: Keep working on the front end part of the site and look into deliverabl
 
 ### Next Steps
 
-
+Next, Nicholas P will assign parts for the next deliverable (implementation) and during our next meeting, we will discuss these roles/parts and any concerns that go with it. From there, we will start the next deliverable and set to have everything finished at a date/time agree on in the meeting.
 
