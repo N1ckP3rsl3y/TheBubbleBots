@@ -7,4 +7,10 @@ Location: Virtual (Discord)
 
 Team Members: Nicholas Persley, Nicholas Robishaw, Elian Zamora-Rivera, Jeysen Angous, Tyler Chapp, Ibrahim Hmood
 
-##Introduction
+### Introduction
+### Requirements
+### Tests
+### Demo
+### Code quality
+### Lessons Learned
+
