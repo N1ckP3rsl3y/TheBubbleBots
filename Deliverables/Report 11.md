@@ -9,7 +9,7 @@
 
 Nick R: \
 Nick P: \
-Tyler C: \
+Tyler C: Discussed implementation 2 requirements and roles. Also discussed plans for Thanksgiving week and Nick P demoed some AI info. \
 Jeysen A: \
 Elian Z: \
 Ibrahim H:
@@ -19,7 +19,7 @@ Ibrahim H:
 
 Nick R: \
 Nick P: \
-Tyler C: \
+Tyler C: Nick P for organizing this project and teaching AI stuff to the group. \
 Jeysen A: \
 Elian Z: \
 Ibrahim H: 
@@ -28,7 +28,7 @@ Ibrahim H:
 
 Nick R: \
 Nick P: \
-Tyler C: \
+Tyler C: Getting everyone together this week and contributing. Just how far we've come in this project is a huge achievement! \
 Jeysen A: \
 Elian Z: \
 Ibrahim H: 
@@ -55,7 +55,7 @@ Ibrahim H: None
 
 Nick R: \
 Nick P: \
-Tyler C: \
+Tyler C: Start thinking about the final presentation and deliverable(s). \
 Jeysen A: \
 Elian Z:  \
 Ibrahim H: 
