@@ -5,6 +5,8 @@ void sendFile(const char *fileName, int client_socket);
 void getFileName(char *requestMsg, char *fileDest);
 void handle_client(int args);
 void getExtension(char delim, const char *inputChar, char *extention);
+void getMessageFromPost(const char* requestMsg, char* resultMsg);
+void writeMessageToFile(const char* message);
 
 int main()
 {
@@ -162,16 +164,57 @@ void getFileName(char *requestMsg, char *fileDest)
 
 void handle_client(int client_socket)
 {
-
     char requestMsg[STD_RECIEVE], fileName[MAX_FILE_NAME] = "\0";
+    char resultMsg[STD_RECIEVE];
 
     read(client_socket, (void *)requestMsg, (size_t)STD_RECIEVE);
 
-    getFileName(requestMsg, fileName);
-
-    if(fileName[0] != '\0')
+    if(strncmp(requestMsg, "GET", 3) == STR_EQ)
     {
-        sendFile(fileName, client_socket);
+        getFileName(requestMsg, fileName);
+
+        // We do not support favicon.ico, so don't attempt to send it
+        if(fileName[0] != '\0' && strcmp(fileName, "favicon.ico") != STR_EQ)
+        {
+            sendFile(fileName, client_socket);
+        }
     }
+    else
+    {
+        getMessageFromPost(requestMsg, resultMsg);
+        writeMessageToFile(resultMsg);
+    }
+
     close(client_socket);
+}
+
+void getMessageFromPost(const char* requestMsg, char* resultMsg)
+{
+    char* patternPtr = strstr(requestMsg, "feedbackMsg=");
+    int resultIndex = 0;
+
+    while(*patternPtr != '\0')
+    {
+        if(*patternPtr == '+')
+        {
+            resultMsg[resultIndex] = ' ';
+        }
+        else
+        {
+            resultMsg[resultIndex] = *patternPtr;
+        }
+        patternPtr++;
+        resultIndex++;
+    }
+    resultMsg[resultIndex] = '\0';
+}
+
+void writeMessageToFile(const char* message)
+{
+    char *msgNoFeedback = strstr(message, "=") + 1;
+    FILE* file = fopen(FEEDBACK_FILE, "a");
+
+    fprintf(file, "\n%s\n", msgNoFeedback);
+
+    fclose(file);
 }
