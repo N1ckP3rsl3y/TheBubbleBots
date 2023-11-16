@@ -131,34 +131,23 @@ void sendFile(const char *fileName, int client_socket)
 
 void getFileName(char *requestMsg, char *fileDest)
 {
-	if(strncmp(requestMsg, "GET / ", 6) == STR_EQ ||
-	   strncmp(requestMsg, "GET /index.html", 15) == STR_EQ)
+    char* namePtr = strstr(requestMsg, "/") + 1;
+    int resIndex = 0;
+
+    while(*namePtr != ' ' && resIndex < MAX_FILE_NAME)
+    {
+        fileDest[resIndex] = *namePtr;
+        namePtr++;
+        resIndex++;
+    }
+
+    if(resIndex == 0)
     {
         strcpy(fileDest, "index.html");
     }
-    else if(strncmp("GET /game.html", requestMsg, 14) == STR_EQ)
+    else
     {
-        strcpy(fileDest, "game.html");
-    }
-    else if(strncmp("GET /test.css", requestMsg, 13) == STR_EQ)
-    {
-        strcpy(fileDest, "test.css");
-    }
-    else if(strncmp("GET /styles.css.css", requestMsg, 19) == STR_EQ)
-    {
-    	strcpy(fileDest, "styles.css.css");
-    }
-    else if(strncmp("GET /logo.jpeg", requestMsg, 14) == STR_EQ)
-    {
-    	strcpy(fileDest, "logo.jpeg");
-    }
-    else if(strncmp("GET /background.jpeg", requestMsg, 20) == STR_EQ)
-    {
-    	strcpy(fileDest, "background.jpeg");
-    }
-    else if(strncmp("GET /checkers.css", requestMsg, 17) == STR_EQ)
-    {
-    	strcpy(fileDest, "checkers.css");
+        fileDest[resIndex] = '\0';
     }
 }
 
