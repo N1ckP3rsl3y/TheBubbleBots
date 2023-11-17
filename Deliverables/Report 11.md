@@ -7,7 +7,7 @@
 
 ### Summary of Activities
 
-Nick R: \
+Nick R: Picked out and updated images for the website. Looked over game trees and learned how they worked. \
 Nick P: \
 Tyler C: Discussed implementation 2 requirements and roles. Also discussed plans for Thanksgiving week and Nick P demoed some AI info. \
 Jeysen A: \
@@ -17,7 +17,7 @@ Ibrahim H:
 ### Project Perspective
 1. Appreciations
 
-Nick R: \
+Nick R: Nick P for teaching the group about how game trees work. \
 Nick P: \
 Tyler C: Nick P for organizing this project and teaching AI stuff to the group. \
 Jeysen A: \
@@ -26,7 +26,7 @@ Ibrahim H:
 
 2. Successes
 
-Nick R: \
+Nick R: Organizing the team into groups and having an quick efficient meeting. \
 Nick P: \
 Tyler C: Getting everyone together this week and contributing. Just how far we've come in this project is a huge achievement! \
 Jeysen A: \
@@ -53,7 +53,7 @@ Ibrahim H: None
 
 5. What we should try next time
 
-Nick R: \
+Nick R: Work on the next deliverable over the holiday weekend and get ready for the turn in week. \
 Nick P: \
 Tyler C: Start thinking about the final presentation and deliverable(s). \
 Jeysen A: \
