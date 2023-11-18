@@ -1,1 +1,13 @@
-testing/__pycache__/test_server.cpython-310-pytest-7.4.3.pyc
+# Python
+__pycache__/
+testing/__pycache__/
+*.pyc
+
+# Node.js
+node_modules/
+npm-debug.log
+
+# Jest
+coverage/
+.venv/
+*.log

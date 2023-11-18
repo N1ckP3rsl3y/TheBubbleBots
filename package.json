@@ -1,0 +1,24 @@
+{
+  "name": "thebubblebots",
+  "version": "0.2.0",
+  "description": "checkers against ai",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/N1ckP3rsl3y/TheBubbleBots.git"
+  },
+  "keywords": [
+    "checkers",
+    "ai",
+    "server"
+  ],
+  "author": "Nicholas Persley, Nicholas Robishaw, Elian Zamora-Rivera, Jeysen Angous, Tyler Chapp, Ibrahim Hmood",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/N1ckP3rsl3y/TheBubbleBots/issues"
+  },
+  "homepage": "https://github.com/N1ckP3rsl3y/TheBubbleBots#readme"
+}
