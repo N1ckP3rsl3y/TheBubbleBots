@@ -163,7 +163,9 @@ void handle_client(int client_socket)
         getFileName(requestMsg, fileName);
 
         // We do not support favicon.ico, so don't attempt to send it
-        if(fileName[0] != '\0' && strcmp(fileName, "favicon.ico") != STR_EQ)
+        if(fileName[0] != '\0' &&
+           strcmp(fileName, "favicon.ico") != STR_EQ &&
+           strcmp(fileName, "AboutPage.html") != STR_EQ)
         {
             sendFile(fileName, client_socket);
         }
@@ -179,19 +181,27 @@ void handle_client(int client_socket)
 
 void getMessageFromPost(const char* requestMsg, char* resultMsg)
 {
-    char* patternPtr = strstr(requestMsg, "feedbackMsg=");
+    char* patternPtr = strstr(requestMsg, "mail=");
     int resultIndex = 0;
+    const int emailStrSize = 6, feedbackStrSize = 8;
+
+    strcpy(resultMsg, "Email:");
+    resultIndex += emailStrSize;
+
+    while(*patternPtr != '&')
+    {
+        resultMsg[resultIndex] = *patternPtr;
+        patternPtr++;
+        resultIndex++;
+    }
+
+    resultMsg[resultIndex] = '\n';
+    strcat(resultMsg, "Feedback:");
+    resultIndex += feedbackStrSize;
 
     while(*patternPtr != '\0')
     {
-        if(*patternPtr == '+')
-        {
-            resultMsg[resultIndex] = ' ';
-        }
-        else
-        {
-            resultMsg[resultIndex] = *patternPtr;
-        }
+        resultMsg[resultIndex] = *patternPtr;
         patternPtr++;
         resultIndex++;
     }
