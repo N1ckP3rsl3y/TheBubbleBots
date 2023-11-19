@@ -39,9 +39,10 @@ Print screen:![Feedback Page](https://github.com/N1ckP3rsl3y/TheBubbleBots/asset
 BubbleBots utilizes the unit testing frameworks Pytest and Jest to test code in with python and javascript respectively. The functionality of our C server is being tested with the Pytest requests package which ensures the website's necessary files are being delivered. Our Jest javascript tests are testing the basic functionality of our checkers game. These tests are set to automatically build a testing environment and run both tests anytime a commit occurs in our GitHub repository. A more detailed example of how we are testing the functionality of the checkers game, with Jest, is with an element called query selector. This testing element searches a page’s script for specified objects. In the case of our Jest file, we search for the existence of our black and red game pieces which confirms proper rendering.
 
 [Testing Directory](https://github.com/N1ckP3rsl3y/TheBubbleBots/tree/main/testing) \
-[Game Piece Test](https://github.com/N1ckP3rsl3y/TheBubbleBots/blob/feature_playcheckers/testing/__tests__/index.test.js)
+[Gameboard Test](https://github.com/N1ckP3rsl3y/TheBubbleBots/blob/feature_playcheckers/testing/__tests__/index.test.js)
 
---TESTING SCREENSHOTS WILL GO HERE LATER--
+![github_action1](https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/95588532/fadec4da-aaa1-4ee5-b61e-11fa5b1000a5)
+![github_action2](https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/95588532/15603f31-d4b6-4dc3-be50-ef0779b1c02a)
 
 ### Demo
 ### Code quality
