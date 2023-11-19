@@ -1,6 +1,6 @@
 #include "server.h"
 
-int readFile(const char *filename, unsigned char **fileContent);
+long readFile(const char *filename, unsigned char **fileContent);
 void sendFile(const char *fileName, int client_socket);
 void getFileName(char *requestMsg, char *fileDest);
 void handle_client(int args);
@@ -55,34 +55,42 @@ int main()
 	return 0;
 }
 
-int readFile(const char* filename, unsigned char **fileContent)
+long getFileSize(const char *filename)
 {
-	int length;
+    long filesize = -1;
+    FILE *file = fopen(filename, "rb");
+    if(!file)
+    {
+        //Print error and return file size (-1)
+        printf("getFileSize: Failed to open %s.\n", filename);
+        perror("getFileSize");
+        return filesize;
+    }
 
-	char openMethod[MAX_METHOD_SIZE];
-	openMethod[0] = 'r';
-	openMethod[1] = '\0';
+    //Seek to end of file and get size
+    fseek(file, 0L, SEEK_END);
+    filesize = ftell(file);
+    rewind(file);
+    fclose(file);
+    return filesize;
+}
 
-	// Check if the server is sending binary information (picture)
-	if(strstr(filename, ".jpeg"))
-	{
-		// Set open method of the file to read binary
-		openMethod[0] = 'r';
-		openMethod[1] = 'b';
-		openMethod[2] = '\0';
-	}
+long readFile(const char* filename, unsigned char **fileContent)
+{
+    long filesize = getFileSize(filename);
+    FILE *file = fopen(filename, "rb");
+    if(!file)
+    {
+        printf("readFile: Failed to read %s.\n", filename);
+        perror("readFile");
+        return -1;
+    }
 
-	FILE *filePtr = fopen(filename, openMethod);
-
-	fseek(filePtr, 0, SEEK_END);
-	length = ftell(filePtr);
-	fseek(filePtr, 0, SEEK_SET);
-	*fileContent = malloc(length + 1);
-	fread(*fileContent, sizeof(unsigned char), length, filePtr);
-	(*fileContent)[length] = 0;
-	fclose(filePtr);
-
-	return length;
+    fread(*fileContent, sizeof(unsigned char), filesize, file);
+    (*fileContent)[filesize] = 0;
+    fclose(file);
+    
+    return filesize;
 }
 
 void sendFile(const char *fileName, int client_socket)
@@ -92,13 +100,17 @@ void sendFile(const char *fileName, int client_socket)
               	  			  "Keep-Alive: timeout=5, max=999\r\n"
               	  			  "Content-Type: ";
 
-    int fileLength;
+    long fileLength;
     unsigned char *fileContent = (unsigned char*)malloc(sizeof(unsigned char) * STD_RECIEVE);
     char contentSize[NUM_CONTENT_SIZE];
 
     // Get file content
     fileLength = readFile(fileName, &fileContent);
-
+    if(fileLength < 0)
+    {
+        printf("sendFile: Failed to send file %s.\n", fileName);
+        perror("sendFile");
+    }
     // Set content type of the response value
     if(strstr(fileName, ".html"))
     {
@@ -116,7 +128,7 @@ void sendFile(const char *fileName, int client_socket)
     strcat(resp, "\r\n");
 
     // Set content length
-    sprintf(contentSize, "%d", fileLength);
+    sprintf(contentSize, "%li", fileLength);
     strcat(resp, "Content-Length: ");
     strncat(resp, contentSize, strlen(contentSize));
 
