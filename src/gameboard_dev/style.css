@@ -1,0 +1,54 @@
+#gameboard
+{
+    display: inline-grid;
+    grid-template-columns: repeat(auto-fit, 12.5%);
+    grid-template-rows: repeat(auto-fit, 12.5%);
+    position: fixed;
+    top: 15%;
+    left: .25%;
+    min-height: 70%;
+    min-width: 40%;
+    max-height: 70%;
+    max-width: 40%;
+    border: solid .7vh white;
+}
+
+.square img
+{
+    max-height: 70%;
+    max-width: 65%;
+    min-height: 70%;
+    min-width: 65%;
+    padding-left: 10%;
+    padding-top: 6.5%;
+    align-content: center;
+}
+
+.square
+{
+    display: inline;
+    padding-left: 12%;
+    padding-top: 12%;
+}
+
+.dark
+{
+    background-color: #272727;
+}
+
+.light
+{
+    background-color: #EFF1F3;
+}
+
+.blackPiece
+{
+    height: 9vh;
+    width: 5vw;
+}
+
+.redPiece
+{
+    height: 9vh;
+    width: 5vw;
+}

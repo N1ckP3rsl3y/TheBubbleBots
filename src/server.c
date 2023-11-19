@@ -161,6 +161,26 @@ void getFileName(char *requestMsg, char *fileDest)
     {
         fileDest[resIndex] = '\0';
     }
+    else if(strncmp("GET /style.css", requestMsg, 14) == STR_EQ)
+    {
+        strcpy(fileDest, "style.css");
+    }
+    else if(strncmp("GET /index.js", requestMsg, 13) == STR_EQ)
+    {
+        strcpy(fileDest, "index.js");
+    }
+    else if(strncmp("GET /pieces.js", requestMsg, 14) == STR_EQ)
+    {
+        strcpy(fileDest, "pieces.js");
+    }
+    else if(strncmp("GET /blackPiece.png", requestMsg, 14) == STR_EQ)
+    {
+        strcpy(fileDest, "blackPiece.png");
+    }
+    else if(strncmp("GET /redPiece.png", requestMsg, 12) == STR_EQ)
+    {
+        strcpy(fileDest, "redPiece.png");
+    }
 }
 
 void handle_client(int client_socket)
