@@ -2,15 +2,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const gameBoard = document.querySelector("#gameboard");
     gameBoard.setAttribute('data-testid', 'gameboard');
 
-    // Your other code here
-
-    createBoard();
-    makeListeners();
-    // ... rest of your code
-});
-
-
-const gameBoard = document.querySelector("#gameboard")
 const playerDisplay = document.querySelector("#player")
 const infoDisplay = document.querySelector("#info-display")
 
@@ -32,6 +23,8 @@ const board =
     ['empty', 'red', 'empty', 'red', 'empty', 'red', 'empty', 'red'],
     ['red', 'empty', 'red', 'empty', 'red', 'empty', 'red', 'empty'],
     ]
+
+createBoard();
 
 function createBoard() {
     let id = 0;
@@ -192,6 +185,8 @@ function renderBoard() {
   createBoard();
   makeListeners();
 }
+
+makeListeners();
 
 function makeListeners() {
     // setup event listeners
@@ -368,3 +363,6 @@ function triggerBot()
     console.log(board);
     renderBoard();
 }
+
+
+});
