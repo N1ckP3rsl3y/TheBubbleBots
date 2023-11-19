@@ -9,13 +9,14 @@ Team Members: Nicholas Persley, Nicholas Robishaw, Elian Zamora-Rivera, Jeysen A
 
 ### Introduction
 ### Requirements
-Jeysen A:
-  Requirement: As someone who likes to be informed, I would like a place to read about the website before I use it
-  Issue: https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/24 
-  Pull request: https://github.com/N1ckP3rsl3y/TheBubbleBots/pull/59 
-  Implemented by: Jeysen Angous
-  Approved by: Nicholas Persley
-  Print screen:
+Jeysen A:  
+Requirement: As someone who likes to be informed, I would like a place to read about the website before I use it  
+Issue: https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/24  
+Pull request: https://github.com/N1ckP3rsl3y/TheBubbleBots/pull/59  
+Implemented by: Jeysen Angous  
+Approved by: Nicholas Persley  
+Print screen:![aboutpage](https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/93228715/9ea55c3b-73f5-49e3-a3d1-64ee59a28875)
+
 
 ### Tests
 ### Demo
