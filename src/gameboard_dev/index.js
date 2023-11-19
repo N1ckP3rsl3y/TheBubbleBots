@@ -5,19 +5,20 @@ const playerDisplay = document.querySelector("#player")
 const infoDisplay = document.querySelector("#info-display")
 
 let selectedSquare;
+let clickTarget;
 
 const width = 8
 
-const startPieces = 
+const startPieces =
     [
-    'black', 'empty', 'black', 'empty', 'black', 'empty', 'black', 'empty',
     'empty', 'black', 'empty', 'black', 'empty', 'black', 'empty', 'black',
     'black', 'empty', 'black', 'empty', 'black', 'empty', 'black', 'empty',
+    'empty', 'black', 'empty', 'black', 'empty', 'black', 'empty', 'black',
     'empty', 'empty', 'empty', 'empty', 'empty', 'empty', 'empty', 'empty',
     'empty', 'empty', 'empty', 'empty', 'empty', 'empty', 'empty', 'empty',
-    'empty', 'red', 'empty', 'red', 'empty', 'red', 'empty', 'red',
     'red', 'empty', 'red', 'empty', 'red', 'empty', 'red', 'empty',
     'empty', 'red', 'empty', 'red', 'empty', 'red', 'empty', 'red',
+    'red', 'empty', 'red', 'empty', 'red', 'empty', 'red', 'empty',
     ]
 
 function createBoard() {
@@ -28,47 +29,36 @@ function createBoard() {
 
     const rowIndex = Math.floor((63 - index) / 8) + 1;
     const colIndex = index % 8;
-    
+
     if (rowIndex % 2 === 0) {
-      square.classList.add(colIndex % 2 === 0 ? "beige" : "brown");
+      square.classList.add(colIndex % 2 === 0 ? "dark" : "light");
     } else {
-      square.classList.add(colIndex % 2 === 0 ? "brown" : "beige");
+      square.classList.add(colIndex % 2 === 0 ? "light" : "dark");
     }
-    
+
     if (piece === 'red') {
-      square.innerHTML = red;
+      square.innerHTML = "<img draggable=true class='redPiece' src='redPiece.png'>";
       square.firstChild?.classList.add('red');
       square.firstChild?.setAttribute('draggable', true);
     } else if (piece === 'black') {
-      square.innerHTML = black;
+      square.innerHTML = "<img draggable=true class='blackPiece' src='blackPiece.png'>";
       square.firstChild?.classList.add('black');
       square.firstChild?.setAttribute('draggable', true);
     }
-    
+
     gameBoard.appendChild(square);
   })
 }
 
 createBoard()
 
-
-// setup event listeners
-const allSquares = document.querySelectorAll("#gameboard .square")
-
-allSquares.forEach(square => {
-    square.addEventListener('dragstart', dragStart);
-    square.addEventListener('dragover', dragOver);
-});
-
-
 function dragStart(event) {
   let squareId;
 
   if (event.target.classList.contains('square')) {
-  selectedSquare = event.target;
-  squareId = parseInt(selectedSquare.getAttribute('square-id'));
-  const destinationSquareId = parseInt(event.currentTarget.getAttribute('square-id'));
-  }
+    selectedSquare = clickTarget.target.parentNode;
+    squareId = parseInt(selectedSquare.getAttribute('square-id'));
+    const destinationSquareId = parseInt(event.currentTarget.getAttribute('square-id'));
 
     // ---MOVE LOGIC---
     // check if the selected piece can move to a valid position
@@ -76,8 +66,10 @@ function dragStart(event) {
 
     // update the board and move the piece
     if (canMove) {
-      movePiece(squareId, destinationSquareId, event);
+        movePiece(squareId, destinationSquareId, event);
     }
+  }
+
 
   // jumping pieces
   // check if the selected piece can jump to a valid position
@@ -97,7 +89,6 @@ function dragStart(event) {
   // check if the selected piece can be crowned
   // update the board and mark the piece as crowned
 
-  console.log(event);
 }
 
 
@@ -116,7 +107,7 @@ function dragOver(event) {
 // -- function to check for valid position
 function isValidMove(squareId, destinationSquareId, event) {
   // get destination square
-  const destinationSquare = event.currentTarget;
+  const destinationSquare = event.target;
 
   // check if the destination square is empty
   if (destinationSquare.firstChild) {
@@ -133,7 +124,7 @@ function isValidMove(squareId, destinationSquareId, event) {
 
   // check if the piece is moving diagonally
   // (difference needs to be 1 to be diagonal)
-  return rowDiff === 1 && colDiff === 1;
+  return Math.abs(rowDiff) === 1 && Math.abs(colDiff) === 1;
 }
 
 // -- function to move piece
@@ -154,6 +145,10 @@ function movePiece(squareId, destinationSquareId, event) {
     renderBoard();
 }
 
+function setLastClick(event)
+{
+    clickTarget = event;
+}
 
 // -- helper function to calculate row and column of a square
 function getRowAndCol(squareId) {
@@ -166,4 +161,18 @@ function getRowAndCol(squareId) {
 function renderBoard() {
   gameBoard.innerHTML = '';
   createBoard();
+  makeListeners();
 }
+
+function makeListeners() {
+    // setup event listeners
+    const allSquares = document.querySelectorAll(".square")
+
+    allSquares.forEach(square => {
+        square.addEventListener('dragstart', setLastClick);
+        square.addEventListener('dragover', dragOver);
+        square.addEventListener('drop', dragStart);
+    });
+}
+
+makeListeners();
