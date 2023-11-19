@@ -1,7 +1,9 @@
 const { screen } = require('@testing-library/dom');
 
 // import your functions and variables from index.js
-const { createBoard } = require('../../src/gameboard_dev/index.js');
+// In your test file
+const { createBoard, renderBoard, makeListeners } = require('../../src/gameboard_dev/index.js');
+
 
 describe('Game Board Tests', () => {
   beforeEach(() => {

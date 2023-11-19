@@ -364,5 +364,10 @@ function triggerBot()
     renderBoard();
 }
 
+module.exports = {
+    createBoard,
+    renderBoard,
+    makeListeners
+  };
 
 });
