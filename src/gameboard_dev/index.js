@@ -53,7 +53,7 @@ function createBoard() {
 
           gameBoard.appendChild(square);
           id += 1;
-        }) 
+        })
     })
 }
 
@@ -196,7 +196,7 @@ function botThinkHelper(currBoard, depth, colorTurn,
                         currY, currX, nextY, nextX)
 {
     var localBoard = structuredClone(currBoard);
-    var nextTurn = colorTurn.localeCompare("black") ? "red" : "black";
+    var nextTurn = colorTurn.localeCompare("black") == 0 ? "red" : "black";
 
     if(nextX != null && nextY != null)
     {
@@ -230,7 +230,6 @@ function botThinkHelper(currBoard, depth, colorTurn,
             })
         });
     }
-
 
     return bestMove;
 }
@@ -345,7 +344,6 @@ function isOppositeColor(board, color, currY, currX)
 function triggerBot()
 {
     var res = botThink();
-    console.log(res);
     botMovePieceInCalculation(board, res[1], res[2], res[3], res[4]);
     console.log(board);
     renderBoard();

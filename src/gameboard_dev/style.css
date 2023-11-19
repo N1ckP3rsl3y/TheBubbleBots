@@ -17,6 +17,8 @@
 {
     max-height: 70%;
     max-width: 65%;
+    min-height: 70%;
+    min-width: 65%;
     padding-left: 10%;
     padding-top: 6.5%;
     align-content: center;
