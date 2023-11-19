@@ -30,7 +30,7 @@ body {
   background-color: black;
 }
 
-.textExplanation {
+.settings {
   text-align: center;
   width: 25%;
   top: 52.5%;
@@ -45,7 +45,7 @@ body {
   right: .25%;
 }
 
-.settings {
+.textExplanation {
   text-align: center;
   top: 15%;
   border: 2px solid black;
@@ -73,10 +73,9 @@ body {
 }
 
 header {
-    max-height: 10%;
+    max-height: 8%;
 }
 
 header > li > a {
     font-size: 20px;
 }
-
