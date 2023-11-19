@@ -25,3 +25,5 @@
 #define MAX_METHOD_SIZE 3 // Open method for reading a file
 
 #define STR_EQ 0
+
+#define FEEDBACK_FILE "feedback.txt"

@@ -2,6 +2,6 @@
 
 rm server
 
-gcc server.c -lpthread -o server
+gcc server.c -lpthread -o server -g
 
 ./server

@@ -1,10 +1,12 @@
 #include "server.h"
 
-int readFile(const char *filename, unsigned char **fileContent);
+long readFile(const char *filename, unsigned char **fileContent);
 void sendFile(const char *fileName, int client_socket);
 void getFileName(char *requestMsg, char *fileDest);
 void handle_client(int args);
 void getExtension(char delim, const char *inputChar, char *extention);
+void getMessageFromPost(const char* requestMsg, char* resultMsg);
+void writeMessageToFile(const char* message);
 
 int main()
 {
@@ -53,34 +55,42 @@ int main()
 	return 0;
 }
 
-int readFile(const char* filename, unsigned char **fileContent)
+long getFileSize(const char *filename)
 {
-	int length;
+    long filesize = -1;
+    FILE *file = fopen(filename, "rb");
+    if(!file)
+    {
+        //Print error and return file size (-1)
+        printf("getFileSize: Failed to open %s.\n", filename);
+        perror("getFileSize");
+        return filesize;
+    }
 
-	char openMethod[MAX_METHOD_SIZE];
-	openMethod[0] = 'r';
-	openMethod[1] = '\0';
+    //Seek to end of file and get size
+    fseek(file, 0L, SEEK_END);
+    filesize = ftell(file);
+    rewind(file);
+    fclose(file);
+    return filesize;
+}
 
-	// Check if the server is sending binary information (picture)
-	if(strstr(filename, ".jpeg"))
-	{
-		// Set open method of the file to read binary
-		openMethod[0] = 'r';
-		openMethod[1] = 'b';
-		openMethod[2] = '\0';
-	}
+long readFile(const char* filename, unsigned char **fileContent)
+{
+    long filesize = getFileSize(filename);
+    FILE *file = fopen(filename, "rb");
+    if(!file)
+    {
+        printf("readFile: Failed to read %s.\n", filename);
+        perror("readFile");
+        return -1;
+    }
 
-	FILE *filePtr = fopen(filename, openMethod);
-
-	fseek(filePtr, 0, SEEK_END);
-	length = ftell(filePtr);
-	fseek(filePtr, 0, SEEK_SET);
-	*fileContent = malloc(length + 1);
-	fread(*fileContent, sizeof(unsigned char), length, filePtr);
-	(*fileContent)[length] = 0;
-	fclose(filePtr);
-
-	return length;
+    fread(*fileContent, sizeof(unsigned char), filesize, file);
+    (*fileContent)[filesize] = 0;
+    fclose(file);
+    
+    return filesize;
 }
 
 void sendFile(const char *fileName, int client_socket)
@@ -90,13 +100,17 @@ void sendFile(const char *fileName, int client_socket)
               	  			  "Keep-Alive: timeout=5, max=999\r\n"
               	  			  "Content-Type: ";
 
-    int fileLength;
+    long fileLength;
     unsigned char *fileContent = (unsigned char*)malloc(sizeof(unsigned char) * STD_RECIEVE);
     char contentSize[NUM_CONTENT_SIZE];
 
     // Get file content
     fileLength = readFile(fileName, &fileContent);
-
+    if(fileLength < 0)
+    {
+        printf("sendFile: Failed to send file %s.\n", fileName);
+        perror("sendFile");
+    }
     // Set content type of the response value
     if(strstr(fileName, ".html"))
     {
@@ -114,7 +128,7 @@ void sendFile(const char *fileName, int client_socket)
     strcat(resp, "\r\n");
 
     // Set content length
-    sprintf(contentSize, "%d", fileLength);
+    sprintf(contentSize, "%li", fileLength);
     strcat(resp, "Content-Length: ");
     strncat(resp, contentSize, strlen(contentSize));
 
@@ -129,34 +143,23 @@ void sendFile(const char *fileName, int client_socket)
 
 void getFileName(char *requestMsg, char *fileDest)
 {
-	if(strncmp(requestMsg, "GET / ", 6) == STR_EQ ||
-	   strncmp(requestMsg, "GET /index.html", 15) == STR_EQ)
+    char* namePtr = strstr(requestMsg, "/") + 1;
+    int resIndex = 0;
+
+    while(*namePtr != ' ' && resIndex < MAX_FILE_NAME)
+    {
+        fileDest[resIndex] = *namePtr;
+        namePtr++;
+        resIndex++;
+    }
+
+    if(resIndex == 0)
     {
         strcpy(fileDest, "index.html");
     }
-    else if(strncmp("GET /game.html", requestMsg, 14) == STR_EQ)
+    else
     {
-        strcpy(fileDest, "game.html");
-    }
-    else if(strncmp("GET /test.css", requestMsg, 13) == STR_EQ)
-    {
-        strcpy(fileDest, "test.css");
-    }
-    else if(strncmp("GET /styles.css.css", requestMsg, 19) == STR_EQ)
-    {
-    	strcpy(fileDest, "styles.css.css");
-    }
-    else if(strncmp("GET /logo.jpeg", requestMsg, 14) == STR_EQ)
-    {
-    	strcpy(fileDest, "logo.jpeg");
-    }
-    else if(strncmp("GET /background.jpeg", requestMsg, 20) == STR_EQ)
-    {
-    	strcpy(fileDest, "background.jpeg");
-    }
-    else if(strncmp("GET /checkers.css", requestMsg, 17) == STR_EQ)
-    {
-    	strcpy(fileDest, "checkers.css");
+        fileDest[resIndex] = '\0';
     }
     else if(strncmp("GET /style.css", requestMsg, 14) == STR_EQ)
     {
@@ -182,16 +185,67 @@ void getFileName(char *requestMsg, char *fileDest)
 
 void handle_client(int client_socket)
 {
-
     char requestMsg[STD_RECIEVE], fileName[MAX_FILE_NAME] = "\0";
+    char resultMsg[STD_RECIEVE];
 
     read(client_socket, (void *)requestMsg, (size_t)STD_RECIEVE);
 
-    getFileName(requestMsg, fileName);
-
-    if(fileName[0] != '\0')
+    if(strncmp(requestMsg, "GET", 3) == STR_EQ)
     {
-        sendFile(fileName, client_socket);
+        getFileName(requestMsg, fileName);
+
+        // We do not support favicon.ico, so don't attempt to send it
+        if(fileName[0] != '\0' &&
+           strcmp(fileName, "favicon.ico") != STR_EQ &&
+           strcmp(fileName, "AboutPage.html") != STR_EQ)
+        {
+            sendFile(fileName, client_socket);
+        }
     }
+    else
+    {
+        getMessageFromPost(requestMsg, resultMsg);
+        writeMessageToFile(resultMsg);
+    }
+
     close(client_socket);
+}
+
+void getMessageFromPost(const char* requestMsg, char* resultMsg)
+{
+    char* patternPtr = strstr(requestMsg, "mail=");
+    int resultIndex = 0;
+    const int emailStrSize = 6, feedbackStrSize = 8;
+
+    strcpy(resultMsg, "Email:");
+    resultIndex += emailStrSize;
+
+    while(*patternPtr != '&')
+    {
+        resultMsg[resultIndex] = *patternPtr;
+        patternPtr++;
+        resultIndex++;
+    }
+
+    resultMsg[resultIndex] = '\n';
+    strcat(resultMsg, "Feedback:");
+    resultIndex += feedbackStrSize;
+
+    while(*patternPtr != '\0')
+    {
+        resultMsg[resultIndex] = *patternPtr;
+        patternPtr++;
+        resultIndex++;
+    }
+    resultMsg[resultIndex] = '\0';
+}
+
+void writeMessageToFile(const char* message)
+{
+    char *msgNoFeedback = strstr(message, "=") + 1;
+    FILE* file = fopen(FEEDBACK_FILE, "a");
+
+    fprintf(file, "\n%s\n", msgNoFeedback);
+
+    fclose(file);
 }
