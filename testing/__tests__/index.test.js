@@ -2,7 +2,7 @@ const { screen } = require('@testing-library/dom');
 const { setupJest } = require('@testing-library/jest-dom');
 
 // import your functions and variables from index.js
-const { createBoard, renderBoard, makeListeners } = require('./index');
+const { createBoard, renderBoard, makeListeners } = require('../../src/gameboard_dev/index.js');
 
 setupJest();
 
