@@ -1,10 +1,7 @@
 const { screen } = require('@testing-library/dom');
-const { setupJest } = require('@testing-library/jest-dom');
 
 // import your functions and variables from index.js
-const { createBoard, renderBoard, makeListeners } = require('../../src/gameboard_dev/index.js');
-
-setupJest();
+const { createBoard } = require('../../src/gameboard_dev/index.js');
 
 describe('Game Board Tests', () => {
   beforeEach(() => {
@@ -25,5 +22,4 @@ describe('Game Board Tests', () => {
     expect(redPieces).toHaveLength(12);
     expect(blackPieces).toHaveLength(12);
   });
-
 });
