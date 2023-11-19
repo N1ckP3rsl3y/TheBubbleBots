@@ -53,7 +53,7 @@ function createBoard() {
 
           gameBoard.appendChild(square);
           id += 1;
-        })
+        }) 
     })
 }
 
