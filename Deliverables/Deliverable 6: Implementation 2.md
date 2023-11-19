@@ -12,6 +12,7 @@ Team Members: Nicholas Persley, Nicholas Robishaw, Elian Zamora-Rivera, Jeysen A
 ### Tests
 ### Demo
 ### Code quality
+- The team is using two programming languages which are C and JavaScript as well as two web programming scripting languages which are HTML, and CSS. Furthermore, the team uses coding style tests like cpplint, ESLint, atatus, and csslint that meet the coding standards. After a team member writes a piece of code another team member views the code and tries to identify any bugs and ways to improve the code following the coding standards. The team also has automated testing for both C and Javascript. Lastly, the team does weekly maintenance in ways to improve code quality and take care of any issues that arise.
 ### Lessons Learned
 
 - The main lesson learned is that development will most likely take a lot longer than originally planned. Going into this, the plan was to have a fully functional AI bot to play checkers against. But problems come up and more time must be allowed for this. So, when dealing with implementations, it is best to start earlier than later no matter the section of the program.
