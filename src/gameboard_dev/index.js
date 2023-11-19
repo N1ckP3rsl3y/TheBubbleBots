@@ -24,6 +24,9 @@ const board =
 function createBoard() {
     let id = 0;
 
+    const gameBoard = document.querySelector("#gameboard");
+    gameBoard.setAttribute('data-testid', 'gameboard');
+
     board.forEach((row) => {
         row.forEach((piece) => {
           const square = document.createElement('div');
@@ -40,11 +43,11 @@ function createBoard() {
           }
 
           if (piece === 'red') {
-            square.innerHTML = "<img draggable=true class='redPiece' src='redPiece.png'>";
+            square.innerHTML = "<img draggable=true class='redPiece' src='redPiece.png' alt='Red Piece'>";
             square.firstChild?.classList.add('red');
             square.firstChild?.setAttribute('draggable', true);
           } else if (piece === 'black') {
-            square.innerHTML = "<img draggable=true class='blackPiece' src='blackPiece.png'>";
+            square.innerHTML = "<img draggable=true class='blackPiece' src='blackPiece.png' alt='Black Piece'>";
             square.firstChild?.classList.add('black');
             square.firstChild?.setAttribute('draggable', true);
           }

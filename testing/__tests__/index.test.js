@@ -1,25 +1,29 @@
-const { JSDOM } = require('jsdom');
-const fs = require('fs');
-const path = require('path');
+const { screen } = require('@testing-library/dom');
+const { setupJest } = require('@testing-library/jest-dom');
 
-// load the HTML content
-const htmlPath = path.resolve(__dirname, '../../src/game.html');
-const html = fs.readFileSync(htmlPath, 'utf8');
-const { window } = new JSDOM(html);
-global.document = window.document;
+// import your functions and variables from index.js
+const { createBoard, renderBoard, makeListeners } = require('./index');
 
-// load the JS file
-const indexPath = path.resolve(__dirname, '../../src/gameboard_dev/index.js');
-require(indexPath);
+setupJest();
 
-test('board and pieces are drawn correctly', () => {
-  // get the elements
-  const gameBoard = document.querySelector("#gameboard");
-  const redPiece = document.querySelector('.redPiece');
-  const blackPiece = document.querySelector('.blackPiece');
+describe('Game Board Tests', () => {
+  beforeEach(() => {
+    // set up a clean document body before each test
+    document.body.innerHTML = '';
+  });
 
-  // assert that the elements exist
-  expect(gameBoard).toBeTruthy();
-  expect(redPiece).toBeTruthy();
-  expect(blackPiece).toBeTruthy();
+  test('Create Board should render a board with pieces', () => {
+    createBoard();
+    
+    // assert that the gameboard element is in the document
+    const gameBoardElement = screen.getByTestId('gameboard');
+    expect(gameBoardElement).toBeInTheDocument();
+
+    // assert that the gameboard contains child elements representing pieces
+    const redPieces = screen.getAllByAltText('Red Piece');
+    const blackPieces = screen.getAllByAltText('Black Piece');
+    expect(redPieces).toHaveLength(12);
+    expect(blackPieces).toHaveLength(12);
+  });
+
 });
