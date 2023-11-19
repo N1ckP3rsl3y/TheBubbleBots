@@ -9,6 +9,14 @@ Team Members: Nicholas Persley, Nicholas Robishaw, Elian Zamora-Rivera, Jeysen A
 
 ### Introduction
 ### Requirements
+Jeysen A:
+  Requirement: As someone who likes to be informed, I would like a place to read about the website before I use it
+  Issue: https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/24 
+  Pull request: https://github.com/N1ckP3rsl3y/TheBubbleBots/pull/59 
+  Implemented by: Jeysen Angous
+  Approved by: Nicholas Persley
+  Print screen:
+
 ### Tests
 ### Demo
 ### Code quality
