@@ -24,6 +24,16 @@ Implemented by: Jeysen Angous
 Approved by: Nicholas Persley  
 Print screen:![aboutpage](https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/93228715/9ea55c3b-73f5-49e3-a3d1-64ee59a28875)
 
+Elian:
+Requirements: As someone who likes to help, I want the ability to give feedback on the website if something goes wrong.\
+Issue: https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/25 \
+Pull request: https://github.com/N1ckP3rsl3y/TheBubbleBots/pull/59 \
+Implemented by: Elian Zamora \
+Approved by: Tyler Chapp, Ibrahim Hmood, Nick Persley \
+Print screen:![Feedback Page](https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/128747430/b4158a18-1c97-42be-8800-3937440d51f9)
+
+
+
 
 ### Tests
 BubbleBots utilizes the unit testing frameworks Pytest and Jest to test code in with python and javascript respectively. The functionality of our C server is being tested with the Pytest requests package which ensures the website's necessary files are being delivered. Our Jest javascript tests are testing the basic functionality of our checkers game. These tests are set to automatically build a testing environment and run both tests anytime a commit occurs in our GitHub repository. A more detailed example of how we are testing the functionality of the checkers game, with Jest, is with an element called query selector. This testing element searches a page’s script for specified objects. In the case of our Jest file, we search for the existence of our black and red game pieces which confirms proper rendering.
