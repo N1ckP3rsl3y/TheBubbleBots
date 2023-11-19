@@ -1,217 +1,159 @@
-
 /* Reset margin and padding for the whole page */
 body {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .header {
-    background-color: black;
-    color: white;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 10px; 
-    z-index: 100; 
+  background-color: black;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 10px;
+  z-index: 100;
 }
 
 .logo img {
-    max-height: 60px; 
+  max-height: 60px;
 }
 
 nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
 }
 nav li {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 /* Add margin to the last li element */
 nav li:last-child {
-    margin-right: 70px; 
+  margin-right: 70px;
 }
 
 nav a {
-    text-decoration: none;
-    color: GOLD;
+  text-decoration: none;
+  color: White;
 }
 
 /* Style the main content area (add more styles as needed) */
 main {
-    margin-top: 150px; 
-    padding: 20px;
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-    overflow-y: auto;
+  margin-top: 150px;
+  padding: 20px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
 }
 
 /* Style the content wrapper */
 .content-wrapper {
-    margin: 0 auto; /* Center the content */
-    max-width: 800px; /* Set a maximum width for the content */
-    flex-grow: 1; 
+  margin: 0 auto; /* Center the content */
+  max-width: 800px; /* Set a maximum width for the content */
+  flex-grow: 1;
 }
-
-
-
 
 /* Style the image */
 .grey-background img {
-    height: 300px;
-    width: 400px;
-    height: auto;
-    margin-left: 20px;
+  height: 300px;
+  width: 400px;
+  height: auto;
+  margin-left: 20px;
 }
 
 /* Style the header */
 .text-content .role {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 5px;
-    text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: center;
 }
 
 /* Style the description text */
 .text-content .description {
-    font-size: 16px;
-    margin-left: 20px;
+  font-size: 16px;
+  margin-left: 20px;
 }
 
 /* Center the image */
 .text-content img {
-    display: block;
-    margin: 0 auto;
-    height: 100px;
-    width: 200px;
-    height: auto;
-    margin-top: 20px;
+  display: block;
+  margin: 0 auto;
+  height: 100px;
+  width: 200px;
+  height: auto;
+  margin-top: 20px;
 }
 
 .background-container {
-    position: relative;
-    text-align: center;
-    color: rgb(29, 29, 150);
-    font-size: 24px;
-    height: 80vh;
-    margin: 0;
-    padding: 0;
-    border: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  position: relative;
+  text-align: center;
+  color: rgb(29, 29, 150);
+  font-size: 24px;
+  height: 80vh;
+  margin: 0;
+  padding: 0;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .background-container img {
-    width: 100%; 
-    height: 100%; 
-    object-fit: cover; 
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .centered-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.7);
-    color: #fff;
-    border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  border-radius: 10px;
 }
 
 @media (max-width: 768px) {
-    .centered-text {
-        width: 90%;
-        padding: 10px;
-        font-size: 18px;
-    }
+  .centered-text {
+    width: 90%;
+    padding: 10px;
+    font-size: 18px;
+  }
 }
 
 .button {
-    display: inline-block;
-    padding: 15px 30px; 
-    background-color: rgba(0, 123, 255, 0.7);
-    color: white;
-    text-decoration: none;
-    border: 2px solid rgb(0, 123, 255)
-    border-radius: 5px;
-    font-weight: bold;
-    margin-top: 20px;
-    font-size: 18px;
-}
-
-header {
-    max-height: 10%;
-}
-
-textarea {
-  width: 30%;
-  height: 150px;
-  padding: 12px 20px;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  background-color: #f8f8f8;
-  resize: none;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-input{
-    width: 30%;
-    height: 20%;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    background-color: #f8f8f8;
-    resize: none;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.submit {
-    width: 30%;
-    height: 20%;
-    display: inline-block;
-    padding: 12px 20px;
-    background-color: rgba(0, 123, 255, 0.7);
-    color: white;
-    text-decoration: none;
-    border: 2px solid rgb(0, 123, 255)
-    border-radius: 5px;
-    font-weight: bold;
-    margin-top: 20px;
-    font-size: 18px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-label {
-    margin-left: 35%;
-    margin-right:65%;
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: rgba(0, 123, 255, 0.7);
+  color: white;
+  text-decoration: none;
+  border: 2px solid rgb(0, 123, 255);
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 18px;
 }
 
 .about-section-header {
-  padding: 1px 700px;
+  padding: 0.1% 20%;
   text-align: center;
   background-color: rgb(29, 29, 150);
   color: darkgoldenrod;
-  font-size: 50px;
+  font-size: 312.5%;
   font-weight: bolder;
   display: flex;
   justify-content: space-between;
@@ -221,8 +163,8 @@ label {
 
 .about-flex-container {
   display: flex;
-  padding: 20px 10px;
-  font-size: 50px;
+  padding: 1% 1%;
+  font-size: 312.5%;
   font-weight: bold;
   font-family: "Lucida Console", "Courier New", monospace;
 }
@@ -232,8 +174,8 @@ label {
   width: 50%;
   text-align: center;
   float: left;
-  border-radius: 50px;
-  padding: 100px;
+  border-radius: 10%;
+  padding: 1%;
   font-family: "Lucida Console", "Courier New", monospace;
   align-items: center;
   display: flex;
@@ -244,19 +186,19 @@ label {
   width: 50%;
   float: right;
   text-align: left;
-  border-radius: 50px;
-  padding: 100px;
+  border-radius: 10%;
+  padding: 2%;
 }
 
 .meet-the-team-container {
-  font-size: 50px;
+  font-size: 312.5%;
   font-weight: bold;
   text-align: center;
-  padding: 1px 70px;
+  padding: 0.1% 10%;
   align-items: center;
   background-color: rgb(29, 29, 150);
   color: darkgoldenrod;
-  border-radius: 50px;
+  border-radius: 10%;
   justify-content: space-between;
   font-family: "Lucida Console", "Courier New", monospace;
 }
@@ -265,9 +207,9 @@ label {
   background-color: white;
   width: 40%;
   text-align: left;
-  border-radius: 300px;
+  border-radius: 10%;
   color: black;
-  padding: 1px 100px;
+  padding: 0.5%;
   font-family: "Lucida Console", "Courier New", monospace;
   margin-left: auto;
   margin-right: auto;
@@ -276,7 +218,6 @@ label {
   background-color: RGB(239, 192, 80);
   color: black;
   font-family: "Lucida Console", "Courier New", monospace;
-  border-radius: 300px;
   margin-left: auto;
   margin-right: auto;
   width: 40%;
@@ -285,19 +226,16 @@ label {
 
 footer {
   text-align: center;
-  padding: 3px;
   background-color: rgb(5, 5, 5);
   color: white;
   align-items: center;
   display: flex;
   justify-content: space-between;
-  padding: 10px;
-  font-size: 35px;
+  font-size: 312.5%;
   font-weight: bold;
   order: 1;
 }
 
 .footer-right {
-  padding: 3px;
   height: auto;
 }
