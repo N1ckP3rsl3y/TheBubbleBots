@@ -60,36 +60,26 @@ function createBoard() {
 createBoard()
 
 function dragEnd(event) {
-  let squareId;
+    let squareId;
 
-  if (event.target.classList.contains('square')) {
-    selectedSquare = clickTarget.target.parentNode;
-    squareId = parseInt(selectedSquare.getAttribute('square-id'));
-    const destinationSquareId = parseInt(event.currentTarget.getAttribute('square-id'));
+    if (event.target.classList.contains('square')) {
+        selectedSquare = clickTarget.target.parentNode;
+        squareId = parseInt(selectedSquare.getAttribute('square-id'));
+        const destinationSquareId = parseInt(event.currentTarget.getAttribute('square-id'));
 
-    // ---MOVE LOGIC---
-    // check if the selected piece can move to a valid position
-    const canMove = isValidMove(squareId, destinationSquareId, event);
+        // ---MOVE LOGIC---
+        // check if the selected piece can move to a valid position
+        const canMove = isValidMove(squareId, destinationSquareId, event);
 
-    // update the board and move the piece
-    if (canMove) {
-        movePiece(squareId, destinationSquareId, event);
+        // update the board and move the piece
+        if (canMove) {
+            movePiece(squareId, destinationSquareId, event);
+        }
+
+        triggerBot();
     }
 
-    triggerBot();
-  }
-
-
-  // jumping pieces
-  // check if the selected piece can jump to a valid position
-  // update the board and remove the jumped piece
-
-  // removing pieces
-  // check if the selected piece can be removed
-  // update the board and remove the piece
-
-  // turn management
-  // switch between player and AI turns
+  // jump again logic
 
   // win conditions(LOW PRIORITY)
   // check if the game is won
@@ -131,9 +121,17 @@ function isValidMove(squareId, destinationSquareId, event) {
   const rowDiff = Math.abs(destRow - sourceRow);
   const colDiff = Math.abs(destCol - sourceCol);
 
-  // check if the piece is moving diagonally
-  // (difference needs to be 1 to be diagonal)
-  return Math.abs(rowDiff) === 1 && Math.abs(colDiff) === 1;
+  // check if the piece can move diagonally two spaces to an empty spot
+  if (rowDiff === 2 && colDiff === 2) {
+    const jumpedRow = (destRow + sourceRow) / 2;
+    const jumpedCol = (destCol + sourceCol) / 2;
+
+    const jumpedPiece = board[jumpedRow][jumpedCol];
+    return jumpedPiece !== 'empty'; // check if the jumped piece is not empty
+  }
+
+  // check if the piece is moving diagonally to an empty spot
+  return rowDiff === 1 && colDiff === 1 && !destinationSquare.firstChild;
 }
 
 // -- function to move piece
@@ -145,6 +143,14 @@ function movePiece(squareId, destinationSquareId, event) {
     const { row: sourceRow, col: sourceCol } = getRowAndCol(squareId);
     const { row: destRow, col: destCol } = getRowAndCol(destinationSquareId);
 
+    // check if the move involves jumping
+    if (Math.abs(destinationSquareId - squareId) === 16) {
+        // if yes, remove the jumped piece
+        const jumpedRow = (destRow + sourceRow) / 2;
+        const jumpedCol = (destCol + sourceCol) / 2;
+        board[jumpedRow][jumpedCol] = 'empty';
+    }
+
     // update the array representation of the board to reflect the move
     const pieceToMove = board[sourceRow][sourceCol];
     board[destRow][destCol] = pieceToMove;
@@ -153,6 +159,7 @@ function movePiece(squareId, destinationSquareId, event) {
     // update the board on the screen
     renderBoard();
 }
+
 
 function setLastClick(event)
 {
