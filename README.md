@@ -1,4 +1,4 @@
-**Version:** 0.1.0
+**Version:** 0.2.0
 # Project Title
 Our product, _BubbleBots_, is a web service that allows an educational aspect to learning AI gametrees when playing Checkers. A student may load the web service and play against a provided AI. While also seeing the AI's thinking process when playing the game. While the user is able to view the AI's thinking process, the web service provides a textual explanation.
 
