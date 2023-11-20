@@ -21,10 +21,15 @@ Approved by: Tyler Chapp, Ibrahim Hmood, Nick Persley \
 Print screen:![Feedback Page](https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/128747430/b4158a18-1c97-42be-8800-3937440d51f9)
 
 Ibrahim:
+
 Requirement: As someone who likes to help, I want the ability to give feedback on the website if something goes wrong
+
 [Issue](https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/25)
+
 [Pull request](https://github.com/N1ckP3rsl3y/TheBubbleBots/pull/59)
+
 Implemented by: Ibrahim Hmood
+
 Approved by: Nicholas Persley
 
 Jeysen A:  
