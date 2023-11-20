@@ -14,8 +14,8 @@ Team Members: Nicholas Persley, Nicholas Robishaw, Elian Zamora-Rivera, Jeysen A
 
 Elian:
 Requirements: As someone who likes to help, I want the ability to give feedback on the website if something goes wrong.\
-Issue: https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/25 \
-Pull request: https://github.com/N1ckP3rsl3y/TheBubbleBots/pull/59 \
+Issue: <https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/25> \
+Pull request: <https://github.com/N1ckP3rsl3y/TheBubbleBots/pull/59> \
 Implemented by: Elian Zamora \
 Approved by: Tyler Chapp, Ibrahim Hmood, Nick Persley \
 Print screen:![Feedback Page](https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/128747430/b4158a18-1c97-42be-8800-3937440d51f9)
@@ -32,7 +32,7 @@ Requirement: As someone who likes to be informed, I would like a place to read a
 Issue: https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/24  
 Pull request: https://github.com/N1ckP3rsl3y/TheBubbleBots/pull/59  
 Implemented by: Jeysen Angous  
-Approved by: Nicholas Persley, Elian Zamora, and Nicholas Robishaw
+Approved by: Nicholas Persley, Elian Zamora, and Nicholas Robishaw \
 Print screen:![aboutpage](https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/93228715/9ea55c3b-73f5-49e3-a3d1-64ee59a28875)
 
 Nick P: \
