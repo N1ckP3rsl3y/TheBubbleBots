@@ -26,7 +26,7 @@ Requirement: As someone who likes to help, I want the ability to give feedback o
 Issue: [25](https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/25) \
 Pull request: [59](https://github.com/N1ckP3rsl3y/TheBubbleBots/pull/59) \
 Implemented by: Ibrahim Hmood \
-Approved by: Nicholas Persley \
+Approved by: Nicholas Persley 
 
 Jeysen A:  
 Requirement: As someone who likes to be informed, I would like a place to read about the website before I use it  
