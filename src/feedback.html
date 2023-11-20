@@ -26,22 +26,26 @@
     </header>
 
     <main>
-     
-        <div class="centered-text">
-          <h1>Welcome to BubbleBots</h1>
-          <p>
-            Ready to play? If you want more information, check out our about
-            page
-          </p>
-          <a href="game.html" class="button">PLAY NOW</a>
+
+        <form method="POST">
+          <label for"mail" style="color:gold;">Email:</label></br>
+          <input type="text" id="mail" name="mail" placeholder="name@email.com"></input></br>
+
+          <label for"feedback" style="color:gold;" >Feedback:</label></br>
+          <textarea type="text" id="feedback" name="feedback" placeholder="please write your feedback here" ></textarea></br>
+
+          <input type="submit" class="button" onclick="alert('Thank you for the feedback!')" value="SUBMIT" />
+        </form>
+
+          </main>
         </div>
       </div>
     </main>
   </body>
-</html>
-
 <style>
+
 body {
   background-image: url('background.png');
 }
 </style>
+
