@@ -14,46 +14,40 @@ Team Members: Nicholas Persley, Nicholas Robishaw, Elian Zamora-Rivera, Jeysen A
 
 Elian:
 Requirements: As someone who likes to help, I want the ability to give feedback on the website if something goes wrong.\
-Issue: <https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/25> \
-Pull request: <https://github.com/N1ckP3rsl3y/TheBubbleBots/pull/59> \
+[Issue](https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/25) [Pull Request](https://github.com/N1ckP3rsl3y/TheBubbleBots/pull/59) \
 Implemented by: Elian Zamora \
 Approved by: Tyler Chapp, Ibrahim Hmood, Nick Persley \
 Print screen:![Feedback Page](https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/128747430/b4158a18-1c97-42be-8800-3937440d51f9)
 
 Ibrahim: \
 Requirement: As someone who likes to help, I want the ability to give feedback on the website if something goes wrong. \
-Issue: [25](https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/25) \
-Pull request: [59](https://github.com/N1ckP3rsl3y/TheBubbleBots/pull/59) \
+[Issue](https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/25) [Pull Request](https://github.com/N1ckP3rsl3y/TheBubbleBots/pull/59) \
 Implemented by: Ibrahim Hmood \
 Approved by: Nicholas Persley and Tyler Chapp
 
 Jeysen A:  
 Requirement: As someone who likes to be informed, I would like a place to read about the website before I use it  
-Issue: https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/24  
-Pull request: https://github.com/N1ckP3rsl3y/TheBubbleBots/pull/59  
+[Issue](https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/24) [Pull Request](https://github.com/N1ckP3rsl3y/TheBubbleBots/pull/59)  
 Implemented by: Jeysen Angous  
 Approved by: Nicholas Persley, Elian Zamora, and Nicholas Robishaw \
 Print screen:![aboutpage](https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/93228715/9ea55c3b-73f5-49e3-a3d1-64ee59a28875)
 
 Nick P: \
 Requirements: As a fan of online games, I would like to play Checkers against an AI bot.\
-Issue: https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/23 \
-Pull request: https://github.com/N1ckP3rsl3y/TheBubbleBots/pull/55 \
+[Issue](https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/23) [Pull Request](https://github.com/N1ckP3rsl3y/TheBubbleBots/pull/55) \
 Implemented by: Nicholas Persley \
 Approved by: Tyler Chapp and Ibrahim Hmood
 
 Nick R: \
 Requrements: As a fan of online games, I would like to play Checkers against an AI bot.\
-Issue: https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/23 \
-Pull request: https://github.com/N1ckP3rsl3y/TheBubbleBots/pull/55 \
+[Issue](https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/23) [Pull Request](https://github.com/N1ckP3rsl3y/TheBubbleBots/pull/55) \
 Implemented by: Nicholas Robishaw \
 Approved by: Nick Persley and Tyler Chapp \
 Print screen: ![image](https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/93451175/8594ffd8-0914-46bd-b59b-0fdbb879dba7)
 
 Tyler:\
 Requirement: As a fan of online games, I would like to play Checkers against an AI bot.\
-Issue: https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/23 \
-Pull request: https://github.com/N1ckP3rsl3y/TheBubbleBots/pull/55 \
+[Issue](https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/23) [Pull Request](https://github.com/N1ckP3rsl3y/TheBubbleBots/pull/55) \
 Implemented by: Tyler Chapp \
 Approved by: Nicholas Persley and Ibrahim Hmood
 
