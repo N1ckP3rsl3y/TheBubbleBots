@@ -23,8 +23,8 @@ Print screen:![Feedback Page](https://github.com/N1ckP3rsl3y/TheBubbleBots/asset
 Ibrahim:
 
 Requirement: As someone who likes to help, I want the ability to give feedback on the website if something goes wrong. \
-[Issue](https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/25) \
-[Pull request](https://github.com/N1ckP3rsl3y/TheBubbleBots/pull/59) \
+Issue: [25](https://github.com/N1ckP3rsl3y/TheBubbleBots/issues/25) \
+Pull request: [59](https://github.com/N1ckP3rsl3y/TheBubbleBots/pull/59) \
 Implemented by: Ibrahim Hmood \
 Approved by: Nicholas Persley \
 
