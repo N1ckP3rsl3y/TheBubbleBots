@@ -89,7 +89,7 @@ long readFile(const char* filename, unsigned char **fileContent)
     fread(*fileContent, sizeof(unsigned char), filesize, file);
     (*fileContent)[filesize] = 0;
     fclose(file);
-    
+
     return filesize;
 }
 
@@ -161,26 +161,6 @@ void getFileName(char *requestMsg, char *fileDest)
     {
         fileDest[resIndex] = '\0';
     }
-    else if(strncmp("GET /style.css", requestMsg, 14) == STR_EQ)
-    {
-        strcpy(fileDest, "style.css");
-    }
-    else if(strncmp("GET /index.js", requestMsg, 13) == STR_EQ)
-    {
-        strcpy(fileDest, "index.js");
-    }
-    else if(strncmp("GET /pieces.js", requestMsg, 14) == STR_EQ)
-    {
-        strcpy(fileDest, "pieces.js");
-    }
-    else if(strncmp("GET /blackPiece.png", requestMsg, 14) == STR_EQ)
-    {
-        strcpy(fileDest, "blackPiece.png");
-    }
-    else if(strncmp("GET /redPiece.png", requestMsg, 12) == STR_EQ)
-    {
-        strcpy(fileDest, "redPiece.png");
-    }
 }
 
 void handle_client(int client_socket)
@@ -196,8 +176,7 @@ void handle_client(int client_socket)
 
         // We do not support favicon.ico, so don't attempt to send it
         if(fileName[0] != '\0' &&
-           strcmp(fileName, "favicon.ico") != STR_EQ &&
-           strcmp(fileName, "AboutPage.html") != STR_EQ)
+           strcmp(fileName, "favicon.ico") != STR_EQ)
         {
             sendFile(fileName, client_socket);
         }

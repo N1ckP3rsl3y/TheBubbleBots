@@ -26,22 +26,26 @@
     </header>
 
     <main>
-     
+
+        <form method="POST">
           <label for"mail" style="color:gold;">Email:</label></br>
           <input type="text" id="mail" name="mail" placeholder="name@email.com"></input></br>
 
           <label for"feedback" style="color:gold;" >Feedback:</label></br>
           <textarea type="text" id="feedback" name="feedback" placeholder="please write your feedback here" ></textarea></br>
-          
-          <a  class="submit" class="button" onclick="alert('Thank you for the feedback!')"><center>SUBMIT</center></a>
+
+          <input type="submit" class="button" onclick="alert('Thank you for the feedback!')" value="SUBMIT" />
+        </form>
+
+          </main>
         </div>
       </div>
     </main>
   </body>
 <style>
-    
+
 body {
   background-image: url('background.png');
 }
-</style>	
+</style>
 
