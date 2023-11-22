@@ -7,7 +7,7 @@
 
 ### Summary of Activities
 
-Nick R: \
+Nick R: Team spoke about what path we want to improve before the last deliverable. \
 Nick P:  Discussed what the team will do over the next week in regards to the program we are creating and any questions that arise. \
 Tyler C:  \
 Jeysen A: The team talked about perfecting the AI bot as well as getting ready to implement the last deliverable and beginning to talk about the final presentation. \
@@ -17,7 +17,7 @@ Ibrahim H: As Elian said, the team talked about perfecting the AI.
 ### Project Perspective
 1. Appreciations
 
-Nick R:  \
+Nick R:  I appreciate the team meeting the week of Thanksgiving and did not need to make a new meeting day. \
 Nick P:  I appreciate the team getting together on the week of Thanksgiving and being open to work on the project before the final presentation. \
 Tyler C: \
 Jeysen A: I appreciate everyone being able to show up to the meeting despite having a short week due to thanksgiving break.\
@@ -26,7 +26,7 @@ Ibrahim H: I appreciate that everyone was present
 
 2. Successes
 
-Nick R: \
+Nick R: Getting everyone together to discuess the next steps. \
 Nick P: Proposing the idea of cleaning up the code and making the program better including a couple new features. \
 Tyler C: \
 Jeysen A: Being able to implement the About page correctly and having it displayed on the web page.\
@@ -53,7 +53,7 @@ Ibrahim H: None
 
 5. What we should try next time
 
-Nick R: \
+Nick R: Finish up the last deliverable and fix any last minute bugs. \
 Nick P: Start work on the final deliverable and discuss how work on the program is going. \
 Tyler C: \
 Jeysen A: Start working on the deliverable as well as perfecting the website. \
