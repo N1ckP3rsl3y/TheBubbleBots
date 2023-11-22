@@ -10,7 +10,7 @@
 Nick R: \
 Nick P:  \
 Tyler C:  \
-Jeysen A: \
+Jeysen A: The team talked about perfecting the AI bot as well as getting ready to implement the last deliverable and beginning to talk about the final presentation. \
 Elian Z: The team talked about trying to perfect the AI bot for checkers and figuring out how to do the visual explination\
 Ibrahim H: As Elian said, the team talked about perfecting the AI.
 
@@ -20,7 +20,7 @@ Ibrahim H: As Elian said, the team talked about perfecting the AI.
 Nick R:  \
 Nick P:  \
 Tyler C: \
-Jeysen A: \
+Jeysen A: I appreciate everyone being able to show up to the meeting despite having a short week due to thanksgiving break.\
 Elian Z: I appreciate how much we have accomplished in such a short amount of time\
 Ibrahim H: I appreciate that everyone was present
 
@@ -29,7 +29,7 @@ Ibrahim H: I appreciate that everyone was present
 Nick R: \
 Nick P: \
 Tyler C: \
-Jeysen A: \
+Jeysen A: Being able to implement the About page correctly and having it displayed on the web page.\
 Elian Z: We have a functioning website and we are getting close to the end of it.\
 Ibrahim H: A functioning website exists
 
@@ -56,7 +56,7 @@ Ibrahim H: None
 Nick R: \
 Nick P: \
 Tyler C: \
-Jeysen A: \
+Jeysen A: Start working on the deliverable as well as perfecting the website. \
 Elian Z: Keep on trying to make the checkers game better and fix the AI\
 Ibrahim H: Just keep working on the AI
 
