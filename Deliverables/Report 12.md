@@ -12,7 +12,7 @@ Nick P:  \
 Tyler C:  \
 Jeysen A: \
 Elian Z: The team talked about trying to perfect the AI bot for checkers and figuring out how to do the visual explination\
-Ibrahim H: 
+Ibrahim H: As Elian said, the team talked about perfecting the AI.
 
 ### Project Perspective
 1. Appreciations
@@ -22,7 +22,7 @@ Nick P:  \
 Tyler C: \
 Jeysen A: \
 Elian Z: I appreciate how much we have accomplished in such a short amount of time\
-Ibrahim H: 
+Ibrahim H: I appreciate that everyone was present
 
 2. Successes
 
@@ -31,7 +31,7 @@ Nick P: \
 Tyler C: \
 Jeysen A: \
 Elian Z: We have a functioning website and we are getting close to the end of it.\
-Ibrahim H: 
+Ibrahim H: A functioning website exists
 
 3. Failures
 
@@ -58,7 +58,7 @@ Nick P: \
 Tyler C: \
 Jeysen A: \
 Elian Z: Keep on trying to make the checkers game better and fix the AI\
-Ibrahim H: 
+Ibrahim H: Just keep working on the AI
 
 
 ### Next Steps
