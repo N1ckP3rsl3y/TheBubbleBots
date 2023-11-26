@@ -62,4 +62,4 @@ Ibrahim H: Just keep working on the AI
 
 
 ### Next Steps
-
+  The team will look into the next deliverable while trying to improve the semesters project for the demo in a few weeks.
