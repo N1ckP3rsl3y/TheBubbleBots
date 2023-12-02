@@ -157,10 +157,6 @@ void getFileName(char *requestMsg, char *fileDest)
     {
         strcpy(fileDest, "index.html");
     }
-    else
-    {
-        fileDest[resIndex] = '\0';
-    }
     else if(strncmp("GET /style.css", requestMsg, 14) == STR_EQ)
     {
         strcpy(fileDest, "style.css");
@@ -180,6 +176,10 @@ void getFileName(char *requestMsg, char *fileDest)
     else if(strncmp("GET /redPiece.png", requestMsg, 12) == STR_EQ)
     {
         strcpy(fileDest, "redPiece.png");
+    }
+    else
+    {
+        fileDest[resIndex] = '\0';
     }
 }
 
