@@ -13,6 +13,7 @@ int main()
 	int server_socket;
 	struct sockaddr_in server_address;
 	int bind_res, listen_res;
+    int reuse_addr_res, reuse_port_res;
     socklen_t client_size;
 
 	signal(SIGPIPE, SIG_IGN);
@@ -24,6 +25,19 @@ int main()
 		exit(EXIT_FAILURE);
 	}
 
+    reuse_addr_res = setsockopt(server_socket, SOL_SOCKET, SO_REUSEADDR, &(int){1}, sizeof(int));
+    if(reuse_addr_res < 0)
+    {
+        fprintf(stderr, "A problem occurred when making server address reusable... stopping\n");
+        exit(EXIT_FAILURE);
+    }
+
+    reuse_port_res = setsockopt(server_socket, SOL_SOCKET, SO_REUSEPORT, &(int){1}, sizeof(int));
+    if(reuse_port_res < 0)
+    {
+        fprintf(stderr, "A problem occurred when making server port reusable... stopping\n");
+        exit(EXIT_FAILURE);
+    }
 	server_address.sin_family = AF_INET;
 	server_address.sin_addr.s_addr = htonl(INADDR_ANY);
 	server_address.sin_port = htons(PORT);
@@ -78,6 +92,12 @@ long getFileSize(const char *filename)
 long readFile(const char* filename, unsigned char **fileContent)
 {
     long filesize = getFileSize(filename);
+    size_t contentlength = strlen(*fileContent);
+    if(contentlength < filesize)
+    {
+        *fileContent = realloc(*fileContent, filesize);
+    }
+
     FILE *file = fopen(filename, "rb");
     if(!file)
     {
