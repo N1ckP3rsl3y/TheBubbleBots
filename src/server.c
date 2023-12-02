@@ -107,7 +107,6 @@ long readFile(const char* filename, unsigned char **fileContent)
     }
 
     fread(*fileContent, sizeof(unsigned char), filesize, file);
-    (*fileContent)[filesize] = 0;
     fclose(file);
 
     return filesize;
