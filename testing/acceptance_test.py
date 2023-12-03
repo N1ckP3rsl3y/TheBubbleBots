@@ -50,4 +50,4 @@ def test_about_button(browser):
 
     # verify that we are on the about page
     about_heading = browser.find_element(By.TAG_NAME, "h1")
-    assert about_heading.text == "About BubbleBots", "Failed to reach the About page."
+    assert about_heading.text == "ABOUT US", "Failed to reach the About page."
