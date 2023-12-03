@@ -16,7 +16,7 @@ Team Members: Nicholas Persley, Nicholas Robishaw, Elian Zamora-Rivera, Jeysen A
 ## Validation
 
 ### Interview #1
-Jered Angous (interviewee)
+Jered Angous (interviewee)  
 Jeysen Angous (interviewer)
 1. Could you work with the website for a few minutes and let us know what your first impressions are?  
    * Very Simple and Straightforward
