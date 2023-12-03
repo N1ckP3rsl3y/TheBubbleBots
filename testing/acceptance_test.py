@@ -34,5 +34,5 @@ def test_play_now_button(browser):
     time.sleep(5)
 
     # Verify that we are on the game page
-    game_board = browser.find_element(By.ID, "gameBoard")
+    game_board = browser.find_element(By.ID, "gameboard")
     assert game_board.is_displayed(), "Failed to reach the game page."
