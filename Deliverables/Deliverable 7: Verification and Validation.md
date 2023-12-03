@@ -12,6 +12,13 @@ Team Members: Nicholas Persley, Nicholas Robishaw, Elian Zamora-Rivera, Jeysen A
 ## Verification
 
 ## Acceptance Test
+For acceptance testing, we decided to use Selenium delivered via the Pytest Python library. Selenium is an open-source testing framework that focuses on browser automation and supports a huge number of programming languages.\
+[Automated Acceptance Tests](https://github.com/N1ckP3rsl3y/TheBubbleBots/blob/main/testing/acceptance_test.py) \
+[Example Acceptance Test](https://github.com/N1ckP3rsl3y/TheBubbleBots/actions/runs/7078527014/job/19264113247) \
+In this acceptance test, we are creating an internet browser environment that first navigates to our website. After doing so, the test will then search for our button objects and press each of them. Upon clicking the links, we ensure that we actually navigate to the desired destination and that those buttons are functioning visually from a user interface standpoint. Lastly, the test checks that the desired page is properly loaded and visually available. 
+
+
+![acceptance_test](https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/95588532/dc4494ef-fde0-49cd-b6d0-9c74e3178996)
 
 ## Validation
 
