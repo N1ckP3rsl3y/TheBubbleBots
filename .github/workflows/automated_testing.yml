@@ -2,34 +2,31 @@ name: Python and JS Test Workflow
 
 on: [push, pull_request]
 
-defaults:
-  runs-on: ubuntu-latest
-  steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
-
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: 3.9
-
-    - name: Install Python dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
-
-    - name: Set up headless Chrome
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y libgconf-2-4
-        wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-        sudo dpkg -i google-chrome-stable_current_amd64.deb
-        rm google-chrome-stable_current_amd64.deb
-
 jobs:
   test-server:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Set up headless Chrome
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libgconf-2-4
+          wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+          sudo dpkg -i google-chrome-stable_current_amd64.deb
+          rm google-chrome-stable_current_amd64.deb
+
       - name: Install Selenium
         run: python -m pip install selenium
 
@@ -37,7 +34,16 @@ jobs:
         run: pytest testing/test_server.py
 
   acceptance-test:
+    runs-on: ubuntu-latest
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+
       - name: Install Selenium
         run: python -m pip install selenium
 
@@ -45,7 +51,11 @@ jobs:
         run: pytest testing/acceptance_test.py
 
   test-javascript:
+    runs-on: ubuntu-latest
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
