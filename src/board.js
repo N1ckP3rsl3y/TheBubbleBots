@@ -355,12 +355,6 @@ function triggerBot()
     renderBoard();
 }
 
-module.exports = {
-    createBoard,
-    renderBoard,
-    makeListeners
-  };
-
 });
 
 
@@ -394,3 +388,9 @@ for(let index = 0; index < container.length; index++)
     });
 }
 // END OF SLIDER JS
+
+module.exports = {
+    createBoard,
+    renderBoard,
+    makeListeners
+  };
