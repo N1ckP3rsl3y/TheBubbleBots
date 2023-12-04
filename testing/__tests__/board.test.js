@@ -15,7 +15,7 @@ const {
     availableSpot,
     canJump,
     isOppositeColor,
-  } = require('../src/board');
+  } = require('../src/board.js');
   
   describe('Checkers Board', () => {
     // Mock data for testing
