@@ -37,12 +37,18 @@ body {
   border: 2px solid black;
   min-height: 32.5%;
   min-width: 44.75%;
+  max-height: 35%;
   margin: 0 auto;
   border-radius: 0px;
   float: left;
   align-content: left;
   position: fixed;
   right: .25%;
+  overflow: hidden;
+}
+
+.textExplanation:hover .textExplanation:active .textExplanation:focus{
+  overflow: scroll;
 }
 
 .settings {

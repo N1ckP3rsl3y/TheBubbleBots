@@ -63,7 +63,7 @@
 
 .range-slider {
     max-width: 30em;
-    margin: 2.8em auto;
+    margin: 1em auto;
     position: relative;
     display: flex;
 }
@@ -121,6 +121,7 @@
 }
 
 .range-slider .tooltip {
+    visibility: hidden;
     position: absolute;
     width: 2em;
     height: 2em;
@@ -134,6 +135,11 @@
     border-radius: 20px;
     box-shadow: 0px 3px 10px #000000,
         insert 0px 1px 2px #909090;
+}
+
+.range-slider:hover .tooltip {
+    animation: pop 0.5s;
+    visibility: visible;
 }
 
 .range-slider .tooltip::before {
@@ -168,6 +174,10 @@
         width: 100%;
         user-select: none;
     }
+}
+
+@keyframes pop{
+    50% {transform: scale(1.5);}
 }
 
 /* Slider End */

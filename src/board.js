@@ -63,11 +63,9 @@ function createBoard() {
     })
 }
 
-createBoard()
 
 function dragEnd(event) {
     let squareId;
-    console.log(board);
     if (event.target.classList.contains('square')) {
         selectedSquare = clickTarget.target.parentNode;
         squareId = parseInt(selectedSquare.getAttribute('square-id'));
@@ -204,7 +202,8 @@ makeListeners();
 // AI bot things
 function botThink()
 {
-    return botThinkHelper(board, 0, "black", null, null, null, null);
+    var bestMove = botThinkHelper(board, 0, "black", null, null, null, null);
+    return bestMove;
 }
 
 function botThinkHelper(currBoard, depth, colorTurn,
@@ -282,6 +281,7 @@ function botMovePieceInCalculation(currBoard, fromY, fromX, toY, toX)
         var middleX = parseInt((toX + fromX) / 2);
 
         currBoard[middleY][middleX] = "empty";
+
     }
 }
 
@@ -350,7 +350,35 @@ function isOppositeColor(currBoard, color, currY, currX)
 
 function triggerBot()
 {
+    var textExplanation = document.getElementsByClassName("textExplanation")[0];
     var res = botThink();
+    var fromY = res[1];
+    var fromX = res[2];
+    var toY = res[3];
+    var toX = res[4];
+
+    //Make sure to remove the text in explanation box
+    if(textExplanation.innerText.startsWith("This"))
+    {
+        textExplanation.innerText = "\n";
+    }
+    //Check if the spot the bot is moving to is available
+    if(availableSpot(toY, toX, board))
+    {
+        //Check if the move performed is a jump move
+        if(Math.abs(toY - fromY) == 2 && Math.abs(toX - fromX) == 2)
+        {
+            var response = `Bot jumped from (${fromX}, ${fromY}) to (${toX}, ${toY}) to take a piece.\n`;
+            textExplanation.innerText += response;
+        }
+        //Assume it is just a normal move
+        else
+        {
+            var response = `Bot moved piece from (${fromX}, ${fromY}) to (${toX}, ${toY}) as space was available.\n`;
+            textExplanation.innerText += response;
+        }
+    }
+
     botMovePieceInCalculation(board, res[1], res[2], res[3], res[4]);
     renderBoard();
 }
