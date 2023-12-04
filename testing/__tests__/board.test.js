@@ -17,7 +17,6 @@ const {
     isOppositeColor,
   } = require('../../src/board.js');
 
-  const { createBoard } = require('../../src/board.js');
   
   describe('Checkers Board', () => {
     // Mock data for testing
