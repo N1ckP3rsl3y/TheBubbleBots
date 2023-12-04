@@ -15,7 +15,7 @@ const {
     availableSpot,
     canJump,
     isOppositeColor,
-  } = require('../src/gamboard_dev/board');
+  } = require('../src/gameboard_dev/board');
   
   describe('Checkers Board', () => {
     // Mock data for testing
