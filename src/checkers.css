@@ -37,20 +37,35 @@ body {
   border: 2px solid black;
   min-height: 32.5%;
   min-width: 44.75%;
-  max-height: 35%;
+  max-height: 33%;
   margin: 0 auto;
   border-radius: 0px;
   float: left;
   align-content: left;
   position: fixed;
   right: .25%;
-  overflow: hidden;
+  overflow-y: hidden;
+  scrollbar-gutter: stable;
 }
 
-.textExplanation:hover .textExplanation:active .textExplanation:focus{
-  overflow: scroll;
+.textExplanation:hover {
+  overflow-y: scroll;
 }
 
+.textExplanation::-webkit-scrollbar {
+  background: transparent;
+}
+
+.textExplanation::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.textExplanation::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+  background-color: black;
+  outline: 0.5px solid black;
+}
 .settings {
   text-align: center;
   top: 15%;

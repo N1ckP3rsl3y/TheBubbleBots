@@ -202,8 +202,39 @@ makeListeners();
 // AI bot things
 function botThink()
 {
-    var bestMove = botThinkHelper(board, 0, "black", null, null, null, null);
-    return bestMove;
+    var textExplanation = document.getElementsByClassName("textExplanation")[0];
+    var res = botThinkHelper(board, 0, "black", null, null, null, null);
+    var fromY = res[1];
+    var fromX = res[2];
+    var toY = res[3];
+    var toX = res[4];
+
+    if(board != null)
+    {
+        //Make sure to remove the text in explanation box
+        if(textExplanation.innerText.startsWith("This"))
+        {
+            textExplanation.innerHTML = "\n";
+        }
+        //Check if the spot the bot is moving to is available
+        if(availableSpot(toY, toX, board))
+        {
+            //Check if the move performed is a jump move
+            if(Math.abs(toY - fromY) == 2 && Math.abs(toX - fromX) == 2)
+            {
+                var response = `<p>Bot jumped from (${fromX}, ${fromY}) to (${toX}, ${toY}) to take a piece.</p>\n`;
+                textExplanation.innerHTML += response;
+            }
+            //Assume it is just a normal move
+            else
+            {
+                var response = `<p>Bot moved piece from (${fromX}, ${fromY}) to (${toX}, ${toY}) as space was available.</p>\n`;
+                textExplanation.innerHTML += response;
+            }
+        }
+    }
+
+    return res;
 }
 
 function botThinkHelper(currBoard, depth, colorTurn,
@@ -350,35 +381,7 @@ function isOppositeColor(currBoard, color, currY, currX)
 
 function triggerBot()
 {
-    var textExplanation = document.getElementsByClassName("textExplanation")[0];
     var res = botThink();
-    var fromY = res[1];
-    var fromX = res[2];
-    var toY = res[3];
-    var toX = res[4];
-
-    //Make sure to remove the text in explanation box
-    if(textExplanation.innerText.startsWith("This"))
-    {
-        textExplanation.innerText = "\n";
-    }
-    //Check if the spot the bot is moving to is available
-    if(availableSpot(toY, toX, board))
-    {
-        //Check if the move performed is a jump move
-        if(Math.abs(toY - fromY) == 2 && Math.abs(toX - fromX) == 2)
-        {
-            var response = `Bot jumped from (${fromX}, ${fromY}) to (${toX}, ${toY}) to take a piece.\n`;
-            textExplanation.innerText += response;
-        }
-        //Assume it is just a normal move
-        else
-        {
-            var response = `Bot moved piece from (${fromX}, ${fromY}) to (${toX}, ${toY}) as space was available.\n`;
-            textExplanation.innerText += response;
-        }
-    }
-
     botMovePieceInCalculation(board, res[1], res[2], res[3], res[4]);
     renderBoard();
 }
