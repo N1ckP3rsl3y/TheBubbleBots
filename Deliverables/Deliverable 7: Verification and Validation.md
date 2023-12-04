@@ -122,5 +122,36 @@ James  (interviewee)
 9. Do you like the how-to-play section on the About page? 
    * No, text is too large, & 'About Us' & 'How to Play' run together; eye soar
 
+### Interview #5
+Nick P (interviewer) \
+Aidan  (interviewee)
+1. Could you work with the website for a few minutes and let us know what your first impressions are? 
+   * Neatly designed.
+   * Easy to move the checker pieces.
+   * The sliding bars for difficulty levels is a great idea and easy to use. 
+2. How would you compare this to actual checkers? 
+   * I think the movements are a lot clearner, however, it is slightly harder to see what move the AI made.
+3. What is your least favorite aspect of the website? 
+   * The sliders for difficulty etc.
+4. What is your favorite aspect of the website? 
+   * The movement from the AI, stiff hard to tell what exactly has happened quickly.
+5. What recommendations do you have for the website?
+   * The checkboard looks a little funky that could maybe be redesigned.
+   * The line that says "this is where the visualization will be" is somewhat distracting and could be moved.
+6. Would you recommend this website to others? 
+   * Yes 
+7. Do you like the look and feel of the website? 
+   * Yes, the colors are nice and don't hurt the eyes from being too bright.
+8. Do you think the website is easy to navigate? 
+   * Yes 
+9. Do you like the how-to-play section on the About page? 
+   * There is a lot of scrolling for the how-to-play section that makes it somewhat hard to read. Other than that yes, very nice well done!
 
-## Teamwork
+### Results
+After reading the above interview responses using the given script, the things we have learned are:
+* The best features were the settings sliders with their design along with functionality of the board. 
+* The features that need work are the boards and overall design. One thing to change on the overall design are the colors, which can be seen, so it may be best to dull the colors.
+* Overall, the concenus is that the website is easy to use and does not have much of a learning curve. For the most part, it was found that the website was easy to use without much complaint.
+* We allowed the users to roam free on the website for a few minutes so they can test it for themselves. The team believed that having the user do specific tasks may limit them from finding functionality they wouldn't find otherwise, whether they are bugs or expected functionality.
+* When working with the website, our interviewees found the look and feel, and navigation, for the most part, pleasing. They were able to make moves as they would expect in Checkers and have fun with the design of the sliders.
+* Some things that need to be worked on going forward are the board and parts of the design. The board currently goes off screen for most, so this should be fixed if we want everyone to be able to use it properly. The design, like the about page and landing page need to be changed to either fit the screen to represent our project in the best manner.
