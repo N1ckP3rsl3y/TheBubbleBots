@@ -10,10 +10,18 @@ Team Members: Nicholas Persley, Nicholas Robishaw, Elian Zamora-Rivera, Jeysen A
 ## Description
 
 ## Verification
+For verification testing, we decided to go with the Jest framework to isolate and test our JavaScript classes. Jest is a popular, open-source testing framework that focuses on reactive websites' correctness. \
+[Automated Verification Test](https://github.com/N1ckP3rsl3y/TheBubbleBots/blob/main/testing/acceptance_test.py](https://github.com/N1ckP3rsl3y/TheBubbleBots/blob/main/testing/test.board.js)
+) \
+[Example Verificaiton Test](https://github.com/N1ckP3rsl3y/TheBubbleBots/actions/runs/7078527014/job/19264113247](https://github.com/N1ckP3rsl3y/TheBubbleBots/actions/runs/7081416957/job/19270663766)
+) \
+In this verification test, we are testing the functionality of the sliders on the gameboard. This test creates a mock gameboard and slider objects locally and separates them from the other dependencies to run an independent test. To test the functionality of the slider, we essentially adjust each slider from 50 to 0, and back to 50 to ensure the proper changes are reflected in real-time on the slider. 
+
+![verification_test](https://github.com/N1ckP3rsl3y/TheBubbleBots/assets/95588532/75ec7785-6149-48e2-8fbf-9563ffa74e6f)
 
 ## Acceptance Test
 For acceptance testing, we decided to use Selenium delivered via the Pytest Python library. Selenium is an open-source testing framework that focuses on browser automation and supports a huge number of programming languages.\
-[Automated Acceptance Tests](https://github.com/N1ckP3rsl3y/TheBubbleBots/blob/main/testing/acceptance_test.py) \
+[Automated Acceptance Test](https://github.com/N1ckP3rsl3y/TheBubbleBots/blob/main/testing/acceptance_test.py) \
 [Example Acceptance Test](https://github.com/N1ckP3rsl3y/TheBubbleBots/actions/runs/7078527014/job/19264113247) \
 In this acceptance test, we are creating an internet browser environment that first navigates to our website. After doing so, the test will then search for our button objects and press each of them. Upon clicking the links, we ensure that we actually navigate to the desired destination and that those buttons are functioning visually from a user interface standpoint. Lastly, the test checks that the desired page is properly loaded and visually available. 
 
