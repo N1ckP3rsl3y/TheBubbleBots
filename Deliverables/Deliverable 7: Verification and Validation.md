@@ -8,6 +8,7 @@ Location: Virtual (Discord)
 Team Members: Nicholas Persley, Nicholas Robishaw, Elian Zamora-Rivera, Jeysen Angous, Tyler Chapp, Ibrahim Hmood
 
 ## Description
+BubbleBots is an educational website that provides an AI for users to play checkers against. Said AI will provide users information such as explanations for the moves it made, and what it is currently “thinking” (the moves it is considering making). It will show what the AI is thinking visually and textually, using a game tree and providing English-formatted text (text that also describes what the AI is thinking). This very much covers its features. BubbleBots has a page that includes a checkers game board and an AI for users to play against. This AI will provide explanations to the end user, allowing them to do things such as see what the AI is thinking. BubbleBots’ source code can be found at [this github repository](https://github.com/N1ckP3rsl3y/TheBubbleBots).
 
 ## Verification
 For verification testing, we decided to go with the Jest framework to isolate and test our JavaScript classes. Jest is a popular, open-source testing framework that focuses on reactive websites' correctness. \
