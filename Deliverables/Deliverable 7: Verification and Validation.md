@@ -43,6 +43,30 @@ Jeysen Angous (interviewer)
     * Yes
 11. Do you like the how-to-play section on the About page?  
     * Yes, it's great
+   
+### Interview #2
+Gabriella Lara (interviewee)  
+Elian Zamora (interviewer)
+
+1. Could you work with the website for a few minutes and let us know what your first impressions are?
+   * It looks really nice and I like the colors you guys used for the sliders.
+2. How would you compare this to actual checkers?
+   * It plays exactly the same.
+3. What is your least favorite aspect of the website?
+   * I just don’t like that the pieces don’t slide with the mouse. 
+4. What is your favorite aspect of the website?
+   * I really like the layout of it and the colors that were used. 
+5. What recommendations do you have for the website?
+   * I think you guys should add the animation for the pieces to move. 
+6. Would you recommend this website to others?
+   * Yes the game was really fun and it was cool to play against a computer. 
+7. Do you like the look and feel of the website?
+   * Yes the website looks really cool and professional 
+8. Do you think the website is easy to navigate?
+   * Yes it was easy to get to the game page and the about page as well. 
+9. Do you like the how-to-play section on the About page?
+   * Yes, even though i already know how to play checkers it’s a good thing to have for people that don’t know how to play.
+
 
 
 ## Teamwork
