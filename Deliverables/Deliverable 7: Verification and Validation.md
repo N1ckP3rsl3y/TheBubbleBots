@@ -67,6 +67,52 @@ Elian Zamora (interviewer)
 9. Do you like the how-to-play section on the About page?
    * Yes, even though i already know how to play checkers it’s a good thing to have for people that don’t know how to play.
 
+### Interview #3
+Nick R (interviewer) \
+Aaron  (interviewee)
+
+1. Could you work with the website for a few minutes and let us know what your first impressions are?
+   * I was very confused because I could not move any of the checkers on the board, and it seems like the board was stretching below my screen, if that makes sense. I realized after I skipped the about page. Maybe having a button next to the start here button that says tutorial will be helpful.
+
+2. How would you compare this to actual checkers?
+   * I think it's very similar to checkers, I like how responsive it is.
+3. What is your least favorite aspect of the website?
+   * The weird background. The bugs I experienced as well.
+4. What is your favorite aspect of the website?
+   * I like how fast the pieces move in the game.
+5. What recommendations do you have for the website?
+   * A better background image and sounds for when the checkers move.
+6. Would you recommend this website to others?
+   * Yes, if they want to play checkers online
+7. Do you like the look and feel of the website?
+   * I like the feel, but the look could be a little better
+8. Do you think the website is easy to navigate?
+   * I think this website is pretty easy to navigate and really fast.
+9. Do you like the how-to-play section on the About page?
+   * Yes, I think it would be cool if it had a pop-up I could reference while on the game page.
+
+### Interview #4
+Nick R (interviewer) \
+James  (interviewee)
+
+1. Could you work with the website for a few minutes and let us know what your first impressions are? 
+   * Good functionality, but was slightly confused on what the website was about upon arrival. Also had issues starting the game. 
+2. How would you compare this to actual checkers? 
+   * Similar, but does need some tweaking ('Kinging' at the opposite end, pawns switch sides halfway through the board, can move backwards, and the lack of the ability to double jump)
+3. What is your least favorite aspect of the website? 
+   * The 'About' page font was way too large. 
+4. What is your favorite aspect of the website? 
+   * The ability to play Checkers quick & easy, with adjustable difficulty sliders. 
+5. What recommendations do you have for the website?
+   * Adjustments to the 'About' page, less extreme colors, & landing page needs tweaking (not much to catch the eye or explain why someone should continue through your website) 
+6. Would you recommend this website to others? 
+   * Yes 
+7. Do you like the look and feel of the website? 
+   * Navigation FEELS good 
+8. Do you think the website is easy to navigate? 
+   * Yes, very 
+9. Do you like the how-to-play section on the About page? 
+   * No, text is too large, & 'About Us' & 'How to Play' run together; eye soar
 
 
 ## Teamwork
