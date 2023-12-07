@@ -1,78 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="checkers.css">
-  <link rel="stylesheet" href="styles.css.css">
-  <link rel="stylesheet" href="style.css">
-  <script src="board.js" defer></script>
-  <title>BubbleBots</title>
-</head>
-<body>
-  <body style="background-color:tan;">
-   <header class="header">
-      <a href="index.html">
-        <img src="logo.png" alt="logo" width= "8%" height= "8%" />
-      </a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="checkers.css">
+    <link rel="stylesheet" href="styles.css.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="board.js" defer></script>
+    <title>BubbleBots</title>
+  </head>
+  <body>
+    <body style="background-color:tan;">
+    <header class="header">
+        <a href="index.html">
+          <img src="logo.png" alt="logo" width= "8%" height= "8%" />
+        </a>
 
-      <nav>
-        <ul>
-          <style>
-            a {
-              font-size: 20px;
-            }
-          </style>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="AboutPage.html">About</a></li>
-        </ul>
-      </nav>
-    </header>
+        <nav>
+          <ul>
+            <style>
+              a {
+                font-size: 1.25rem;
+              }
+            </style>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="AboutPage.html">About</a></li>
+          </ul>
+        </nav>
+      </header>
 
-    <div id="gameboard">
-    </div>
-
-    <div class ="textExplanation">
-      <p>This is where the Text Explanation will be </p>
-    </div>
-
-
-    
-    
-    <div class ="settings">
-      <p>Settings </settings>
-      
-      <div class = "game_diff">
-        <p>Game Difficulty</p>
-        <!-- Slider Start 1 -->
-        <div class="range-slider">
-          <input type="range" min="0" max="100"
-          value="50" class="slider">
-          
-          <div class="slider-thumb">
-            <div class="tooltip"></div>
-          </div>
-          
-          <div class = "progress"></div>
-        </div>
-          
-        <!-- Slider End 1 -->
+      <div id="gameboard">
       </div>
 
-      <div class = "Verboseness">
-        <p>Verboseness</p>
-        <!-- Slider Start 2 -->
-        <div class = "range-slider">
-          <input type = "range" min = "0" max = "100"
-          value = "50" class = "slider">
-          
-          <div class = "slider-thumb">
-            <div class = "tooltip"></div>
+      <div class ="textExplanation">
+        <p>This is where the Text Explanation will be </p>
+      </div>
+
+
+    
+    
+      <div class ="settings">
+        <p>Settings </settings>
+        
+        <div class = "game_diff">
+          <!-- Slider Start 1 -->
+          <h3>Difficulty: <span id="demo"></span></h3>
+          <div class="range-slider">
+            <input type="range" min="0" max="2"
+            value="0" class="slider" id="difficultlevel">
+            <div class="slider-thumb">
+              <div class="tooltip"></div>
+            </div>
+            
+            <div class = "progress"></div>
+          </div>
+            
+          <!-- Slider End 1 -->
+        </div>
+        <script src="gamesettings.js"></script>
+
+        <div class = "Verboseness">
+          <p>Verboseness</p>
+          <!-- Slider Start 2 -->
+          <div class = "range-slider">
+            <input type = "range" min = "0" max = "100"
+            value = "50" class = "slider">
+            
+            <div class = "slider-thumb">
+              <div class = "tooltip"></div>
+            </div>
+            
+            <div class = "progress"></div>
           </div>
           
-          <div class = "progress"></div>
-        </div>
-        
         <!-- Slider End 2 -->
       </div>
 
@@ -95,11 +95,11 @@
 
     
     </div>
-
-
+  </body>
     <div class ="visualization">
         <p>This is where the visualization will be </p>
     </div>
+  </body>
 </body>
 </html>
 

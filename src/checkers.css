@@ -17,7 +17,7 @@ body {
   grid-template-rows: repeat(auto-fit, 12.5%);
   position: fixed;
   top: 15%;
-  left: .25%;
+  left: 0.25%;
   min-height: 70%;
   min-width: 40%;
 }
@@ -34,16 +34,16 @@ body {
   text-align: center;
   width: 25%;
   top: 52.5%;
-  border: 2px solid black;
+  border: 0.125rem solid black;
   min-height: 32.5%;
   min-width: 44.75%;
   max-height: 33%;
   margin: 0 auto;
-  border-radius: 0px;
+  border-radius: 0rem;
   float: left;
   align-content: left;
   position: fixed;
-  right: .25%;
+  right: 0.25%;
   overflow-y: hidden;
   scrollbar-gutter: stable;
 }
@@ -60,23 +60,22 @@ body {
   background: transparent;
 }
 
-.textExplanation::-webkit-scrollbar-thumb
-{
-  border-radius: 10px;
+.textExplanation::-webkit-scrollbar-thumb {
+  border-radius: 0.625rem;
   background-color: black;
-  outline: 0.5px solid black;
+  outline: 0.0313rem solid black;
 }
 .settings {
   text-align: center;
   top: 15%;
-  border: 2px solid black;
+  border: 0.125rem solid black;
   min-height: 32.5%;
   min-width: 44.75%;
   margin: 0 auto;
-  border-radius: 0px;
+  border-radius: 0rem;
   align-content: left;
   position: fixed;
-  right: .25%;
+  right: 0.25%;
 }
 
 .visualization {
@@ -84,20 +83,19 @@ body {
   width: 100%;
   min-height: 25%;
   min-width: 50%;
-  border: 2px solid black;
+  border: 0.125rem solid black;
   margin: 0 auto;
-  border-radius: 0px;
+  border-radius: 0rem;
   align-content: center;
   position: fixed;
   top: 90%;
-  padding-left: 90px;
+  padding-left: 5.625rem;
 }
 
 header {
-    max-height: 10%;
+  max-height: 10%;
 }
 
 header > li > a {
-    font-size: 20px;
+  font-size: 1.25rem;
 }
-
