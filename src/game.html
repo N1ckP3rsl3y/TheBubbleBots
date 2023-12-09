@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="checkers.css">
-    <link rel="stylesheet" href="styles.css.css">
-    <link rel="stylesheet" href="style.css">
-    <script src="board.js" defer></script>
-    <title>BubbleBots</title>
-  </head>
-  <body>
-    <body style="background-color:tan;">
-    <header class="header">
-        <a href="index.html">
-          <img src="logo.png" alt="logo" width= "8%" height= "8%" />
-        </a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="checkers.css">
+  <link rel="stylesheet" href="styles.css.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="board.js" defer></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <title>BubbleBots</title>
+</head>
+<body>
+  <body style="background-color:tan;">
+   <header class="header">
+      <a href="index.html">
+        <img src="logo.png" alt="logo" width= "8%" height= "8%" />
+      </a>
 
         <nav>
           <ul>
@@ -37,11 +38,11 @@
       </div>
 
 
-    
-    
+
+
       <div class ="settings">
         <p>Settings </settings>
-        
+
         <div class = "game_diff">
           <!-- Slider Start 1 -->
           <h3>Difficulty: <span id="demo"></span></h3>
@@ -51,28 +52,27 @@
             <div class="slider-thumb">
               <div class="tooltip"></div>
             </div>
-            
+
             <div class = "progress"></div>
           </div>
-            
+
           <!-- Slider End 1 -->
         </div>
-        <script src="gamesettings.js"></script>
 
         <div class = "Verboseness">
           <p>Verboseness</p>
           <!-- Slider Start 2 -->
           <div class = "range-slider">
-            <input type = "range" min = "0" max = "100"
-            value = "50" class = "slider">
-            
+            <input type = "range" min = "0" max = "4"
+            value = "1" class = "slider" id="verbSlider">
+
             <div class = "slider-thumb">
               <div class = "tooltip"></div>
             </div>
-            
+
             <div class = "progress"></div>
           </div>
-          
+
         <!-- Slider End 2 -->
       </div>
 
@@ -80,20 +80,20 @@
         <p>Explanation Speed</p>
         <!-- Slider Start 3 -->
         <div class = "range-slider">
-          <input type = "range" min = "0" max = "100"
-          value = "50" class = "slider">
-          
+          <input type = "range" min = "0" max = "3"
+          value = "1" class = "slider" id="explanSlider">
+
           <div class = "slider-thumb">
             <div class = "tooltip"></div>
           </div>
-          
+
           <div class = "progress"></div>
         </div>
-        
+
         <!-- Slider End 3 -->
       </div>
 
-    
+
     </div>
   </body>
     <div class ="visualization">

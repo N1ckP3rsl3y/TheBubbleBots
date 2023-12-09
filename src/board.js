@@ -2,12 +2,21 @@ document.addEventListener('DOMContentLoaded', function () {
     const gameBoard = document.querySelector("#gameboard");
     gameBoard.setAttribute('data-testid', 'gameboard');
 
-const playerDisplay = document.querySelector("#player")
-const infoDisplay = document.querySelector("#info-display")
+const playerDisplay = document.querySelector("#player");
+const infoDisplay = document.querySelector("#info-display");
+const textExplanation = document.getElementsByClassName("textExplanation")[0];
+const sleep = (delay) => new Promise((resolve) => setTimeout(resolve, delay));
+var diffSlider = document.getElementById("difficultlevel");
+var verboseSlider = document.getElementById("verbSlider");
+var explanSpeedSlider = document.getElementById("explanSlider");
+var output = document.getElementById("demo");
 
 let selectedSquare;
 let clickTarget;
-let max_search_depth = 4;
+let max_search_depth = 2;
+let explan_depth = 0;
+let explanSpeed = 0;
+let explanElements = [];
 
 const width = 8
 const height = 8
@@ -199,38 +208,46 @@ function makeListeners() {
 
 makeListeners();
 
+function sleepNow(milliseconds) {
+    const date = Date.now();
+    let currentDate = null;
+    do {
+        currentDate = Date.now();
+    } while (currentDate - date < milliseconds);
+}
+
 // AI bot things
 function botThink()
 {
-    var textExplanation = document.getElementsByClassName("textExplanation")[0];
     var res = botThinkHelper(board, 0, "black", null, null, null, null);
     var fromY = res[1];
     var fromX = res[2];
     var toY = res[3];
     var toX = res[4];
+    var ind = 0;
 
     if(board != null)
     {
+        // removeLine();
+
         //Make sure to remove the text in explanation box
         if(textExplanation.innerText.startsWith("This"))
         {
-            textExplanation.innerHTML = "\n";
+            textExplanation.innerHTML = "";
         }
         //Check if the spot the bot is moving to is available
         if(availableSpot(toY, toX, board))
         {
             //Check if the move performed is a jump move
-            if(Math.abs(toY - fromY) == 2 && Math.abs(toX - fromX) == 2)
-            {
-                var response = `<p>Bot jumped from (${fromX}, ${fromY}) to (${toX}, ${toY}) to take a piece.</p>\n`;
-                textExplanation.innerHTML += response;
-            }
-            //Assume it is just a normal move
-            else
-            {
-                var response = `<p>Bot moved piece from (${fromX}, ${fromY}) to (${toX}, ${toY}) as space was available.</p>\n`;
-                textExplanation.innerHTML += response;
-            }
+            // if(Math.abs(toY - fromY) == 2 && Math.abs(toX - fromX) == 2)
+            // {
+            //     addExplanationLine(`<p>Bot jumped from (${fromX}, ${fromY}) to (${toX}, ${toY}) to take a piece.</p>`);
+            // }
+            // //Assume it is just a normal move
+            // else
+            // {
+            //     addExplanationLine(`<p>Bot moved piece from (${fromX}, ${fromY}) to (${toX}, ${toY}) as space was available.</p>`);
+            // }
         }
     }
 
@@ -253,17 +270,35 @@ function botThinkHelper(currBoard, depth, colorTurn,
 
     var piecePositions = getPiecePositions(colorTurn, currBoard);
 
-    if(depth <= max_search_depth)
+    if(depth < max_search_depth)
     {
-        bestMove[0] = getPositionScore(localBoard);
+        bestMove[0] = getPositionScore(localBoard, currY, currX);
 
         piecePositions.forEach((pos) => {
+            if(explan_depth >= 1) {
+                addExplanationLine(`Examining (${pos[0]}, ${pos[1]}) for ${colorTurn}`);
+            }
 
             var nextMoves = getPossibleMoves(localBoard, pos, colorTurn);
+            if(nextMoves.length == 0 && explan_depth >= 1) {
+                addExplanationLine("There are no possible moved from this peice...");
+            }
+
+            if(nextMoves.length == 0 && explan_depth >= 1) {
+                removeLine();
+            }
 
             nextMoves.forEach((move) => {
+                if(nextMoves.length == 0 && explan_depth >= 2) {
+                    addExplanationLine(`Calculating move to (${move[0]}, ${move[1]})`)
+                }
+
                 var res = botThinkHelper(localBoard, depth + 1, nextTurn,
                                          pos[0], pos[1], move[0], move[1]);
+                if(explan_depth >= 3) {
+                    addExplanationLine(`Calculated position score: ${res[0]} (best: ${bestMove[0]})`);
+                    removeLine();
+                }
 
                 if(colorTurn === 'black' && res[0] > bestMove[0])
                 {
@@ -271,17 +306,36 @@ function botThinkHelper(currBoard, depth, colorTurn,
                     {
                         bestMove[index] = res[index];
                     }
+                    if(explan_depth >= 2) {
+                        addExplanationLine(`New best move found from (${pos[0]}, ${pos[1]}) \
+                                            to (${move[0]}, ${move[1]})`);
+                        removeLine();
+                    }
+                }
+                else
+                {
+                    if(explan_depth >= 2) {
+                        addExplanationLine(`The move was not calculated to be the new best...`);
+                        removeLine();
+                    }
                 }
             })
+            if(explan_depth >= 1) {
+                removeLine();
+            }
         });
     }
 
     return bestMove;
 }
 
-function getPositionScore(currBoard)
+function getPositionScore(currBoard, currY, currX)
 {
     var blackScore = 0, redScore = 0;
+
+    if(currY == null && currX == null) {
+        return Number.NEGATIVE_INFINITY;
+    }
 
     for(let row = 0; row < height; row++)
     {
@@ -382,9 +436,83 @@ function isOppositeColor(currBoard, color, currY, currX)
 function triggerBot()
 {
     var res = botThink();
-    botMovePieceInCalculation(board, res[1], res[2], res[3], res[4]);
-    renderBoard();
+
+    setTimeout(function() {
+        botMovePieceInCalculation(board, res[1], res[2], res[3], res[4])
+        renderBoard()
+    }, 1000);
 }
+
+function addExplanationLine(line)
+{
+    setTimeout(function() {
+        sleepNow(explanSpeed)
+        explanElements.push("<br>" + line)
+        textExplanation.innerHTML += "<br>" + line
+        sleepNow(1)
+    }, 0);
+}
+
+function removeLine()
+{
+    setTimeout(function() {
+        sleepNow(explanSpeed)
+        textExplanation.lastChild.remove() // Remove message + <br>
+        textExplanation.lastChild.remove() // Remove message + <br>
+        sleepNow(1)
+    }, 0);
+}
+
+// SETTINGS
+diffSlider.oninput = function () {
+  output.innerHTML = getDifficulty(this.value);
+};
+
+explanSpeedSlider.oninput = function () {
+    switch (explanSpeedSlider.value) {
+        case "0":
+            explanSpeed = 0;
+            break;
+        case "1":
+            explanSpeed = 250;
+            break;
+        case "2":
+            explanSpeed = 500;
+            break;
+        case "3":
+            explanSpeed = 750;
+            break;
+        case "4":
+            explanSpeed = 1000;
+            break;
+        default:
+            break;
+    }
+    console.log(explanSpeed);
+};
+
+function getDifficulty(value) {
+  switch (value) {
+    case "0":
+      max_search_depth = 2;
+      return "EASY";
+    case "1":
+      max_search_depth = 4;
+      return "MEDIUM";
+    case "2":
+      max_search_depth = 6;
+      return "GRANDMASTER";
+    default:
+      return "";
+  }
+}
+
+verboseSlider.oninput = function () {
+    explan_depth = parseInt(verboseSlider.value);
+    console.log(explan_depth);
+};
+
+output.innerHTML = getDifficulty(diffSlider.value);
 
 });
 
@@ -401,19 +529,19 @@ for(let index = 0; index < container.length; index++)
   const tooltip = container[index].querySelector(".tooltip");
 
   const progress = container[index].querySelector(".progress");
-  
+
   function customSlider() {
       const maxVal = slider.getAttribute("max");
       const val = (slider.value / maxVal) * 100 + "%";
-      
+
       tooltip.innerHTML = slider.value;
-      
+
       progress.style.width = val;
       thumb.style.left = val;
     }
-    
+
     customSlider();
-    
+
     slider.addEventListener("input", () => {
         customSlider();
     });

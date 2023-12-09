@@ -351,8 +351,11 @@ function isOppositeColor(currBoard, color, currY, currX)
 function triggerBot()
 {
     var res = botThink();
-    botMovePieceInCalculation(board, res[1], res[2], res[3], res[4]);
-    renderBoard();
+
+    setTimeout(function() {
+        botMovePieceInCalculation(board, res[1], res[2], res[3], res[4])
+        renderBoard()
+    }, 5000);
 }
 
 module.exports = {
