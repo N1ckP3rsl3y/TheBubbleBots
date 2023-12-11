@@ -14,7 +14,7 @@ var output = document.getElementById("demo");
 let selectedSquare;
 let clickTarget;
 let max_search_depth = 2;
-let explan_depth = 0;
+let explan_depth = 1;
 let explanSpeed = 0;
 let explanElements = [];
 
@@ -23,14 +23,14 @@ const height = 8
 
 const board =
     [
-    ['empty', 'black', 'empty', 'black', 'empty', 'black', 'empty', 'black'],
-    ['black', 'empty', 'black', 'empty', 'black', 'empty', 'black', 'empty'],
-    ['empty', 'black', 'empty', 'black', 'empty', 'black', 'empty', 'black'],
-    ['empty', 'empty', 'empty', 'empty', 'empty', 'empty', 'empty', 'empty'],
-    ['empty', 'empty', 'empty', 'empty', 'empty', 'empty', 'empty', 'empty'],
-    ['red', 'empty', 'red', 'empty', 'red', 'empty', 'red', 'empty'],
     ['empty', 'red', 'empty', 'red', 'empty', 'red', 'empty', 'red'],
     ['red', 'empty', 'red', 'empty', 'red', 'empty', 'red', 'empty'],
+    ['empty', 'red', 'empty', 'red', 'empty', 'red', 'empty', 'red'],
+    ['empty', 'empty', 'empty', 'empty', 'empty', 'empty', 'empty', 'empty'],
+    ['empty', 'empty', 'empty', 'empty', 'empty', 'empty', 'empty', 'empty'],
+    ['black', 'empty', 'black', 'empty', 'black', 'empty', 'black', 'empty'],
+    ['empty', 'black', 'empty', 'black', 'empty', 'black', 'empty', 'black'],
+    ['black', 'empty', 'black', 'empty', 'black', 'empty', 'black', 'empty'],
     ]
 
 createBoard();
@@ -157,7 +157,6 @@ function movePiece(squareId, destinationSquareId, event) {
 
     // check if the move involves jumping
     if (Math.abs(sourceRow - destRow) == 2 && Math.abs(sourceCol - destCol) == 2) {
-        console.log("ASF\n");
         // if yes, remove the jumped piece
         const jumpedRow = (destRow + sourceRow) / 2;
         const jumpedCol = (destCol + sourceCol) / 2;
@@ -219,7 +218,7 @@ function sleepNow(milliseconds) {
 // AI bot things
 function botThink()
 {
-    var res = botThinkHelper(board, 0, "black", null, null, null, null);
+    var res = botThinkHelper(board, 0, "red", null, null, null, null);
     var fromY = res[1];
     var fromX = res[2];
     var toY = res[3];
@@ -258,7 +257,7 @@ function botThinkHelper(currBoard, depth, colorTurn,
                         currY, currX, nextY, nextX)
 {
     var localBoard = structuredClone(currBoard);
-    var nextTurn = colorTurn.localeCompare("black") == 0 ? "red" : "black";
+    var nextTurn = colorTurn.localeCompare("red") == 0 ? "black" : "red";
 
     if(currY != null && currX != null)
     {
@@ -300,7 +299,7 @@ function botThinkHelper(currBoard, depth, colorTurn,
                     removeLine();
                 }
 
-                if(colorTurn === 'black' && res[0] > bestMove[0])
+                if(colorTurn === 'red' && res[0] > bestMove[0])
                 {
                     for(var index = 0; index < 5; index++)
                     {
@@ -352,7 +351,7 @@ function getPositionScore(currBoard, currY, currX)
         }
     }
 
-    return blackScore - redScore;
+    return redScore - blackScore;
 }
 
 function botMovePieceInCalculation(currBoard, fromY, fromX, toY, toX)
@@ -390,7 +389,7 @@ function getPiecePositions(color, currBoard)
 
 function getPossibleMoves(currBoard, currPos, currColor)
 {
-    var yOffset = currColor === 'black' ? 1 : -1;
+    var yOffset = currColor === 'red' ? 1 : -1;
     var possibleMoves = [];
     var currY = currPos[0], currX = currPos[1];
     var nextY = currY + yOffset;
